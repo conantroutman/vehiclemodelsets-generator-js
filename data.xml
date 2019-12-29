@@ -567,6 +567,44 @@
             </mod>
         </mods>
     </car>
+    <car id="tropos">
+        <name>Lampadati Tropos Rallye</name>
+        <wheelType></wheelType>
+        <mods>
+            <mod name= "Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Chrome Tip Exhaust" />
+                    <variant name="Titanium Tuner Exhaust" />
+                </variants>
+            </mod>
+            <mod name= "Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Vented Hood" />
+                </variants>
+            </mod>
+            <mod name= "Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Remove Roof Spoiler" />
+                    <variant name="Extended Spoiler" />
+                </variants>
+            </mod>
+            <mod name= "Grille" type="VMT_GRILL">
+                <variants>
+                    <variant name="Stock Grille" />
+                    <variant name="Rally Fogs" />
+                </variants>
+            </mod>
+            <mod name= "Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Unpainted Louvers" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
     <car id="xls">
         <name>Benefactor XLS</name>
         <wheelType></wheelType>
