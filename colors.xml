@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <colors>
     <color id="0" name="Black" rgb="8, 8, 8" />
-    <color id="1" name="Carbon Black" rgb="8, 8, 8" />
-    <color id="2" name="Graphite" rgb="15, 15, 15" />
-    <color id="3" name="Anthracite Black" rgb="18, 17, 16" />
-    <color id="4" name="Black Steel" rgb="28, 30, 33" />
-    <color id="5" name="Dark Steel" rgb="41, 44, 46" />
-    <color id="6" name="Silver" rgb="90, 94, 102" />
-    <color id="7" name="Blueish Silver" rgb="119, 124, 135" />
-    <color id="8" name="Rolled Steel" rgb="81, 84, 89" />
-    <color id="9" name="Shadow Silver" rgb="50, 59, 71" />
-    <color id="10" name="Stone Silver" rgb="51, 51, 51" />
-    <color id="11" name="Midnight Silver" rgb="31, 34, 38" />
-    <color id="12" name="Cast Iron Silver" rgb="35, 41, 46" />
-    <color id="12" name="Red" rgb="105, 0, 0" />
+    <color id="1" name="Graphite" rgb="15, 15, 15" />
+    <color id="2" name="Black Steel" rgb="28, 30, 33" />
+    <color id="3" name="Dark Steel" rgb="41, 44, 46" />
+    <color id="4" name="Silver" rgb="90, 94, 102" />
+    <color id="5" name="Blueish Silver" rgb="119, 124, 135" />
+    <color id="6" name="Rolled Steel" rgb="81, 84, 89" />
+    <color id="7" name="Shadow Silver" rgb="50, 59, 71" />
+    <color id="8" name="Stone Silver" rgb="51, 51, 51" />
+    <color id="9" name="Midnight Silver" rgb="31, 34, 38" />
+    <color id="10" name="Cast Iron Silver" rgb="35, 41, 46" />
+    <color id="11" name="Anthracite Black" rgb="18, 17, 16" />
+    <color id="12" name="Matte Black" rgb="5, 5, 5" />
+    <color id="13" name="Matte Gray" rgb="18, 18, 18" />
+    <color id="14" name="Matte Light Gray" rgb="47, 50, 51" />
+    <color id="15" name="Util Black" rgb="8, 8, 8" />
+    <color id="16" name="Util Black Poly" rgb="18, 18, 18" />
+    <color id="17" name="Util Dark Silver" rgb="32, 34, 36" />
+    <color id="18" name="Util Silver" rgb="87, 89, 97" />
+    <color id="19" name="Util Gun Metal" rgb="35, 41, 46" />
+    <color id="20" name="Util Shadow Silver" rgb="50, 59, 71" />
+    <color id="21" name="Worn Black" rgb="15, 16, 18" />
+    <color id="22" name="Worn Graphite" rgb="33, 33, 33" />
+    <color id="23" name="Worn Silver Gray" rgb="91, 93, 94" />
+    <color id="24" name="Worn Silver" rgb="136, 138, 153" />
+    <color id="25" name="Worn Blue Silver" rgb="105, 113, 135" />
+    <color id="26" name="Worn Shadow Silver" rgb="59, 70, 84" />
+    <color id="27" name="Red" rgb="105, 0, 0" />
+    <color id="28" name="Torino Red" rgb="138, 11, 0" />
+    <color id="29" name="Formula Red" rgb="107, 0, 0" />
+    <color id="30" name="Blaze Red" rgb="97, 16, 9" />
+    <color id="31" name="Grace Red" rgb="74, 10, 10" />
+    <color id="32" name="Garnet Red" rgb="71, 14, 14" />
+    <color id="33" name="Sunset Red" rgb="56, 12, 0" />
+    <color id="34" name="Cabernet Red" rgb="38, 3, 11" />
+    <color id="35" name="Candy Red" rgb="99, 0, 18" />
+    <color id="36" name="Sunrise Orange" rgb="128, 40, 0" />
+    <color id="37" name="Gold" rgb="110, 79, 45" />
+    <color id="38" name="Orange" rgb="189, 72, 0" />
+    <color id="39" name="Matte Red" rgb="120, 0, 0" />
+    <color id="41" name="Matte Dark Red" rgb="54, 0, 0" />
+    <color id="42" name="Matte Orange" rgb="171, 63, 0" />
+    <color id="43" name="Matte Yellow" rgb="222, 126, 0" />
+    <color id="44" name="Util Red" rgb="82, 0, 0" />
+    <color id="45" name="Util Bright Red" rgb="140, 4, 4" />
+    <color id="46" name="Util Garnet Red" rgb="74, 16, 0" />
+    <color id="47" name="Worn Red" rgb="89, 37, 37" />
+    <color id="48" name="Worn Golden Red" rgb="117, 66, 49" />
+    <color id="49" name="Worn Dark Red" rgb="33, 8, 4" />
+    <color id="50" name="Dark Green" rgb="0, 18, 7" />
+    <color id="51" name="Racing Green" rgb="0, 26, 11" />
+    <color id="52" name="Sea Green" rgb="0, 33, 30" />
+    <color id="53" name="Olive Green" rgb="31, 38, 30" />
+    <color id="54" name="Bright Green" rgb="0, 56, 5" />
+    <color id="55" name="Gasoline Green" rgb="11, 65, 69" />
+    <color id="56" name="Matte Lime Green" rgb="65, 133, 3" />
+    <color id="57" name="Util Dark Green" rgb="15, 31, 21" />
+    <color id="58" name="Util Green" rgb="2, 54, 19" />
 </colors>

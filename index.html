@@ -1,189 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
+  </head>
 
-<body onload="setup();">
+  <body onload="setup();">
     <div id="demo"></div>
     <div id="mods"></div>
     <textarea id="output" rows="50" cols="100"></textarea>
 
     <script>
-        var xmlData;
+      var xmlData;
 
-        function setup() {
-            parseXML("data.xml", generateCars);
-            parseXML("colors.xml", generateColors);
+      function setup() {
+        parseXML("data.xml", generateCars);
+        parseXML("colors.xml", generateColors);
+      }
+
+      function parseXML(file, callback) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", file, true);
+        xhttp.onload = function() {
+          //xmlData = this;
+          callback(this);
+        };
+        xhttp.send();
+      }
+
+      function generateColors(xml) {
+        let x, i, xmlDoc, txt, colorSelect;
+        xmlDoc = xml.responseXML;
+        x = xmlDoc.getElementsByTagName("color");
+        for (i = 0; i < 4; i++) {
+          colorLabel = document.createElement("label");
+          switch (i) {
+            case 0:
+              colorLabel.innerHTML = "Primary Color";
+              break;
+            case 1:
+              colorLabel.innerHTML = "Secondary Color";
+              break;
+            case 2:
+              colorLabel.innerHTML = "Pearlescent Color";
+              break;
+            case 3:
+              colorLabel.innerHTML = "Wheel Color";
+              break;
+          }
+
+          colorSelect = document.createElement("select");
+          colorSelect.id = "color" + (i + 1);
+          for (j = 0; j < x.length; j++) {
+            color = document.createElement("option");
+            color.value = x[j].getAttribute("id");
+            color.style.backgroundColor =
+              "rgb(" + x[j].getAttribute("rgb") + ")";
+            color.innerHTML = x[j].getAttribute("name");
+            colorSelect.appendChild(color);
+          }
+          colorSelect.addEventListener("change", updateOutput);
+          document.getElementById("demo").appendChild(colorLabel);
+          document.getElementById("demo").appendChild(colorSelect);
+        }
+      }
+
+      function generateCars(xml) {
+        let x, i, xmlDoc, txt;
+        xmlDoc = xml.responseXML;
+        let carSelect = document.createElement("select");
+        carSelect.id = "car-select";
+
+        //txt = `<select id='car-select' onchange="parseXML('data.xml', generateInputFields);">`;
+        //txt += "<option selected='selected' disabled>Select Car</option>";
+        let carOption = document.createElement("option");
+        carOption.innerHTML = "Select Car";
+        carOption.disabled;
+        carOption.selected;
+        carSelect.appendChild(carOption);
+        x = xmlDoc.getElementsByTagName("car");
+        for (i = 0; i < x.length; i++) {
+          console.log(x[i]);
+          carOption = document.createElement("option");
+          carOption.value = x[i].getAttribute("id");
+          carOption.innerHTML = x[i].getElementsByTagName(
+            "name"
+          )[0].childNodes[0].nodeValue;
+          carSelect.appendChild(carOption);
+        }
+        carSelect.addEventListener("click", function() {
+          parseXML("data.xml", generateInputFields);
+        });
+        document.getElementById("demo").appendChild(carSelect);
+      }
+
+      function generateInputFields(xml) {
+        let pos;
+        let car = document.getElementById("car-select").value;
+        let txt = "";
+        let x = xml.responseXML.getElementsByTagName("car");
+
+        //Find the selected car in the XML
+        for (i = 0; i < x.length; i++) {
+          if (x[i].getAttribute("id") == car) {
+            pos = x[i]
+              .getElementsByTagName("mods")[0]
+              .getElementsByTagName("mod");
+            break;
+          }
         }
 
-        function parseXML(file, callback) {
-            var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", file, true);
-            xhttp.onload = function () {
-                //xmlData = this;
-                callback(this);
-            }
-            xhttp.send();
+        //List all available mod categories
+        for (i = 0; i < pos.length; i++) {
+          //console.log(pos[i].childNodes[1].getElementsByTagName('variant'));
+          var variants = pos[i].childNodes[1].getElementsByTagName("variant");
+          txt += "<label>" + pos[i].getAttribute("name") + "</label>";
+          txt +=
+            "<select id='" +
+            pos[i].getAttribute("type") +
+            "' onchange='updateOutput();'>";
+          for (j = 0; j < variants.length; j++) {
+            txt +=
+              "<option value='" +
+              (j - 1) +
+              "'>" +
+              variants[j].getAttribute("name") +
+              "</option>";
+          }
+          txt += "</select>";
         }
 
-        function generateColors(xml) {
-            let x, i, xmlDoc, txt, colorSelect;
-            xmlDoc = xml.responseXML;
-            x = xmlDoc.getElementsByTagName('color');
-            for (i = 0; i < 4; i++) {
-                colorLabel = document.createElement("label");
-                switch (i) {
-                    case 0:
-                        colorLabel.innerHTML = "Primary Color";
-                        break;
-                    case 1:
-                        colorLabel.innerHTML = "Secondary Color";
-                        break;
-                    case 2:
-                        colorLabel.innerHTML = "Pearlescent Color";
-                        break;
-                    case 3:
-                        colorLabel.innerHTML = "Wheel Color";
-                        break;
-                }
+        document.getElementById("mods").innerHTML = txt;
 
-                colorSelect = document.createElement("select");
-                colorSelect.id = "color" + (i + 1);
-                for (j = 0; j < x.length; j++) {
-                    color = document.createElement("option");
-                    color.value = x[j].getAttribute("id");
-                    color.style.backgroundColor = "rgb(" + x[j].getAttribute("rgb") + ")";
-                    colorSelect.appendChild(color);
-                }
-                colorSelect.addEventListener("change", updateOutput);
-                document.getElementById("demo").appendChild(colorLabel);
-                document.getElementById("demo").appendChild(colorSelect);
-            }
+        generateGenericInputFields(xml);
+
+        updateOutput();
+      }
+
+      function generateGenericInputFields(xml) {
+        let modSelect, modLabel, modOption;
+        for (i = 0; i < 2; i++) {
+          console.log(i);
+          modLabel = document.createElement("label");
+          switch (i) {
+            case 0:
+              modLabel.innerHTML = "Wheels";
+              break;
+            case 1:
+              modLabel.innerHTML = "Suspension";
+              break;
+          }
+          modSelect = document.createElement("select");
+          for (j = 0; j < 4; j++) {
+            modOption = document.createElement("option");
+            modOption.innerHTML = "Mod" + (j + 1);
+            modSelect.appendChild(modOption);
+          }
+          document.getElementById("mods").appendChild(modLabel);
+          document.getElementById("mods").appendChild(modSelect);
         }
+      }
 
-        function generateCars(xml) {
-            let x, i, xmlDoc, txt;
-            xmlDoc = xml.responseXML;
-            let carSelect = document.createElement("select");
-            carSelect.id = "car-select";
-
-            //txt = `<select id='car-select' onchange="parseXML('data.xml', generateInputFields);">`;
-            //txt += "<option selected='selected' disabled>Select Car</option>";
-            let carOption = document.createElement("option");
-            carOption.innerHTML = "Select Car";
-            carOption.disabled;
-            carOption.selected;
-            carSelect.appendChild(carOption);
-            x = xmlDoc.getElementsByTagName('car');
-            for (i = 0; i < x.length; i++) {
-                console.log(x[i])
-                carOption = document.createElement("option");
-                carOption.value = x[i].getAttribute("id");
-                carOption.innerHTML = x[i].getElementsByTagName('name')[0].childNodes[0].nodeValue;
-                carSelect.appendChild(carOption);
-            }
-            carSelect.addEventListener("click", function () {
-                parseXML("data.xml", generateInputFields)
-            });
-            document.getElementById("demo").appendChild(carSelect);
+      //Update the output code
+      function updateOutput() {
+        let modOptions = document
+          .getElementById("mods")
+          .getElementsByTagName("select");
+        let txt = "";
+        txt += "<Item>\n";
+        txt +=
+          "    <Name>" +
+          document.getElementById("car-select").value +
+          "</Name>\n";
+        txt += `    <Variations type="CAmbientVehicleModelVariations">\n`;
+        for (i = 1; i <= 4; i++) {
+          txt +=
+            `        <BodyColour` +
+            i +
+            ` value="` +
+            document.getElementById("color" + i).value +
+            `" />\n`;
         }
-
-        function generateInputFields(xml) {
-            let pos;
-            let car = document.getElementById("car-select").value;
-            let txt = "";
-            let x = xml.responseXML.getElementsByTagName('car');
-
-            //Find the selected car in the XML
-            for (i = 0; i < x.length; i++) {
-                if (x[i].getAttribute("id") == car) {
-                    pos = x[i].getElementsByTagName('mods')[0].getElementsByTagName('mod');
-                    break;
-                }
-            }
-
-            //List all available mod categories
-            for (i = 0; i < pos.length; i++) {
-                //console.log(pos[i].childNodes[1].getElementsByTagName('variant'));
-                var variants = pos[i].childNodes[1].getElementsByTagName('variant');
-                txt += "<label>" + pos[i].getAttribute("name") + "</label>";
-                txt += "<select id='" + pos[i].getAttribute("type") + "' onchange='updateOutput();'>";
-                for (j = 0; j < variants.length; j++) {
-                    txt += "<option value='" + (j - 1) + "'>" + variants[j].getAttribute('name') + "</option>";
-                }
-                txt += "</select>";
-            }
-
-            document.getElementById("mods").innerHTML = txt;
-
-            generateGenericInputFields(xml);
-
-            updateOutput();
+        txt += `        <WindowTint value="" />\n`;
+        txt += `        <ColourCombination value="-1" />\n`;
+        txt += `        <Livery value="-1" />\n`;
+        txt += `        <ModKit value="0" />\n`;
+        txt += `            <Mods>\n`;
+        console.log();
+        for (i = 0; i < modOptions.length; i++) {
+          txt += `                <Item>\n`;
+          txt +=
+            `                    <ModType>` + modOptions[i].id + `</ModType>\n`;
+          txt +=
+            `                    <ModIndex>` +
+            modOptions[i].value +
+            `</ModIndex>\n`;
+          txt += `                </Item>\n`;
         }
-
-        function generateGenericInputFields(xml) {
-            let modSelect, modLabel, modOption;
-            for (i = 0; i < 2; i++) {
-                console.log(i);
-                modLabel = document.createElement("label");
-                switch (i) {
-                    case 0:
-                        modLabel.innerHTML = "Wheels";
-                        break;
-                    case 1:
-                        modLabel.innerHTML = "Suspension";
-                        break;
-                }
-                modSelect = document.createElement("select");
-                for (j = 0; j < 4; j++) {
-                    modOption = document.createElement("option");
-                    modOption.innerHTML = "Mod" + (j + 1);
-                    modSelect.appendChild(modOption);
-                }
-                document.getElementById("mods").appendChild(modLabel);
-                document.getElementById("mods").appendChild(modSelect);
-            }
+        txt += `            </Mods>\n`;
+        for (i = 1; i <= 10; i++) {
+          txt += `            <Extra` + i + `>CantUse</Extra` + i + `>\n`;
         }
-
-        //Update the output code
-        function updateOutput() {
-            let modOptions = document.getElementById("mods").getElementsByTagName("select");
-            let txt = "";
-            txt += "<Item>\n";
-            txt += "    <Name>" + document.getElementById("car-select").value + "</Name>\n";
-            txt += `    <Variations type="CAmbientVehicleModelVariations">\n`;
-            for (i = 1; i <= 4; i++) {
-                txt += `        <BodyColour` + i + ` value="` + document.getElementById("color" + i).value + `" />\n`;
-            }
-            txt += `        <WindowTint value="" />\n`;
-            txt += `        <ColourCombination value="-1" />\n`;
-            txt += `        <Livery value="-1" />\n`;
-            txt += `        <ModKit value="0" />\n`;
-            txt += `            <Mods>\n`;
-            console.log();
-            for (i = 0; i < modOptions.length; i++) {
-                txt += `                <Item>\n`;
-                txt += `                    <ModType>` + modOptions[i].id +
-                    `</ModType>\n`;
-                txt += `                    <ModIndex>` + modOptions[i].value +
-                    `</ModIndex>\n`;
-                txt += `                </Item>\n`;
-            }
-            txt += `            </Mods>\n`;
-            for (i = 1; i <= 10; i++) {
-                txt += `            <Extra` + i + `>CantUse</Extra` + i + `>\n`;
-            }
-            txt += `        </Variations>\n`;
-            txt += `        <Probability value="1.000000" />\n`;
-            txt += `    </Item>`;
-            document.getElementById("output").innerHTML = txt;
-        }
+        txt += `        </Variations>\n`;
+        txt += `        <Probability value="1.000000" />\n`;
+        txt += `    </Item>`;
+        document.getElementById("output").innerHTML = txt;
+      }
     </script>
-</body>
-
+  </body>
 </html>
