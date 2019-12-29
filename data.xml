@@ -399,6 +399,64 @@
             </mod>   
         </mods>
     </car>
+    <car id="schafter4">
+        <name>Benefactor Schafter LWB</name>
+        <wheelType></wheelType>
+        <mods>
+            <mod name= "Front Bumper" type="VMT_BUMPER_F" >
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Euro Bumper" />
+                    <variant name="Carbon Front Splitter" />
+                    <variant name="Extreme Aero Front Bumper" />
+                </variants>
+            </mod>
+            <mod name= "Rear Bumper" type="VMT_BUMPER_R" >
+                <variants>
+                    <variant name="Stock Rear Bumper" />
+                    <variant name="Carbon Rear Diffuser" />
+                </variants>
+            </mod>
+            <mod name= "Exhaust" type="VMT_EXHAUST" >
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Dual Exit Exhaust" />
+                    <variant name="Dual Titanium Exhaust" />
+                    <variant name="Oval Exhaust" />
+                    <variant name="Race Exhaust" />
+                </variants>
+            </mod>
+            <mod name= "Hood" type="VMT_BONNET" >
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Vented Hood" />
+                    <variant name="Carbon Hood" />
+                    <variant name="Carbon Vented Hood" />
+                </variants>
+            </mod>
+            <mod name= "Spoiler" type="VMT_SPOILER" >
+                <variants>
+                    <variant name="None" />
+                    <variant name="Lip Spoiler" />
+                    <variant name="Carbon Wing" />
+                    <variant name="High Level Spoiler" />
+                </variants>
+            </mod>
+            <mod name= "Skirts" type="VMT_SKIRT" >
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Custom Skirts" />
+                    <variant name="Carbon Skirts" />
+                </variants>
+            </mod>
+            <mod name= "Roof" type="VMT_ROOF" >
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Carbon Roof" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
     <car id="tampa">
         <name>Declasse Tampa</name>
         <wheelType></wheelType>
@@ -465,5 +523,10 @@
                 </variants>
             </mod>
         </mods>
+    </car>
+    <car id="xls">
+        <name>Benefactor XLS</name>
+        <wheelType></wheelType>
+        <mods />
     </car>
 </cars>

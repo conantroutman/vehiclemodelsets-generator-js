@@ -68,7 +68,7 @@
       }
 
       function generateCars(xml) {
-        let x, i, xmlDoc, txt;
+        let x, i, xmlDoc, txt, button;
         xmlDoc = xml.responseXML;
         let carSelect = document.createElement("select");
         carSelect.id = "car-select";
@@ -133,8 +133,10 @@
         }
 
         document.getElementById("mods").innerHTML = txt;
-
         generateGenericInputFields(xml);
+        button = document.createElement("button");
+        button.innerHTML = "Randomize";
+        document.getElementById("mods").appendChild(button);
 
         updateOutput();
       }
