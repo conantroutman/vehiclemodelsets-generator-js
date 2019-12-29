@@ -88,4 +88,29 @@
     <color id="85" name="Worn Dark Blue" rgb="42, 55, 84" />
     <color id="86" name="Worn Blue" rgb="48, 60, 94" />
     <color id="87" name="Worn Baby Blue" rgb="59, 103, 150" />
+    <color id="88" name="Yellow" rgb="245, 137, 15" />
+    <color id="89" name="Race Yellow" rgb="217, 166, 0" />
+    <color id="90" name="Bronze" rgb="74, 52, 27" />
+    <color id="91" name="Dew Yellow" rgb="162, 168, 39" />
+    <color id="92" name="Lime Green" rgb="86, 143, 0" />
+    <color id="93" name="Champagne" rgb="87, 81, 75" />
+    <color id="94" name="Feltzer Brown" rgb="41, 27, 6" />
+    <color id="95" name="Creek Brown" rgb="38, 33, 23" />
+    <color id="96" name="Chocolate Brown" rgb="18, 13, 7" />
+    <color id="97" name="Maple Brown" rgb="51, 33, 17" />
+    <color id="98" name="Saddle Brown" rgb="61, 48, 35" />
+    <color id="99" name="Straw Brown" rgb="94, 83, 67" />
+    <color id="100" name="Moss Brown" rgb="55, 56, 43" />
+    <color id="101" name="Bison Brown" rgb="34, 25, 24" />
+    <color id="102" name="WoodBeech Brown" rgb="87, 80, 54" />
+    <color id="103" name="BeechWood Brown" rgb="36, 16, 9" />
+    <color id="104" name="Sienna Brown" rgb="59, 23, 0" />
+    <color id="105" name="Sandy Brown" rgb="110, 98, 70" />
+    <color id="106" name="Bleached Brown" rgb="153, 141, 115" />
+    <color id="107" name="Cream" rgb="207, 192, 165" />
+    <color id="108" name="Util Brown" rgb="31, 23, 9" />
+    <color id="109" name="Util Medium Brown" rgb="61, 49, 29" />
+    <color id="110" name="Util Light Brown" rgb="102, 88, 71" />
+    <color id="111" name="Ice White" rgb="240, 240, 240" />
+    <color id="112" name="Frost White" rgb="179, 185, 201" />
 </colors>
