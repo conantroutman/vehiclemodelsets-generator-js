@@ -77,6 +77,18 @@
             </mod>
         </mods>
     </car>
+    <car id="contender">
+        <name>Vapid Contender</name>
+        <wheelType></wheelType>
+        <mods>
+            <mod name= "Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="No Roof" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
     <car id="guardian">
         <name>Vapid Guardian</name>
         <wheelType></wheelType>
