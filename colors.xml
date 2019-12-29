@@ -40,22 +40,52 @@
     <color id="37" name="Gold" rgb="110, 79, 45" />
     <color id="38" name="Orange" rgb="189, 72, 0" />
     <color id="39" name="Matte Red" rgb="120, 0, 0" />
-    <color id="41" name="Matte Dark Red" rgb="54, 0, 0" />
-    <color id="42" name="Matte Orange" rgb="171, 63, 0" />
-    <color id="43" name="Matte Yellow" rgb="222, 126, 0" />
-    <color id="44" name="Util Red" rgb="82, 0, 0" />
-    <color id="45" name="Util Bright Red" rgb="140, 4, 4" />
-    <color id="46" name="Util Garnet Red" rgb="74, 16, 0" />
-    <color id="47" name="Worn Red" rgb="89, 37, 37" />
-    <color id="48" name="Worn Golden Red" rgb="117, 66, 49" />
-    <color id="49" name="Worn Dark Red" rgb="33, 8, 4" />
-    <color id="50" name="Dark Green" rgb="0, 18, 7" />
-    <color id="51" name="Racing Green" rgb="0, 26, 11" />
-    <color id="52" name="Sea Green" rgb="0, 33, 30" />
-    <color id="53" name="Olive Green" rgb="31, 38, 30" />
-    <color id="54" name="Bright Green" rgb="0, 56, 5" />
-    <color id="55" name="Gasoline Green" rgb="11, 65, 69" />
-    <color id="56" name="Matte Lime Green" rgb="65, 133, 3" />
-    <color id="57" name="Util Dark Green" rgb="15, 31, 21" />
-    <color id="58" name="Util Green" rgb="2, 54, 19" />
+    <color id="40" name="Matte Dark Red" rgb="54, 0, 0" />
+    <color id="41" name="Matte Orange" rgb="171, 63, 0" />
+    <color id="42" name="Matte Yellow" rgb="222, 126, 0" />
+    <color id="43" name="Util Red" rgb="82, 0, 0" />
+    <color id="44" name="Util Bright Red" rgb="140, 4, 4" />
+    <color id="45" name="Util Garnet Red" rgb="74, 16, 0" />
+    <color id="46" name="Worn Red" rgb="89, 37, 37" />
+    <color id="47" name="Worn Golden Red" rgb="117, 66, 49" />
+    <color id="48" name="Worn Dark Red" rgb="33, 8, 4" />
+    <color id="49" name="Dark Green" rgb="0, 18, 7" />
+    <color id="50" name="Racing Green" rgb="0, 26, 11" />
+    <color id="51" name="Sea Green" rgb="0, 33, 30" />
+    <color id="52" name="Olive Green" rgb="31, 38, 30" />
+    <color id="53" name="Bright Green" rgb="0, 56, 5" />
+    <color id="54" name="Gasoline Green" rgb="11, 65, 69" />
+    <color id="55" name="Matte Lime Green" rgb="65, 133, 3" />
+    <color id="56" name="Util Dark Green" rgb="15, 31, 21" />
+    <color id="57" name="Util Green" rgb="2, 54, 19" />
+    <color id="58" name="Worn Dark Green" rgb="22, 36, 25" />
+    <color id="59" name="Worn Green" rgb="42, 54, 37" />
+    <color id="60" name="Worn Sea Wash" rgb="69, 92, 86" />
+    <color id="61" name="Galaxy Blue" rgb="0, 13, 20" />
+    <color id="62" name="Dark Blue" rgb="0, 16, 41" />
+    <color id="63" name="Saxon Blue" rgb="28, 47, 79" />
+    <color id="64" name="Blue" rgb="0, 27, 87" />
+    <color id="65" name="Mariner Blue" rgb="59, 78, 120" />
+    <color id="66" name="Harbor Blue" rgb="39, 45, 59" />
+    <color id="67" name="Diamond Blue" rgb="149, 178, 219" />
+    <color id="68" name="Surf Blue" rgb="62, 98, 122" />
+    <color id="69" name="Nautical Blue" rgb="28, 49, 64" />
+    <color id="70" name="Ultra Blue" rgb="0, 85, 196" />
+    <color id="71" name="Schafter Purple" rgb="26, 24, 41" />
+    <color id="72" name="Spinnaker Purple" rgb="22, 22, 41" />
+    <color id="73" name="Racing Blue" rgb="14, 49, 109" />
+    <color id="74" name="Light Blue" rgb="57, 90, 131" />
+    <color id="75" name="Util Dark Blue" rgb="9, 90, 46" />
+    <color id="76" name="Util Midnight Blue" rgb="15, 16, 33" />
+    <color id="77" name="Util Blue" rgb="21, 42, 82" />
+    <color id="78" name="Util Sea Foam Blue" rgb="50, 70, 84" />
+    <color id="79" name="Util Lightning Blue" rgb="0, 85, 196" />
+    <color id="80" name="Util Maui Blue Poly" rgb="34, 59, 161" />
+    <color id="81" name="Util Bright Blue/Slate Blue" rgb="31, 31, 161" />
+    <color id="82" name="Matte Dark Blue" rgb="3, 14, 46" />
+    <color id="83" name="Matte Blue" rgb="15, 30, 115" />
+    <color id="84" name="Matte Midnight Blue" rgb="0, 28, 50" />
+    <color id="85" name="Worn Dark Blue" rgb="42, 55, 84" />
+    <color id="86" name="Worn Blue" rgb="48, 60, 94" />
+    <color id="87" name="Worn Baby Blue" rgb="59, 103, 150" />
 </colors>
