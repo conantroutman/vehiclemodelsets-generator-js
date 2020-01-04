@@ -4,13 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>GTA V vehiclemodelsets.meta Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body onload="setup();">
-    <div id="demo"></div>
-    <div id="mods"></div>
-    <textarea id="output" rows="50" cols="100"></textarea>
+    <div class="container">
+      <div class="input-group mb-3">
+        <div id="demo" class="input-group-prepend"></div>
+        <div id="mods"></div>
+      </div>
+      <div class="col-sm">
+        <button type="button" class="btn btn-primary">Copy</button>
+        <textarea id="output" rows="50" cols="100"></textarea>
+      </div>
+    </div>
 
     <script>
       var xmlData;
@@ -53,6 +81,7 @@
 
           colorSelect = document.createElement("select");
           colorSelect.id = "color" + (i + 1);
+          colorSelect.className = "form-control";
           for (j = 0; j < x.length; j++) {
             color = document.createElement("option");
             color.value = x[j].getAttribute("id");
@@ -72,6 +101,7 @@
         xmlDoc = xml.responseXML;
         let carSelect = document.createElement("select");
         carSelect.id = "car-select";
+        carSelect.className = "form-control";
 
         //txt = `<select id='car-select' onchange="parseXML('data.xml', generateInputFields);">`;
         //txt += "<option selected='selected' disabled>Select Car</option>";
@@ -90,17 +120,20 @@
           )[0].childNodes[0].nodeValue;
           carSelect.appendChild(carOption);
         }
-        carSelect.addEventListener("click", function() {
+
+        carSelect.addEventListener("change", function() {
           parseXML("data.xml", generateInputFields);
         });
         document.getElementById("demo").appendChild(carSelect);
       }
 
       function generateInputFields(xml) {
+        document.getElementById("mods").innerHTML = "";
         let pos;
         let car = document.getElementById("car-select").value;
         let txt = "";
         let x = xml.responseXML.getElementsByTagName("car");
+        let label, select, option;
 
         //Find the selected car in the XML
         for (i = 0; i < x.length; i++) {
@@ -116,23 +149,24 @@
         for (i = 0; i < pos.length; i++) {
           //console.log(pos[i].childNodes[1].getElementsByTagName('variant'));
           var variants = pos[i].childNodes[1].getElementsByTagName("variant");
-          txt += "<label>" + pos[i].getAttribute("name") + "</label>";
-          txt +=
-            "<select id='" +
-            pos[i].getAttribute("type") +
-            "' onchange='updateOutput();'>";
+          label = document.createElement("label");
+          label.innerHTML = pos[i].getAttribute("name");
+          select = document.createElement("select");
+          select.id = pos[i].getAttribute("type");
+          select.className = "form-control";
+          select.addEventListener("change", updateOutput);
+          document.getElementById("mods").appendChild(label);
+          document.getElementById("mods").appendChild(select);
+
           for (j = 0; j < variants.length; j++) {
-            txt +=
-              "<option value='" +
-              (j - 1) +
-              "'>" +
-              variants[j].getAttribute("name") +
-              "</option>";
+            option = document.createElement("option");
+            option.value = j - 1;
+            option.text = variants[j].getAttribute("name");
+            select.add(option);
           }
-          txt += "</select>";
         }
 
-        document.getElementById("mods").innerHTML = txt;
+        //document.getElementById("mods").innerHTML = txt;
         generateGenericInputFields(xml);
         button = document.createElement("button");
         button.innerHTML = "Randomize";
