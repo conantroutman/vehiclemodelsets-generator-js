@@ -31,7 +31,11 @@
   <body onload="setup();">
     <div class="container">
       <div class="input-group mb-3">
-        <div id="demo" class="input-group-prepend"></div>
+        <div id="demo" class="input-group-prepend">
+          <select id="car-select" class="form-control">
+            <option selected="true" disabled="disabled">Select Car</option>
+          </select>
+        </div>
         <div id="mods"></div>
       </div>
       <div class="col-sm">
@@ -58,6 +62,9 @@
         xhttp.send();
       }
 
+      //--------------------------------------------------------------------------------------------------------------------------
+      // generateColors - Generates drop-down lists for color selection.
+      //--------------------------------------------------------------------------------------------------------------------------
       function generateColors(xml) {
         let x, i, xmlDoc, txt, colorSelect;
         xmlDoc = xml.responseXML;
@@ -96,23 +103,17 @@
         }
       }
 
+      //--------------------------------------------------------------------------------------------------------------------------
+      // generateCars - Generates a drop-down list for car selection.
+      //--------------------------------------------------------------------------------------------------------------------------
       function generateCars(xml) {
         let x, i, xmlDoc, txt, button;
         xmlDoc = xml.responseXML;
-        let carSelect = document.createElement("select");
-        carSelect.id = "car-select";
-        carSelect.className = "form-control";
-
-        //txt = `<select id='car-select' onchange="parseXML('data.xml', generateInputFields);">`;
-        //txt += "<option selected='selected' disabled>Select Car</option>";
+        let carSelect = document.getElementById("car-select");
         let carOption = document.createElement("option");
-        carOption.innerHTML = "Select Car";
-        carOption.disabled;
-        carOption.selected;
-        carSelect.appendChild(carOption);
         x = xmlDoc.getElementsByTagName("car");
         for (i = 0; i < x.length; i++) {
-          console.log(x[i]);
+          //console.log(x[i]);
           carOption = document.createElement("option");
           carOption.value = x[i].getAttribute("id");
           carOption.innerHTML = x[i].getElementsByTagName(
@@ -124,9 +125,12 @@
         carSelect.addEventListener("change", function() {
           parseXML("data.xml", generateInputFields);
         });
-        document.getElementById("demo").appendChild(carSelect);
+        //document.getElementById("demo").appendChild(carSelect);
       }
 
+      //--------------------------------------------------------------------------------------------------------------------------
+      // generateInputFields - Generates drop-down lists for mod selection.
+      //--------------------------------------------------------------------------------------------------------------------------
       function generateInputFields(xml) {
         document.getElementById("mods").innerHTML = "";
         let pos;
@@ -169,16 +173,21 @@
         //document.getElementById("mods").innerHTML = txt;
         generateGenericInputFields(xml);
         button = document.createElement("button");
+        button.className = "btn btn-primary";
         button.innerHTML = "Randomize";
+        button.addEventListener("click", randomizeOptions);
         document.getElementById("mods").appendChild(button);
 
         updateOutput();
       }
 
+      //--------------------------------------------------------------------------------------------------------------------------
+      // generateGenericInputFields - Generates drop-down lists for generic/shared mod categories, such as suspension, wheels, etc.
+      //--------------------------------------------------------------------------------------------------------------------------
       function generateGenericInputFields(xml) {
         let modSelect, modLabel, modOption;
         for (i = 0; i < 2; i++) {
-          console.log(i);
+          //console.log(i);
           modLabel = document.createElement("label");
           switch (i) {
             case 0:
@@ -199,18 +208,22 @@
         }
       }
 
-      //Update the output code
+      //Update/print the output code
       function updateOutput() {
         let modOptions = document
           .getElementById("mods")
           .getElementsByTagName("select");
         let txt = "";
+        //Item
         txt += "<Item>\n";
+        //Name
         txt +=
           "    <Name>" +
           document.getElementById("car-select").value +
           "</Name>\n";
+        //Variations
         txt += `    <Variations type="CAmbientVehicleModelVariations">\n`;
+        //BodyColours
         for (i = 1; i <= 4; i++) {
           txt +=
             `        <BodyColour` +
@@ -219,12 +232,17 @@
             document.getElementById("color" + i).value +
             `" />\n`;
         }
+        //WindowTint
         txt += `        <WindowTint value="" />\n`;
+        //ColourCombination
         txt += `        <ColourCombination value="-1" />\n`;
+        //Livery
         txt += `        <Livery value="-1" />\n`;
+        //ModKit
         txt += `        <ModKit value="0" />\n`;
+        //Mods
         txt += `            <Mods>\n`;
-        console.log();
+        //Mods Items
         for (i = 0; i < modOptions.length; i++) {
           txt += `                <Item>\n`;
           txt +=
@@ -236,13 +254,33 @@
           txt += `                </Item>\n`;
         }
         txt += `            </Mods>\n`;
+        //Extra
         for (i = 1; i <= 10; i++) {
           txt += `            <Extra` + i + `>CantUse</Extra` + i + `>\n`;
         }
         txt += `        </Variations>\n`;
+        //Probability
         txt += `        <Probability value="1.000000" />\n`;
         txt += `    </Item>`;
         document.getElementById("output").innerHTML = txt;
+      }
+
+      //Select a random option in a select element.
+      function selectRandom(select) {
+        let items = select.getElementsByTagName("option");
+        let index = Math.floor(Math.random() * items.length);
+        select.selectedIndex = index;
+      }
+
+      function randomizeOptions() {
+        let container = document.getElementById("mods");
+        console.log(container);
+        let selects = container.getElementsByTagName("select");
+        console.log(selects.length);
+        for (i = 0; i < selects.length; i++) {
+          selectRandom(selects[i]);
+        }
+        updateOutput();
       }
     </script>
   </body>
