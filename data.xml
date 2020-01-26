@@ -1321,6 +1321,21 @@
                     <variant name="Livery GT Spoiler" />
                 </variants>
             </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Pink Pinstripe" />
+                    <variant name="Gruppe Sechs" />
+                    <variant name="Plus 9000" />
+                    <variant name="Yellow Stripes" />
+                    <variant name="Luxe Stripes" />
+                    <variant name="Grey Pinstripe" />
+                    <variant name="Negative Stripes" />
+                    <variant name="Sessanta Nove" />
+                    <variant name="Junk" />
+                    <variant name="Ammu Nation" />
+                </variants>
+            </mod>
             <mod name= "Roll Cage" type="VMT_CHASSIS">
                 <variants>
                     <variant name="Stock Chassis" />
