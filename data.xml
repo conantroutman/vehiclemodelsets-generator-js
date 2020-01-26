@@ -777,4 +777,40 @@
         <wheelType></wheelType>
         <mods />
     </car>
+    <car id="prototipo">
+        <name>Grotti X80 Proto</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Primary Color Splitter" />
+                    <variant name="Secondary Color Splitter" />
+                    <variant name="Carbon Fiber Splitter" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Quad Race Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="GT Wing" />
+                    <variant name="Enhanced GT" />
+                    <variant name="Race Wing" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Primary Color Sideskirts" />
+                    <variant name="Secondary Color Sideskirts" />
+                    <variant name="Carbon Fiber Sideskirts" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
