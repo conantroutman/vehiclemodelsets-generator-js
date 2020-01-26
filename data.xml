@@ -1194,4 +1194,81 @@
             </mod>
         </mods>
     </car>
+    <car id="hustler">
+        <name>Vapid Hustler</name>
+        <wheelType></wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Front Bumper Delete" />
+                    <variant name="Rusty Front Bumper" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Bumper" />
+                    <variant name="Rear Bumper Delete" />
+                    <variant name="Rusty Rear Bumper" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Short Upswept Pipes" />
+                    <variant name="Low Upswept Pipes" />
+                    <variant name="Stinger Exhaust" />
+                    <variant name="Side Exit Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Remove Hood" />
+                    <variant name="Triple Intake Bug Catcher" />
+                    <variant name="Single Intake Bug Catcher" />
+                    <variant name="High Rise Ram Pipes" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Basic Pinstripe" />
+                    <variant name="Yellow Flames" />
+                    <variant name="Purple Flames" />
+                    <variant name="Rapid Vapid" />
+                    <variant name="Hustle Time" />
+                    <variant name="Just Some Patina" />
+                    <variant name="Barn Find" />
+                    <variant name="Custom Racer" />
+                    <variant name="Rusty Dragger" />
+                    <variant name="Salty Rod" />
+                </variants>
+            </mod>
+            <mod name= "Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Remove Side Panels" />
+                    <variant name="Remove Panels &amp; Fenders" />
+                </variants>
+            </mod>
+            <mod name="Grille" type="VMT_GRILL">
+                <variants>
+                    <variant name="Stock Grille" />
+                    <variant name="Rusty Grille" />
+                    <variant name="Salty Grille" />
+                    <variant name="Remove Grille" />
+                    <variant name="Nose Delete" />
+                    <variant name="Chrome Mesh Grille" />
+                    <variant name="Black Mesh Grille" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Sunshade" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
