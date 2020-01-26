@@ -58,7 +58,7 @@ function generateColors(xml) {
 
 function generateWindowTint() {
   let tint;
-  let tints = ["None", "Light Smoke", "Dark Smoke", "Limousine"];
+  let tints = ["None", "Light Smoke", "Dark Smoke", "Limo"];
   let tintLabel = document.createElement("label");
   tintLabel.innerHTML = "Window Tint";
   let tintSelect = document.createElement("select");
@@ -164,7 +164,7 @@ function generateGenericInputFields(xml) {
     switch (i) {
       case 0:
         modLabel.innerHTML = "Wheels";
-        modSelect.id = "VMT_WHEELS"
+        modSelect.id = "VMT_WHEELS";
         break;
       case 1:
         modLabel.innerHTML = "Suspension";
