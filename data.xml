@@ -1163,4 +1163,35 @@
             </mod>
         </mods>
     </car>
+    <car id="streiter">
+        <name>Benefactor Streiter</name>
+        <wheelType></wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Custom Bumper" />
+                    <variant name="Custom Secondary Trim" />
+                    <variant name="Street Bumper" />
+                    <variant name="Street Secondary Trim" />
+                    <variant name="Bulkhead Bumper" />
+                    <variant name="Bulkhead Secondary Trim" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Secondary Stock Hood" />
+                    <variant name="Ridged Hood" />
+                    <variant name="Secondary Ridged Hood" />
+                    <variant name="Vented Hood" />
+                    <variant name="Secondary Vented Hood" />
+                    <variant name="Race Hood" />
+                    <variant name="Secondary Race Hood" />
+                    <variant name="Competition Hood" />
+                    <variant name="Secondary Competition Hood" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
