@@ -1104,4 +1104,63 @@
             </mod>
         </mods>
     </car>
+    <car id="hermes">
+        <name>Albany Hermes</name>
+        <wheelType></wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Overriders Removed" />
+                    <variant name="Front Bumper Delete" />
+                    <variant name="Classic Bumper &amp; Overriders" />
+                    <variant name="Classic Bumper" />
+                    <variant name="Street Bumper &amp; Overriders" />
+                    <variant name="Street Bumper" />
+                    <variant name="Simple Bullet Bumper" />
+                    <variant name="Custom Bullet Bumper" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Bumper" />
+                    <variant name="Rear Bumper Delete" />
+                    <variant name="Smoothed Rear Bumper" />
+                </variants>
+            </mod>
+            <mod name="Fenders" type="VMT_WING_L">
+                <variants>
+                    <variant name="Stock Fender" />
+                    <variant name="Dechrome Fenders" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Wide Chrome Tips" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Basic Pinstripe" />
+                    <variant name="Ghost Flames" />
+                    <variant name="Classic Flames" />
+                    <variant name="Blue Flames" />
+                    <variant name="Layered Flames" />
+                    <variant name="Rat Look" />
+                    <variant name="Reporting for Duty" />
+                    <variant name="Saltflat Drag" />
+                    <variant name="Amazing Albany" />
+                    <variant name="Kinky Kelly" />
+                </variants>
+            </mod>
+            <mod name= "Arch Covers" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock" />
+                    <variant name="Remove Arch Covers" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
