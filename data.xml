@@ -1271,4 +1271,66 @@
             </mod>
         </mods>
     </car>
+    <car id="deveste">
+        <name>Principe Deveste Eight</name>
+        <wheelType></wheelType>
+        <mods>
+            <mod name= "Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Primary Bridge" />
+                    <variant name="Secondary Bridge" />
+                    <variant name="Black Bridge" />
+                    <variant name="Carbon Bridge" />
+                </variants>
+            </mod>
+            <mod name= "Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Bumper" />
+                    <variant name="Primary Diffuser" />
+                    <variant name="Secondary Diffuser" />
+                    <variant name="Carbon Diffuser" />
+                    <variant name="Primary Fins Diffuser" />
+                    <variant name="Secondary Fins Diffuser" />
+                </variants>
+            </mod>
+            <mod name= "Exhausts" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Chrome Stubby" />
+                    <variant name="Titanium Stubby" />
+                    <variant name="Gold Stubby" />
+                    <variant name="Chrome Extended" />
+                    <variant name="Gold Extended" />
+                    <variant name="Chrome Jet" />
+                    <variant name="Gold Jet" />
+                    <variant name="Titanium Jet" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Flick Spoiler" />
+                    <variant name="Aggressor Spoiler" />
+                    <variant name="Primary Aggressor" />
+                    <variant name="Carbon Spoiler" />
+                    <variant name="Split Aero Spoiler" />
+                    <variant name="Competition Spoiler" />
+                    <variant name="Rear Mounted Spoiler" />
+                    <variant name="GT Spoiler" />
+                    <variant name="Livery GT Spoiler" />
+                </variants>
+            </mod>
+            <mod name= "Roll Cage" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Chassis" />
+                    <variant name="Primary Trim" />
+                    <variant name="Secondary Trim" />
+                    <variant name="Carbon Trim" />
+                    <variant name="Secondary Light Strips" />
+                    <variant name="Primary Light Strips" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
