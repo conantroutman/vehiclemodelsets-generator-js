@@ -79,24 +79,32 @@ function generateWindowTint() {
 // generateCars - Generates a drop-down list for car selection.
 //--------------------------------------------------------------------------------------------------------------------------
 function generateCars(xml) {
-  let x, i, xmlDoc, txt, button;
+  let x, i, xmlDoc;
+  let cars = new Array();
   xmlDoc = xml.responseXML;
   let carSelect = document.getElementById("car-select");
   let carOption = document.createElement("option");
   x = xmlDoc.getElementsByTagName("car");
   for (i = 0; i < x.length; i++) {
-    //console.log(x[i]);
+    cars.push({
+      id: x[i].getAttribute("id"),
+      name: x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue
+    });
+  }
+
+  cars.sort((a, b) => (a.name > b.name ? 1 : -1));
+
+  for (i = 0; i < x.length; i++) {
     carOption = document.createElement("option");
-    carOption.value = x[i].getAttribute("id");
-    carOption.innerHTML = x[i].getElementsByTagName(
-      "name"
-    )[0].childNodes[0].nodeValue;
+    carOption.value = cars[i].id;
+    carOption.innerHTML = cars[i].name;
     carSelect.appendChild(carOption);
   }
 
   carSelect.addEventListener("change", function() {
     parseXML("data.xml", generateInputFields);
   });
+  console.log(cars);
   //document.getElementById("demo").appendChild(carSelect);
 }
 
@@ -107,7 +115,6 @@ function generateInputFields(xml) {
   document.getElementById("mods").innerHTML = "";
   let pos;
   let car = document.getElementById("car-select").value;
-  let txt = "";
   let x = xml.responseXML.getElementsByTagName("car");
   let label, select, option;
 
@@ -169,7 +176,7 @@ function generateGenericInputFields(xml) {
       case 1:
         modLabel.innerHTML = "Suspension";
         modSelect.id = "VMT_SUSPENSION";
-        for (j = 0; j < 4; j++) {
+        for (j = 0; j < 5; j++) {
           modOption = document.createElement("option");
           modOption.innerHTML = suspensions[j] + " Suspension";
           modOption.value = j - 1;
@@ -177,6 +184,7 @@ function generateGenericInputFields(xml) {
         }
         break;
     }
+    modSelect.addEventListener("change", updateOutput);
     document.getElementById("mods").appendChild(modLabel);
     document.getElementById("mods").appendChild(modSelect);
   }
