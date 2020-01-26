@@ -22,4 +22,21 @@
         <Wheel name="Carbon Cheetah R" />
         <Wheel name="Carbon S Racer" />
     </WheelType>
+    <WheelType name="Lowrider" >
+        <Wheel name="Flare" />
+        <Wheel name="Wired" />
+        <Wheel name="Triple Golds" />
+        <Wheel name="Big Worm" />
+        <Wheel name="Seven Fives" />
+        <Wheel name="Split Six" />
+        <Wheel name="Fresh Mesh" />
+        <Wheel name="Lead SLed" />
+        <Wheel name="Turbine" />
+        <Wheel name="Super Fin" />
+        <Wheel name="Classic Rod" />
+        <Wheel name="Dollar" />
+        <Wheel name="Dukes" />
+        <Wheel name="Low Five" />
+        <Wheel name="Gooch" />
+    </WheelType>
 </Wheels>

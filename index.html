@@ -5,283 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>GTA V vehiclemodelsets.meta Generator</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="scripts/main.js"></script>
   </head>
 
   <body onload="setup();">
-    <div class="container">
-      <div class="input-group mb-3">
-        <div id="demo" class="input-group-prepend">
-          <select id="car-select" class="form-control">
-            <option selected="true" disabled="disabled">Select Car</option>
-          </select>
+    <nav></nav>
+    <main>
+      <h1>vehiclemodelsets.meta Generator</h1>
+      <div class="container">
+        <div class="column">
+          <div>
+            <label>Select Car</label>
+            <select id="car-select"> </select>
+          </div>
+          <div>
+            <label>Colors</label>
+            <div id="colors" class="options"></div>
+          </div>
+          <div>
+            <label>Modifications</label>
+            <div id="mods" class="options"></div>
+          </div>
         </div>
-        <div id="mods"></div>
+        <div class="column">
+          <textarea id="output" rows="50" cols="100"></textarea>
+          <button onclick="copyOutput()">Copy</button>
+        </div>
       </div>
-      <div class="col-sm">
-        <button type="button" class="btn btn-primary">Copy</button>
-        <textarea id="output" rows="50" cols="100"></textarea>
-      </div>
-    </div>
-
-    <script>
-      var xmlData;
-
-      function setup() {
-        parseXML("data.xml", generateCars);
-        parseXML("colors.xml", generateColors);
-      }
-
-      function parseXML(file, callback) {
-        var xhttp = new XMLHttpRequest();
-        xhttp.open("GET", file, true);
-        xhttp.onload = function() {
-          //xmlData = this;
-          callback(this);
-        };
-        xhttp.send();
-      }
-
-      //--------------------------------------------------------------------------------------------------------------------------
-      // generateColors - Generates drop-down lists for color selection.
-      //--------------------------------------------------------------------------------------------------------------------------
-      function generateColors(xml) {
-        let x, i, xmlDoc, txt, colorSelect;
-        xmlDoc = xml.responseXML;
-        x = xmlDoc.getElementsByTagName("color");
-        for (i = 0; i < 4; i++) {
-          colorLabel = document.createElement("label");
-          switch (i) {
-            case 0:
-              colorLabel.innerHTML = "Primary Color";
-              break;
-            case 1:
-              colorLabel.innerHTML = "Secondary Color";
-              break;
-            case 2:
-              colorLabel.innerHTML = "Pearlescent Color";
-              break;
-            case 3:
-              colorLabel.innerHTML = "Wheel Color";
-              break;
-          }
-
-          colorSelect = document.createElement("select");
-          colorSelect.id = "color" + (i + 1);
-          colorSelect.className = "form-control";
-          for (j = 0; j < x.length; j++) {
-            color = document.createElement("option");
-            color.value = x[j].getAttribute("id");
-            color.style.backgroundColor =
-              "rgb(" + x[j].getAttribute("rgb") + ")";
-            color.innerHTML = x[j].getAttribute("name");
-            colorSelect.appendChild(color);
-          }
-          colorSelect.addEventListener("change", updateOutput);
-          document.getElementById("demo").appendChild(colorLabel);
-          document.getElementById("demo").appendChild(colorSelect);
-        }
-      }
-
-      //--------------------------------------------------------------------------------------------------------------------------
-      // generateCars - Generates a drop-down list for car selection.
-      //--------------------------------------------------------------------------------------------------------------------------
-      function generateCars(xml) {
-        let x, i, xmlDoc, txt, button;
-        xmlDoc = xml.responseXML;
-        let carSelect = document.getElementById("car-select");
-        let carOption = document.createElement("option");
-        x = xmlDoc.getElementsByTagName("car");
-        for (i = 0; i < x.length; i++) {
-          //console.log(x[i]);
-          carOption = document.createElement("option");
-          carOption.value = x[i].getAttribute("id");
-          carOption.innerHTML = x[i].getElementsByTagName(
-            "name"
-          )[0].childNodes[0].nodeValue;
-          carSelect.appendChild(carOption);
-        }
-
-        carSelect.addEventListener("change", function() {
-          parseXML("data.xml", generateInputFields);
-        });
-        //document.getElementById("demo").appendChild(carSelect);
-      }
-
-      //--------------------------------------------------------------------------------------------------------------------------
-      // generateInputFields - Generates drop-down lists for mod selection.
-      //--------------------------------------------------------------------------------------------------------------------------
-      function generateInputFields(xml) {
-        document.getElementById("mods").innerHTML = "";
-        let pos;
-        let car = document.getElementById("car-select").value;
-        let txt = "";
-        let x = xml.responseXML.getElementsByTagName("car");
-        let label, select, option;
-
-        //Find the selected car in the XML
-        for (i = 0; i < x.length; i++) {
-          if (x[i].getAttribute("id") == car) {
-            pos = x[i]
-              .getElementsByTagName("mods")[0]
-              .getElementsByTagName("mod");
-            break;
-          }
-        }
-
-        //List all available mod categories
-        for (i = 0; i < pos.length; i++) {
-          //console.log(pos[i].childNodes[1].getElementsByTagName('variant'));
-          var variants = pos[i].childNodes[1].getElementsByTagName("variant");
-          label = document.createElement("label");
-          label.innerHTML = pos[i].getAttribute("name");
-          select = document.createElement("select");
-          select.id = pos[i].getAttribute("type");
-          select.className = "form-control";
-          select.addEventListener("change", updateOutput);
-          document.getElementById("mods").appendChild(label);
-          document.getElementById("mods").appendChild(select);
-
-          for (j = 0; j < variants.length; j++) {
-            option = document.createElement("option");
-            option.value = j - 1;
-            option.text = variants[j].getAttribute("name");
-            select.add(option);
-          }
-        }
-
-        //document.getElementById("mods").innerHTML = txt;
-        generateGenericInputFields(xml);
-        button = document.createElement("button");
-        button.className = "btn btn-primary";
-        button.innerHTML = "Randomize";
-        button.addEventListener("click", randomizeOptions);
-        document.getElementById("mods").appendChild(button);
-
-        updateOutput();
-      }
-
-      //--------------------------------------------------------------------------------------------------------------------------
-      // generateGenericInputFields - Generates drop-down lists for generic/shared mod categories, such as suspension, wheels, etc.
-      //--------------------------------------------------------------------------------------------------------------------------
-      function generateGenericInputFields(xml) {
-        let modSelect, modLabel, modOption;
-        for (i = 0; i < 2; i++) {
-          //console.log(i);
-          modLabel = document.createElement("label");
-          switch (i) {
-            case 0:
-              modLabel.innerHTML = "Wheels";
-              break;
-            case 1:
-              modLabel.innerHTML = "Suspension";
-              break;
-          }
-          modSelect = document.createElement("select");
-          for (j = 0; j < 4; j++) {
-            modOption = document.createElement("option");
-            modOption.innerHTML = "Mod" + (j + 1);
-            modSelect.appendChild(modOption);
-          }
-          document.getElementById("mods").appendChild(modLabel);
-          document.getElementById("mods").appendChild(modSelect);
-        }
-      }
-
-      //Update/print the output code
-      function updateOutput() {
-        let modOptions = document
-          .getElementById("mods")
-          .getElementsByTagName("select");
-        let txt = "";
-        //Item
-        txt += "<Item>\n";
-        //Name
-        txt +=
-          "    <Name>" +
-          document.getElementById("car-select").value +
-          "</Name>\n";
-        //Variations
-        txt += `    <Variations type="CAmbientVehicleModelVariations">\n`;
-        //BodyColours
-        for (i = 1; i <= 4; i++) {
-          txt +=
-            `        <BodyColour` +
-            i +
-            ` value="` +
-            document.getElementById("color" + i).value +
-            `" />\n`;
-        }
-        //WindowTint
-        txt += `        <WindowTint value="" />\n`;
-        //ColourCombination
-        txt += `        <ColourCombination value="-1" />\n`;
-        //Livery
-        txt += `        <Livery value="-1" />\n`;
-        //ModKit
-        txt += `        <ModKit value="0" />\n`;
-        //Mods
-        txt += `            <Mods>\n`;
-        //Mods Items
-        for (i = 0; i < modOptions.length; i++) {
-          txt += `                <Item>\n`;
-          txt +=
-            `                    <ModType>` + modOptions[i].id + `</ModType>\n`;
-          txt +=
-            `                    <ModIndex>` +
-            modOptions[i].value +
-            `</ModIndex>\n`;
-          txt += `                </Item>\n`;
-        }
-        txt += `            </Mods>\n`;
-        //Extra
-        for (i = 1; i <= 10; i++) {
-          txt += `            <Extra` + i + `>CantUse</Extra` + i + `>\n`;
-        }
-        txt += `        </Variations>\n`;
-        //Probability
-        txt += `        <Probability value="1.000000" />\n`;
-        txt += `    </Item>`;
-        document.getElementById("output").innerHTML = txt;
-      }
-
-      //Select a random option in a select element.
-      function selectRandom(select) {
-        let items = select.getElementsByTagName("option");
-        let index = Math.floor(Math.random() * items.length);
-        select.selectedIndex = index;
-      }
-
-      function randomizeOptions() {
-        let container = document.getElementById("mods");
-        console.log(container);
-        let selects = container.getElementsByTagName("select");
-        console.log(selects.length);
-        for (i = 0; i < selects.length; i++) {
-          selectRandom(selects[i]);
-        }
-        updateOutput();
-      }
-    </script>
+    </main>
   </body>
 </html>
