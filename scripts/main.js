@@ -4,6 +4,7 @@ function setup() {
   parseXML("data.xml", generateCars);
   parseXML("colors.xml", generateColors);
   generateWindowTint();
+  updateOutput();
 }
 
 function parseXML(file, callback) {
@@ -92,6 +93,7 @@ function generateCars(xml) {
     });
   }
 
+  // Sort the vehicle list alphabetically by vehicle name
   cars.sort((a, b) => (a.name > b.name ? 1 : -1));
 
   for (i = 0; i < x.length; i++) {
@@ -101,6 +103,7 @@ function generateCars(xml) {
     carSelect.appendChild(carOption);
   }
 
+  // Update the code output when we select a car
   carSelect.addEventListener("change", function() {
     parseXML("data.xml", generateInputFields);
   });
