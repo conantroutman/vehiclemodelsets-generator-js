@@ -131,13 +131,12 @@ function generateInputFields(xml) {
 
   //List all available mod categories
   for (i = 0; i < pos.length; i++) {
-    //console.log(pos[i].childNodes[1].getElementsByTagName('variant'));
     var variants = pos[i].childNodes[1].getElementsByTagName("variant");
     label = document.createElement("label");
     label.innerHTML = pos[i].getAttribute("name");
     select = document.createElement("select");
     select.id = pos[i].getAttribute("type");
-    select.className = "form-control";
+    //select.className = "form-control";
     select.addEventListener("change", updateOutput);
     document.getElementById("mods").appendChild(label);
     document.getElementById("mods").appendChild(select);
@@ -150,7 +149,6 @@ function generateInputFields(xml) {
     }
   }
 
-  //document.getElementById("mods").innerHTML = txt;
   generateGenericInputFields(xml);
   button = document.createElement("button");
   button.className = "btn btn-primary";
