@@ -2,7 +2,7 @@
 <cars>
     <car id="bestiagts">
         <name>Grotti Bestia GTS</name>
-        <wheelType></wheelType>
+        <wheelType>High End</wheelType>
         <mods>
             <mod name= "Front Bumper" type="VMT_BUMPER_F">
                 <variants>
@@ -45,7 +45,7 @@
     </car>
     <car id="brawler">
         <name>Coil Brawler</name>
-        <wheelType></wheelType>
+        <wheelType>Off-Road</wheelType>
         <mods>
             <mod name= "Front Bumper" type="VMT_BUMPER_F">
                 <variants>
@@ -91,7 +91,7 @@
     </car>
     <car id="guardian">
         <name>Vapid Guardian</name>
-        <wheelType></wheelType>
+        <wheelType>Sport</wheelType>
         <mods>
             <mod name= "Exhausts" type="VMT_EXHAUST">
                 <variants>
@@ -664,7 +664,7 @@
     </car>
     <car id="tampa">
         <name>Declasse Tampa</name>
-        <wheelType></wheelType>
+        <wheelType>Muscle</wheelType>
         <mods>
             <mod name="Front Bumper" type="VMT_BUMPER_F">
                 <variants>
@@ -832,7 +832,7 @@
     </car>
     <car id="xls">
         <name>Benefactor XLS</name>
-        <wheelType></wheelType>
+        <wheelType>SUV</wheelType>
         <mods />
     </car>
     <car id="prototipo">
@@ -873,7 +873,7 @@
     </car>
     <car id="faction">
         <name>Willard Faction</name>
-        <wheelType></wheelType>
+        <wheelType>Muscle</wheelType>
         <mods>
             <mod name="Roof" type="VMT_ROOF">
                 <variants>
@@ -884,9 +884,9 @@
             </mod>
         </mods>
     </car>
-    <car id="btype3">
+    <car id="btype2">
         <name>Albany Fränken Stange</name>
-        <wheelType></wheelType>
+        <wheelType>Muscle</wheelType>
         <mods>
             <mod name="Hood" type="VMT_BONNET">
                 <variants>
@@ -908,7 +908,7 @@
     </car>
     <car id="le7b">
         <name>Annis RE-7B</name>
-        <wheelType></wheelType>
+        <wheelType>High End</wheelType>
         <mods>
             <mod name="Exhaust" type="VMT_EXHAUST">
                 <variants>
@@ -933,7 +933,7 @@
     </car>
     <car id="sheava">
         <name>Emperor ETR1</name>
-        <wheelType></wheelType>
+        <wheelType>High End</wheelType>
         <mods>
             <mod name="Front Bumper" type="VMT_BUMPER_F">
                 <variants>
@@ -1014,7 +1014,7 @@
     </car>
     <car id="tyrus">
         <name>Progen Tyrus</name>
-        <wheelType></wheelType>
+        <wheelType>High End</wheelType>
         <mods>
             <mod name="Exhaust" type="VMT_EXHAUST">
                 <variants>
@@ -1042,7 +1042,7 @@
     </car>
     <car id="sc1">
         <name>Übermacht SC1</name>
-        <wheelType></wheelType>
+        <wheelType>High End</wheelType>
         <mods>
             <mod name="Front Bumper" type="VMT_BUMPER_F">
                 <variants>
@@ -1344,6 +1344,39 @@
                     <variant name="Carbon Trim" />
                     <variant name="Secondary Light Strips" />
                     <variant name="Primary Light Strips" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="cognoscenti">
+        <name>Enus Cognoscenti</name>
+        <wheelType>High End</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="cog55">
+        <name>Enus Cognoscenti 55</name>
+        <wheelType>High End</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="stafford">
+        <name>Enus Stafford</name>
+        <wheelType>Lowrider</wheelType>
+        <mods>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Flames" />
+                    <variant name="Blue Flames" />
+                    <variant name="Radials" />
+                    <variant name="Baroque" />
+                    <variant name="Neoclassical" />
+                    <variant name="Gothic Decor" />
+                    <variant name="Rusty Enus" />
+                    <variant name="Oh Enus!" />
+                    <variant name="For Queen and Country" />
+                    <variant name="Make Peace, Not War" />
                 </variants>
             </mod>
         </mods>

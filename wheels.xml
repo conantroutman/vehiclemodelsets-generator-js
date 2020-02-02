@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wheels>
-    <WheelType name="High End" >
+    <WheelType name="High End">
         <Wheel name="Shadow" />
         <Wheel name="Hyper" />
         <Wheel name="Blade" />
@@ -22,7 +22,7 @@
         <Wheel name="Carbon Cheetah R" />
         <Wheel name="Carbon S Racer" />
     </WheelType>
-    <WheelType name="Lowrider" >
+    <WheelType name="Lowrider">
         <Wheel name="Flare" />
         <Wheel name="Wired" />
         <Wheel name="Triple Golds" />
@@ -38,5 +38,52 @@
         <Wheel name="Dukes" />
         <Wheel name="Low Five" />
         <Wheel name="Gooch" />
+    </WheelType>
+    <WheelType name="Tuner">
+        <Wheel name="Cosmo" />
+        <Wheel name="Super Mesh" />
+        <Wheel name="Outsider" />
+        <Wheel name="Rollas" />
+        <Wheel name="Drffmeister" />
+        <Wheel name="Slicer" />
+        <Wheel name="El Quatro" />
+        <Wheel name="Dubbed" />
+        <Wheel name="Five Star" />
+        <Wheel name="Slideways" />
+        <Wheel name="Apex" />
+        <Wheel name="Stanced EG" />
+        <Wheel name="Countersteer" />
+        <Wheel name="Endo v.1" />
+        <Wheel name="Endo v.2" />
+        <Wheel name="Gruppe Z" />
+        <Wheel name="Choku-Dori" />
+        <Wheel name="Chicane" />
+        <Wheel name="Saisoku" />
+        <Wheel name="Dished Eight" />
+        <Wheel name="Fujiwara" />
+        <Wheel name="Zokusha" />
+        <Wheel name="Battle VIII" />
+        <Wheel name="Rally Master" />
+    </WheelType>
+    <WheelType name="SUV">
+        <Wheel name="VIP" />
+        <Wheel name="Benefactor" />
+        <Wheel name="Cosmo" />
+        <Wheel name="Bippu" />
+        <Wheel name="Royal Six" />
+        <Wheel name="Fagorme" />
+        <Wheel name="Deluxe" />
+        <Wheel name="Iced Out" />
+        <Wheel name="Cognoscenti" />
+        <Wheel name="LozSpeed Ten" />
+        <Wheel name="Supernova" />
+        <Wheel name="Obey RS" />
+        <Wheel name="LozSpeed Baller" />
+        <Wheel name="Extravagano" />
+        <Wheel name="Split Six" />
+        <Wheel name="Empowered" />
+        <Wheel name="Sunrise" />
+        <Wheel name="Dash VIP" />
+        <Wheel name="Cutter" />
     </WheelType>
 </Wheels>

@@ -1,28 +1,56 @@
-var xmlData;
+var xmlData, xmlColors, xmlWheels;
+var isLoaded = false;
+var loadedFiles = 0;
 
 function setup() {
-  parseXML("data.xml", generateCars);
-  parseXML("colors.xml", generateColors);
-  generateWindowTint();
-  updateOutput();
+  let i = 0;
+  loadFiles();
+  setTimeout(function() {
+    generateCars();
+    generateColors();
+    generateMods();
+    //updateOutput();
+  }, 200);
+}
+
+function loadFiles() {
+  parseXML("data.xml", function(e) {
+    xmlData = e;
+  });
+  parseXML("colors.xml", function(e) {
+    xmlColors = e;
+  });
+  parseXML("wheels.xml", function(e) {
+    xmlWheels = e;
+  });
+}
+
+function testCallback(xml) {
+  //loadedFiles++;
+  console.log(loadedFiles);
 }
 
 function parseXML(file, callback) {
-  var xhttp = new XMLHttpRequest();
-  xhttp.open("GET", file, true);
-  xhttp.onload = function() {
-    //xmlData = this;
-    callback(this);
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", file, true);
+  xhr.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+      loadedFiles++;
+      callback(this);
+    }
   };
-  xhttp.send();
+  xhr.onerror = function(e) {
+    console.error(xhr.statusText);
+  };
+  xhr.send(null);
 }
 
 //--------------------------------------------------------------------------------------------------------------------------
 // generateColors - Generates drop-down lists for color selection.
 //--------------------------------------------------------------------------------------------------------------------------
-function generateColors(xml) {
+function generateColors() {
   let x, i, xmlDoc, colorSelect;
-  xmlDoc = xml.responseXML;
+  xmlDoc = xmlColors.responseXML;
   x = xmlDoc.getElementsByTagName("color");
   for (i = 0; i < 4; i++) {
     colorLabel = document.createElement("label");
@@ -55,6 +83,14 @@ function generateColors(xml) {
     document.getElementById("colors").appendChild(colorLabel);
     document.getElementById("colors").appendChild(colorSelect);
   }
+
+  generateWindowTint();
+
+  document
+    .getElementById("colors")
+    .appendChild(
+      createButton("Randomize", "randomize-mods", "btn", randomizeColors)
+    );
 }
 
 function generateWindowTint() {
@@ -82,7 +118,7 @@ function generateWindowTint() {
 function generateCars(xml) {
   let x, i, xmlDoc;
   let cars = new Array();
-  xmlDoc = xml.responseXML;
+  xmlDoc = xmlData.responseXML;
   let carSelect = document.getElementById("car-select");
   let carOption = document.createElement("option");
   x = xmlDoc.getElementsByTagName("car");
@@ -105,56 +141,60 @@ function generateCars(xml) {
 
   // Update the code output when we select a car
   carSelect.addEventListener("change", function() {
-    parseXML("data.xml", generateInputFields);
+    generateMods();
   });
-  console.log(cars);
   //document.getElementById("demo").appendChild(carSelect);
 }
 
 //--------------------------------------------------------------------------------------------------------------------------
 // generateInputFields - Generates drop-down lists for mod selection.
 //--------------------------------------------------------------------------------------------------------------------------
-function generateInputFields(xml) {
+function generateMods() {
   document.getElementById("mods").innerHTML = "";
-  let pos;
   let car = document.getElementById("car-select").value;
-  let x = xml.responseXML.getElementsByTagName("car");
-  let label, select, option;
+  let x = xmlData.responseXML.getElementsByTagName("car");
+  let label, select, option, pos;
 
   //Find the selected car in the XML
   for (i = 0; i < x.length; i++) {
     if (x[i].getAttribute("id") == car) {
       pos = x[i].getElementsByTagName("mods")[0].getElementsByTagName("mod");
+
+      //List all available mod categories
+      for (j = 0; j < pos.length; j++) {
+        var variants = pos[j].childNodes[1].getElementsByTagName("variant");
+        label = document.createElement("label");
+        label.innerHTML = pos[j].getAttribute("name");
+        select = document.createElement("select");
+        select.id = pos[j].getAttribute("type");
+        //select.className = "form-control";
+        select.addEventListener("change", updateOutput);
+        document.getElementById("mods").appendChild(label);
+        document.getElementById("mods").appendChild(select);
+
+        for (k = 0; k < variants.length; k++) {
+          option = document.createElement("option");
+          option.value = k - 1;
+          option.text = variants[k].getAttribute("name");
+          select.add(option);
+        }
+      }
+      generateWheels(
+        x[i].getElementsByTagName("wheelType")[0].childNodes[0].nodeValue
+      );
       break;
     }
   }
 
-  //List all available mod categories
-  for (i = 0; i < pos.length; i++) {
-    var variants = pos[i].childNodes[1].getElementsByTagName("variant");
-    label = document.createElement("label");
-    label.innerHTML = pos[i].getAttribute("name");
-    select = document.createElement("select");
-    select.id = pos[i].getAttribute("type");
-    //select.className = "form-control";
-    select.addEventListener("change", updateOutput);
-    document.getElementById("mods").appendChild(label);
-    document.getElementById("mods").appendChild(select);
-
-    for (j = 0; j < variants.length; j++) {
-      option = document.createElement("option");
-      option.value = j - 1;
-      option.text = variants[j].getAttribute("name");
-      select.add(option);
-    }
+  if (
+    document.getElementById("mods").getElementsByTagName("select").length > 0
+  ) {
+    document
+      .getElementById("mods")
+      .appendChild(
+        createButton("Randomize", "randomize-mods", "btn", randomizeMods)
+      );
   }
-
-  generateGenericInputFields(xml);
-  button = document.createElement("button");
-  button.className = "btn btn-primary";
-  button.innerHTML = "Randomize";
-  button.addEventListener("click", randomizeOptions);
-  document.getElementById("mods").appendChild(button);
 
   updateOutput();
 }
@@ -171,8 +211,6 @@ function generateGenericInputFields(xml) {
     modSelect = document.createElement("select");
     switch (i) {
       case 0:
-        modLabel.innerHTML = "Wheels";
-        modSelect.id = "VMT_WHEELS";
         break;
       case 1:
         modLabel.innerHTML = "Suspension";
@@ -189,6 +227,35 @@ function generateGenericInputFields(xml) {
     document.getElementById("mods").appendChild(modLabel);
     document.getElementById("mods").appendChild(modSelect);
   }
+}
+
+function generateWheels(type) {
+  let modLabel = document.createElement("label");
+  let modSelect = document.createElement("select");
+  modLabel.innerHTML = "Wheels (" + type + ")";
+  modSelect.id = "VMT_WHEELS";
+  modOption = document.createElement("option");
+  modOption.innerHTML = "Stock";
+  modOption.value = -1;
+  modSelect.add(modOption);
+
+  let x = xmlWheels.responseXML.getElementsByTagName("WheelType");
+  for (i = 0; i < x.length; i++) {
+    if (x[i].getAttribute("name") == type) {
+      var wheels = x[i].getElementsByTagName("Wheel");
+      for (j = 0; j < wheels.length; j++) {
+        console.log(wheels[j].getAttribute("name"));
+        modOption = document.createElement("option");
+        modOption.value = j;
+        modOption.text = wheels[j].getAttribute("name");
+        modSelect.add(modOption);
+      }
+      break;
+    }
+  }
+  modSelect.addEventListener("change", updateOutput);
+  document.getElementById("mods").appendChild(modLabel);
+  document.getElementById("mods").appendChild(modSelect);
 }
 
 //Update/print the output code
@@ -251,8 +318,19 @@ function selectRandom(select) {
   select.selectedIndex = index;
 }
 
-function randomizeOptions() {
+function randomizeMods() {
   let container = document.getElementById("mods");
+  console.log(container);
+  let selects = container.getElementsByTagName("select");
+  console.log(selects.length);
+  for (i = 0; i < selects.length; i++) {
+    selectRandom(selects[i]);
+  }
+  updateOutput();
+}
+
+function randomizeColors() {
+  let container = document.getElementById("colors");
   console.log(container);
   let selects = container.getElementsByTagName("select");
   console.log(selects.length);
@@ -266,4 +344,13 @@ function copyOutput() {
   let output = document.getElementById("output");
   output.select();
   document.execCommand("copy");
+}
+
+function createButton(text, id, css, onclick) {
+  let button = document.createElement("button");
+  button.innerHTML = text;
+  button.id = id;
+  button.className = css;
+  button.addEventListener("click", onclick);
+  return button;
 }
