@@ -200,14 +200,13 @@ function updateOutput() {
   //Item
   txt += "<Item>\n";
   //Name
-  txt +=
-    "    <Name>" + document.getElementById("car-select").value + "</Name>\n";
+  txt += "  <Name>" + document.getElementById("car-select").value + "</Name>\n";
   //Variations
-  txt += `    <Variations type="CAmbientVehicleModelVariations">\n`;
+  txt += `  <Variations type="CAmbientVehicleModelVariations">\n`;
   //BodyColours
   for (i = 1; i <= 4; i++) {
     txt +=
-      `        <BodyColour` +
+      `    <BodyColour` +
       i +
       ` value="` +
       document.getElementById("color" + i).value +
@@ -215,33 +214,32 @@ function updateOutput() {
   }
   //WindowTint
   txt +=
-    `        <WindowTint value="` +
+    `    <WindowTint value="` +
     document.getElementById("tint").value +
     `" />\n`;
   //ColourCombination
-  txt += `        <ColourCombination value="-1" />\n`;
+  txt += `    <ColourCombination value="-1" />\n`;
   //Livery
-  txt += `        <Livery value="-1" />\n`;
+  txt += `    <Livery value="-1" />\n`;
   //ModKit
-  txt += `        <ModKit value="0" />\n`;
+  txt += `    <ModKit value="0" />\n`;
   //Mods
-  txt += `            <Mods>\n`;
+  txt += `    <Mods>\n`;
   //Mods Items
   for (i = 0; i < modOptions.length; i++) {
-    txt += `                <Item>\n`;
-    txt += `                    <ModType>` + modOptions[i].id + `</ModType>\n`;
-    txt +=
-      `                    <ModIndex>` + modOptions[i].value + `</ModIndex>\n`;
-    txt += `                </Item>\n`;
+    txt += `      <Item>\n`;
+    txt += `        <ModType>` + modOptions[i].id + `</ModType>\n`;
+    txt += `        <ModIndex>` + modOptions[i].value + `</ModIndex>\n`;
+    txt += `      </Item>\n`;
   }
-  txt += `            </Mods>\n`;
+  txt += `    </Mods>\n`;
   //Extra
   for (i = 1; i <= 10; i++) {
-    txt += `        <Extra` + i + `>CantUse</Extra` + i + `>\n`;
+    txt += `    <Extra` + i + `>CantUse</Extra` + i + `>\n`;
   }
-  txt += `    </Variations>\n`;
+  txt += `  </Variations>\n`;
   //Probability
-  txt += `    <Probability value="1.000000" />\n`;
+  txt += `  <Probability value="1.000000" />\n`;
   txt += `</Item>`;
   document.getElementById("output").innerHTML = txt;
 }

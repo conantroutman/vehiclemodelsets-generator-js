@@ -9,7 +9,7 @@
     <script src="scripts/main.js"></script>
   </head>
 
-  <body onload="setup();">
+  <body onload="setup()">
     <nav></nav>
     <main>
       <h1>vehiclemodelsets.meta Generator</h1>
@@ -17,7 +17,9 @@
         <div class="column">
           <div>
             <label>Select Car</label>
-            <select id="car-select"> </select>
+            <select id="car-select">
+              <option value="" selected>Select Car</option>
+            </select>
           </div>
           <div>
             <label>Colors</label>
@@ -29,7 +31,12 @@
           </div>
         </div>
         <div class="column">
-          <textarea id="output" rows="50" cols="100"></textarea>
+          <textarea
+            id="output"
+            rows="50"
+            cols="100"
+            spellcheck="false"
+          ></textarea>
           <button onclick="copyOutput()">Copy</button>
         </div>
       </div>
