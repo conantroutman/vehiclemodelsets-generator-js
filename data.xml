@@ -1789,4 +1789,98 @@
             </mod>
         </mods>
     </car>
+    <car id="flashgt">
+        <name>Vapid Flash GT</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Primary Paint Race Splitter" />
+                    <variant name="Secondary Paint Race Splitter" />
+                    <variant name="Carbon Race Splitter" />
+                    <variant name="Primary Paint Track Splitter" />
+                    <variant name="Secondary Paint Track Splitter" />
+                    <variant name="Carbon Track Splitter" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Twin Exit Exhausts" />
+                    <variant name="Big Bore Exhaust" />
+                    <variant name="Side Exits w/ Chrome" />
+                    <variant name="Side Exits w/ Carbon" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Stock Carbon Hood" />
+                    <variant name="Classic Sport Hood" />
+                    <variant name="Classic Carbon Hood" />
+                    <variant name="Race Hood" />
+                    <variant name="Carbon Race Hood" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Livery Stock Wing" />
+                    <variant name="Carbon Stock Wing" />
+                    <variant name="Secondary Paint Street Wing" />
+                    <variant name="Livery Street Wing" />
+                    <variant name="Carbon Street Wing" />
+                    <variant name="Secondary Paint Track Wing" />
+                    <variant name="Livery Track Wing" />
+                    <variant name="Carbon Track Wing" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Primary Paint Subtle Skirt" />
+                    <variant name="Secondary Paint Subtle Skirt" />
+                    <variant name="Carbon Subtle Skirt" />
+                    <variant name="Primary Paint Race Skirt" />
+                    <variant name="Secondary Paint Race Skirt" />
+                    <variant name="Carbon Race Skirt" />
+                </variants>
+            </mod>
+            <mod name= "Roof" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Scoop V1 Flag (Livery RQD) " />
+                    <variant name="Secondary Paint V1 Scoop " />
+                    <variant name="Carbon Scoop V1 " />
+                    <variant name="Scoop V2 Flag (Livery RQD) " />
+                    <variant name="Secondary Paint V2 Scoop " />
+                    <variant name="Carbon Scoop V2 " />
+                </variants>
+            </mod>
+            <mod name= "Sunstrip" type="VMT_ROOF">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Vapid Racing" />
+                    <variant name="Chepalle" />
+                    <variant name="Globe Oil" />
+                </variants>
+            </mod>
+            <mod name= "Livery" type="VMT_LIVERY">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Classic Stripes" />
+                    <variant name="Classic Race Flags" />
+                    <variant name="Classic Flags w/ Stripes" />
+                    <variant name="Xero RC 4" />
+                    <variant name="Celltowa" />
+                    <variant name="Pisswasser RC 2" />
+                    <variant name="Globe Oil 7" />
+                    <variant name="G&amp;B 41" />
+                    <variant name="Junk 21" />
+                    <variant name="Rum Racing 11" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
