@@ -86,4 +86,51 @@
         <Wheel name="Dash VIP" />
         <Wheel name="Cutter" />
     </WheelType>
+    <WheelType name="Sport">
+        <Wheel name="Inferno" />
+        <Wheel name="Deep Five" />
+        <Wheel name="Lozspeed Mk.v" />
+        <Wheel name="Diamond Cut" />
+        <Wheel name="Chrono" />
+        <Wheel name="Feroci RR" />
+        <Wheel name="FiftyNine" />
+        <Wheel name="Mercie" />
+        <Wheel name="Synthetic Z" />
+        <Wheel name="Organic Type D" />
+        <Wheel name="Endo v.1" />
+        <Wheel name="GT One" />
+        <Wheel name="Duper 7" />
+        <Wheel name="Uzer" />
+        <Wheel name="GroundRide" />
+        <Wheel name="S Racer" />
+        <Wheel name="Venum" />
+        <Wheel name="Cosmo" />
+        <Wheel name="Dash VIP" />
+        <Wheel name="Ice Kid" />
+        <Wheel name="Ruff Weld" />
+        <Wheel name="Wangan Master" />
+        <Wheel name="Super Five" />
+        <Wheel name="Endo v.2" />
+        <Wheel name="Slit Six" />
+    </WheelType>
+    <WheelType name="Muscle">
+        <Wheel name="Classic Five" />
+        <Wheel name="Dukes" />
+        <Wheel name="Muscle Freak" />
+        <Wheel name="Kracka" />
+        <Wheel name="Azrea" />
+        <Wheel name="Mecha" />
+        <Wheel name="Black Top" />
+        <Wheel name="Drag SPL" />
+        <Wheel name="Revolver" />
+        <Wheel name="Classic Rod" />
+        <Wheel name="Fairle" />
+        <Wheel name="Spooner" />
+        <Wheel name="Five Star" />
+        <Wheel name="Old School" />
+        <Wheel name="El Jefe" />
+        <Wheel name="Dodman" />
+        <Wheel name="Six Gun" />
+        <Wheel name="Mercenary" />
+    </WheelType>
 </Wheels>
