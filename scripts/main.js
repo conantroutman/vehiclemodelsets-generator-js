@@ -76,6 +76,10 @@ function generateColors() {
       color = document.createElement("option");
       color.value = x[j].getAttribute("id");
       color.style.backgroundColor = "rgb(" + x[j].getAttribute("rgb") + ")";
+      // Set the default wheel color to 156
+      if (i == 3 && x[j].getAttribute("id") == 156) {
+        color.selected = true;
+      }
       color.innerHTML = x[j].getAttribute("name");
       colorSelect.appendChild(color);
     }
