@@ -2464,4 +2464,467 @@
         <mods>
         </mods>
     </car>
+    <car id="akuma">
+        <name>Dinka Akuma</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Side Mounted Carbon Can" />
+                    <variant name="Stubby Turbo Exhaust" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="bagger">
+        <name>Western Bagger</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Fairings" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Fairing" />
+                    <variant name="Remove Fairing" />
+                </variants>
+            </mod>
+            <mod name="Fuel Tank" type="VMT_WING_L">
+                <variants>
+                    <variant name="Fuel Tank" />
+                    <variant name="Fuel Tank 1" />
+                    <variant name="Fuel Tank 2" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Short Slash Exhaust" />
+                    <variant name="Custom Shotgun Exhaust" />
+                    <variant name="Long Twin Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Frames" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Frame" />
+                    <variant name="Chrome Frame" />
+                    <variant name="Custom Frame" />
+                </variants>
+            </mod>
+            <mod name="Saddle Bags" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Saddle Bags" />
+                    <variant name="Remove Saddle Bags" />
+                    <variant name="Leather Saddle Bags" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="bati">
+        <name>Pegassi Bati 801</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="bati2">
+        <name>Pegassi Bati 801RR</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="bf400">
+        <name>Nagasaki BF400</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Atomic" />
+                    <variant name="Sprunk" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="carbonrs">
+        <name>Nagasaki Carbon RS</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="cliffhanger">
+        <name>Western Cliffhanger</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Stunt" />
+                    <variant name="LTD Gas" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="daemon">
+        <name>Western Daemon</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Handlebars" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Handlebar" />
+                    <variant name="Chrome Mirrors" />
+                    <variant name="Custom Handlebars" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Custom Shotgun Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Rear Seats" type="VMT_SPOILER">
+                <variants>
+                    <variant name="Stock Seat" />
+                    <variant name="Rear Seat" />
+                </variants>
+            </mod>
+            <mod name="Front Seats" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Seat" />
+                    <variant name="Seat Tassels" />
+                </variants>
+            </mod>
+            <mod name="Fuel Tank" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Fuel Tank" />
+                    <variant name="Custom Tank &amp; Speedo" />
+                    <variant name="Custom Aero Tank" />
+                </variants>
+            </mod>
+            <mod name="Rear Mudguards" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Mudguard" />
+                    <variant name="Sissy Bar" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="diablous">
+        <name>Principe Diabolus</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="double">
+        <name>Dinka Double T</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Twin Carbon Can" />
+                </variants>
+            </mod>
+            <mod name="Bodywork" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Bodywork" />
+                    <variant name="Carbon Panels" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="enduro">
+        <name>Dinka Enduro</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Race Exhaust" />
+                    <variant name="Dual Titanium Exhaust" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="faggio">
+        <name>Pegassi Faggio Sport</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="faggio2">
+        <name>Principe Faggio</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="fcr">
+        <name>Pegassi FCR 1000</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Front Mudguard" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Mudguard" />
+                    <variant name="Remove Mudguard" />
+                    <variant name="Sports Mudguard" />
+                    <variant name="Classic Mudguard" />
+                </variants>
+            </mod>
+            <mod name="Rear Mudguard" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Mudguard" />
+                    <variant name="Sports Mudguard" />
+                    <variant name="Race Mudguard" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Dual Exhausts" />
+                    <variant name="Sport Exhaust" />
+                    <variant name="Shotgun Exhausts" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="fcr2">
+        <name>Pegassi FCR 1000 Custom</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Front Mudguard" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Mudguard" />
+                    <variant name="Remove Mudguard" />
+                    <variant name="Basic Mudguard" />
+                    <variant name="Stubby Mudguard" />
+                    <variant name="Brat Mudguard" />
+                    <variant name="Sports Mudguard" />
+                    <variant name="Old School Mudguard" />
+                    <variant name="Race Mudguard" />
+                    <variant name="Classic Mudguard" />
+                    <variant name="Full Vintage Mudguard" />
+                    <variant name="Military Mudguard" />
+                </variants>
+            </mod>
+            <mod name="Rear Mudguard" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Mudguard" />
+                    <variant name="Sports Mudguard" />
+                    <variant name="Race Mudguard" />
+                    <variant name="Full Vintage Mudguard" />
+                    <variant name="Classic Mudguard" />
+                    <variant name="Custom Saddle Bags" />
+                    <variant name="Vintage Leather Saddle Bags" />
+                    <variant name="Military Mudguard" />
+                    <variant name="Outfitted Military Mudguard" />
+                </variants>
+            </mod>
+            <mod name="Swingarm" type="VMT_WING_L">
+                <variants>
+                    <variant name="Stock Swingarm" />
+                    <variant name="Minimalist Swingarm" />
+                    <variant name="Basic Swingarm" />
+                    <variant name="Painted Basic Swingarm" />
+                    <variant name="Chrome Laddered Swingarm" />
+                    <variant name="Painted Laddered Swingarm" />
+                </variants>
+            </mod>
+            <mod name="Frame" type="VMT_WING_L">
+                <variants>
+                    <variant name="Stock Frame" />
+                    <variant name="Secondary Color Frame" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Dual Exhausts" />
+                    <variant name="Sport Exhaust" />
+                    <variant name="Shotgun Exhausts" />
+                    <variant name="Stubby Exhausts" />
+                    <variant name="Dual Race Exhausts" />
+                    <variant name="Upswept Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Fairing" type="VMT_SPOILER">
+                <variants>
+                    <variant name="Stock Fairing" />
+                    <variant name="Basic Fairing" />
+                    <variant name="Feral Fairing" />
+                    <variant name="Classic Fairing" />
+                    <variant name="Covert Fairing" />
+                    <variant name="Race Fairing" />
+                    <variant name="Old School Fairing" />
+                    <variant name="Bullet Fairing" />
+                    <variant name="Full Body Fairing" />
+                    <variant name="Half Body Fairing" />
+                    <variant name="Vintage Headlight" />
+                    <variant name="Brat Headlight" />
+                    <variant name="Military Headlight" />
+                    <variant name="Custom Headlight" />
+                </variants>
+            </mod>
+            <mod name="Seat" type="VMT_SEATS">
+                <variants>
+                    <variant name="Stock Seat" />
+                    <variant name="Brat Seat" />
+                    <variant name="Stubby Seat" />
+                    <variant name="Race Seat" />
+                    <variant name="Feral Seat" />
+                    <variant name="Vintage Seat" />
+                </variants>
+            </mod>
+            <mod name="Fuel Tank" type="VMT_CHASSIS5">
+                <variants>
+                    <variant name="Stock Fuel Tank" />
+                    <variant name="Basic Tank" />
+                    <variant name="Brat Tank" />
+                    <variant name="Classic Tank" />
+                    <variant name="Sport Tank" />
+                    <variant name="Race Tank" />
+                    <variant name="Feral Tank" />
+                    <variant name="Military Tank" />
+                </variants>
+            </mod>
+            <mod name="Engine Block" type="VMT_ENGINEBAY1">
+                <variants>
+                    <variant name="Stock Engine Block" />
+                    <variant name="Chrome Engine" />
+                    <variant name="Colored Engine" />
+                    <variant name="Full Color Engine" />
+                    <variant name="V-Twin Engine" />
+                    <variant name="Chrome V-Twin Engine" />
+                    <variant name="Colored V-Twin Engine" />
+                    <variant name="Full Color V-Twin Engine" />
+                </variants>
+            </mod>
+            <mod name="Air Filter" type="VMT_ENGINEBAY2">
+                <variants>
+                    <variant name="Stock Air Filter" />
+                    <variant name="Pod Air Filter" />
+                    <variant name="Painted Air Filter" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Green Stripe" />
+                    <variant name="Blue Stripe" />
+                    <variant name="Red Stripe" />
+                    <variant name="Black Stripe" />
+                    <variant name="Dual Red Stripe" />
+                    <variant name="Dual Black Stripe" />
+                    <variant name="Floral Stripes" />
+                    <variant name="Blue Furiously Floral" />
+                    <variant name="Green Furiously Floral" />
+                    <variant name="Orange Scrolls" />
+                    <variant name="Green Scrolls" />
+                    <variant name="Grey Scrolls" />
+                    <variant name="Crimson Decadence" />
+                    <variant name="Golden Decadence" />
+                    <variant name="Black Decadence" />
+                    <variant name="White Decadence" />
+                    <variant name="Military" />
+                    <variant name="Military Patina" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="gargoyle">
+        <name>Western Gargoyle</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Gargoyle" />
+                    <variant name="Gargoyle Vintage" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="hakuchou">
+        <name>Shitzu Hakuchou</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="hakuchou2">
+        <name>Shitzu Hakuchou Drag</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Front Mudguard" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Mudguard" />
+                    <variant name="Sporty Mudguard" />
+                    <variant name="Carbon Sporty Mudguard" />
+                    <variant name="Saber Mudguard" />
+                    <variant name="Carbon Saber Mudguard" />
+                    <variant name="Vulcan Mudguard" />
+                    <variant name="Carbon Vulcan Mudguard" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Side Exit Exhaust" />
+                    <variant name="Side Exit Carbon Exhaust" />
+                    <variant name="Dual Exit Exhaust" />
+                    <variant name="Dual Exit Carbon Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Fairing" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Fairing" />
+                    <variant name="Saber Front Fairing" />
+                    <variant name="Side Vent Front Fairing" />
+                </variants>
+            </mod>
+            <mod name="Fuel Tank" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Fuel Tank" />
+                    <variant name="Fuel Tank Painted Seat" />
+                    <variant name="Saber Tank" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Classic Flames" />
+                    <variant name="Blue Flames" />
+                    <variant name="Purple Flames" />
+                    <variant name="Dark Smoke" />
+                    <variant name="Black Race Stripe" />
+                    <variant name="Yellow Race Stripe" />
+                    <variant name="Rising Sun" />
+                    <variant name="Purple Green Splatter" />
+                    <variant name="Blue Cyan Splatter" />
+                    <variant name="Red Yellow Splatter" />
+                    <variant name="Mega Splatter" />
+                    <variant name="Camo" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="hexer">
+        <name>LCC Hexer</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="innovation">
+        <name>LCC Innovation</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="lectro">
+        <name>Principe Lectro</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+        </mods>
+    </car>
+    <car id="nemesis">
+        <name>Principe Nemesis</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+        </mods>
+    </car>
 </cars>
