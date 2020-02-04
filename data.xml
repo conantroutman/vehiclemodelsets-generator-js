@@ -3818,7 +3818,7 @@
                     <variant name="Carbon Combination Spec" />
                 </variants>
             </mod>
-            <mod name="Vortex Generator" type="VMT_ROOF">
+            <mod name="Roof" type="VMT_ROOF">
                 <variants>
                     <variant name="Stock Roof" />
                     <variant name="Carbon Detail" />
@@ -3844,6 +3844,94 @@
                     <variant name="Stronzo Stripes" />
                     <variant name="Debonnaire X Meinmacht" />
                     <variant name="Sportoros" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="prairie">
+        <name>Bollokan Prairie</name>
+        <wheelType>SUV</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Splitter With Canards" />
+                    <variant name="Mk1 Tuner Bumper" />
+                    <variant name="Mk1 Tuner Bumper Kit" />
+                    <variant name="Mk2 Tuner Bumper" />
+                    <variant name="Mk2 Tuner Bumper Kit" />
+                    <variant name="Mk3 Tuner Bumper" />
+                    <variant name="Mk3 Tuner Bumper Kit" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Bumper" />
+                    <variant name="Carbon Diffuser &amp; Tow Hook" />
+                    <variant name="Custom Diffuser &amp; Tow Hook" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Titanium Tuner Exhaust" />
+                    <variant name="Rolled Exhausts" />
+                    <variant name="Carbon Rolled Exhausts" />
+                    <variant name="Narrow Milter Exhausts" />
+                    <variant name="Wide Milter Exhausts" />
+                    <variant name="Carbon Mid Bore Exhausts" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Carbon Hood" />
+                    <variant name="Stripped Hood" />
+                    <variant name="Carbon Stripped Hood" />
+                    <variant name="Sports Hood" />
+                    <variant name="Carbon Sports Hood" />
+                    <variant name="Combination Hood" />
+                    <variant name="Carbon Combination Hood" />
+                    <variant name="Performance Hood" />
+                    <variant name="Carbon Performance Hood" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Low Level Spoiler" />
+                    <variant name="Carbon Wing" />
+                    <variant name="Low Tuner Spoiler" />
+                    <variant name="Race Spoiler" />
+                    <variant name="Flush Line Spoiler" />
+                    <variant name="Drag Spoiler" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Custom Skirts 1" />
+                    <variant name="Twisted Skirts" />
+                    <variant name="Carbon Twisted Skirts" />
+                    <variant name="Beveled Skirts" />
+                    <variant name="Carbon Beveled Skirts" />
+                    <variant name="Inset Skirts" />
+                    <variant name="Carbon Inset Skirts" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Inverted Tuner Decal" />
+                    <variant name="Speed Stripe" />
+                    <variant name="Low Rent Flames" />
+                    <variant name="Retro Graphics" />
+                    <variant name="White Racing Stripe" />
+                    <variant name="Black Racing Stripe" />
+                    <variant name="Tacky Tribals" />
+                    <variant name="Prairie Posse" />
+                    <variant name="Dog's Bollokan" />
+                    <variant name="Extreme Racer" />
                 </variants>
             </mod>
         </mods>
