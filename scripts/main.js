@@ -189,6 +189,7 @@ function generateMods() {
       generateWheels(
         x[i].getElementsByTagName("wheelType")[0].childNodes[0].nodeValue
       );
+      generateGenericInputFields();
       break;
     }
   }
@@ -211,25 +212,19 @@ function generateMods() {
 //--------------------------------------------------------------------------------------------------------------------------
 function generateGenericInputFields(xml) {
   let suspensions = ["Stock", "Lowered", "Street", "Sport", "Competition"];
-  let modSelect, modLabel, modOption;
-  for (i = 0; i < 2; i++) {
-    //console.log(i);
-    modLabel = document.createElement("label");
-    modSelect = document.createElement("select");
-    switch (i) {
-      case 0:
-        break;
-      case 1:
-        modLabel.innerHTML = "Suspension";
-        modSelect.id = "VMT_SUSPENSION";
-        for (j = 0; j < 5; j++) {
-          modOption = document.createElement("option");
-          modOption.innerHTML = suspensions[j] + " Suspension";
-          modOption.value = j - 1;
-          modSelect.appendChild(modOption);
-        }
-        break;
-    }
+  let modOption;
+
+  //console.log(i);
+  let modLabel = document.createElement("label");
+  let modSelect = document.createElement("select");
+  modLabel.innerHTML = "Suspension";
+  modSelect.id = "VMT_SUSPENSION";
+  for (j = 0; j < 5; j++) {
+    modOption = document.createElement("option");
+    modOption.innerHTML = suspensions[j] + " Suspension";
+    modOption.value = j - 1;
+    modSelect.appendChild(modOption);
+
     modSelect.addEventListener("change", updateOutput);
     document.getElementById("mods").appendChild(modLabel);
     document.getElementById("mods").appendChild(modSelect);
