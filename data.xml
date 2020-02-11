@@ -4664,4 +4664,710 @@
             </mod>
         </mods>
     </car>
+    <car id="fmj">
+        <name>Vapid FMJ</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Primary Color Trim" />
+                    <variant name="Matte Black Trim" />
+                    <variant name="Carbon Fiber Splitter" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Low Level Spoiler" />
+                    <variant name="High Level Spoiler" />
+                    <variant name="Carbon Wing" />
+                    <variant name="GT Wing" />
+                    <variant name="Enhanced GT" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Roof Scoop" />
+                    <variant name="Secondary Color GT Scoop" />
+                    <variant name="Primary Color GT Scoop" />
+                    <variant name="Carbon GT Scoop" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="taipan">
+        <name>Cheval Taipan</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Primary Extended Diffuser" />
+                    <variant name="Secondary Extended Diffuser" />
+                    <variant name="Carbon Extended Diffuser" />
+                    <variant name="Competition Diffuser" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Bumper" />
+                    <variant name="Primary Fins" />
+                    <variant name="Secondary Fins" />
+                    <variant name="It's Lit" />
+                </variants>
+            </mod>
+            <mod name="Mirrors" type="VMT_WING_L">
+                <variants>
+                    <variant name="Stock Mirrors" />
+                    <variant name="Secondary Mirrors" />
+                    <variant name="Carbon Mirrors" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Twin Big Bore Exhaust" />
+                    <variant name="Twin Carbon Canned Exhaust" />
+                    <variant name="Twin Chrome Tip Exhaust" />
+                    <variant name="Quad GT Exhaust" />
+                    <variant name="Quad Offset Mid Exhaust" />
+                    <variant name="Twin Carbon Mid Exhausts" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Discreet Vented Hood" />
+                    <variant name="Big Vented Hood" />
+                    <variant name="Arrowhead Hood" />
+                    <variant name="Secondary Slatted Hood" />
+                    <variant name="Carbon Slatted Hood" />
+                    <variant name="Performance Slatted Hood" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="Stock Spoiler" />
+                    <variant name="Custom Body Wing" />
+                    <variant name="Sharp Body Spoiler" />
+                    <variant name="Flow Spoiler" />
+                    <variant name="LM Spoiler" />
+                    <variant name="GT Spoiler" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Primary Extended Skirt" />
+                    <variant name="Secondary Extended Skirt" />
+                    <variant name="Primary Street Skirt" />
+                    <variant name="Secondary Street Skirt" />
+                    <variant name="It's Lit" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Carbon Roof" />
+                    <variant name="Intake Scoop" />
+                    <variant name="Carbon Intake Scoop" />
+                    <variant name="Painted Vented Roof" />
+                    <variant name="Alt Vented Roof" />
+                    <variant name="Carbon Vented Roof" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="vacca">
+        <name>Pegassi Vacca</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Dual Shotgun Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Carbon Hood" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Low Level Spoiler" />
+                    <variant name="Carbon Wing" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="vagner">
+        <name>Dewbauchee Vagner</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Accent Stripe Splitter" />
+                    <variant name="Race Splitter" />
+                    <variant name="Accent Stripe Race Splitter" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Race Exhaust" />
+                    <variant name="Chrome Tip Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Primary Color Detail" />
+                    <variant name="Secondary Color Detail" />
+                    <variant name="Carbon Intake" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Standard Spoiler" />
+                    <variant name="Carbon Spoiler" />
+                    <variant name="Carbon Dewbauchee Spoiler" />
+                    <variant name="Primary GT Spoiler" />
+                    <variant name="Secondary GT Spoiler" />
+                    <variant name="Carbon GT Spoiler" />
+                    <variant name="Primary Race Spoiler" />
+                    <variant name="Secondary Race Spoiler" />
+                    <variant name="Carbon Race Spoiler" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Primary Color Band" />
+                    <variant name="Carbon Band" />
+                    <variant name="Primary Scoop" />
+                    <variant name="Secondary Scoop" />
+                    <variant name="Carbon Scoop" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="visione">
+        <name>Grotti Visione</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Primary Accents" />
+                    <variant name="Secondary Accents" />
+                    <variant name="Secondary Front Spoiler" />
+                    <variant name="Carbon Fins" />
+                    <variant name="Carbon Front Spoiler" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Bumper" />
+                    <variant name="Primary Accents" />
+                    <variant name="Secondary Accents" />
+                    <variant name="Added Fins" />
+                    <variant name="Added Fins Primary" />
+                    <variant name="Added Fins Secondary" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Dual Exit Exhaust" />
+                    <variant name="Wide Exhaust" />
+                    <variant name="Triple Exhaust" />
+                    <variant name="Triple Gold Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Hood Pins" />
+                    <variant name="Secondary Hood" />
+                    <variant name="Carbon Hood" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Sports Spoiler" />
+                    <variant name="Full Carbon Spoiler" />
+                    <variant name="Carbon GT Spoiler" />
+                    <variant name="Livery GT Spoiler" />
+                    <variant name="Rear Mounted Spoiler" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Italia" />
+                    <variant name="Classic Green Stripe" />
+                    <variant name="Black Fills" />
+                    <variant name="Classic Red Stripe" />
+                    <variant name="Sports Gray" />
+                    <variant name="Meinmacht Racing" />
+                    <variant name="Unlucky For Some" />
+                    <variant name="Team FlyUS" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="xa21">
+        <name>Ocelot XA-21</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Primary Painted Extender" />
+                    <variant name="Secondary Painted Extender" />
+                    <variant name="Carbon Extender" />
+                    <variant name="Sport Splitter" />
+                    <variant name="Primary Race Cutter Splitter" />
+                    <variant name="Secondary Race Cutter Splitter" />
+                </variants>
+            </mod>
+            <mod name="Rear Diffuser" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Diffuser" />
+                    <variant name="Remove Diffuser" />
+                    <variant name="Secondary Painted Lip Diffuser" />
+                    <variant name="Passthrough Diffuser" />
+                    <variant name="Control Diffuser" />
+                    <variant name="Open Focus Diffuser" />
+                    <variant name="GT Focus Diffuser" />
+                </variants>
+            </mod>
+            <mod name="Engine Cover" type="VMT_WING_L">
+                <variants>
+                    <variant name="Stock Engine Cover" />
+                    <variant name="Secondary Vented Aero" />
+                    <variant name="Streamline Cover" />
+                    <variant name="Square Vent Streamline" />
+                    <variant name="Secondary Sq. Vent Streamline" />
+                    <variant name="Square Vented Aero" />
+                    <variant name="Secondary Square Vented Aero" />
+                    <variant name="Top Vent Streamline" />
+                    <variant name="Secondary Top Vent Streamline" />
+                    <variant name="Top Vent Aero" />
+                    <variant name="Secondary Top Vent Aero" />
+                </variants>
+            </mod>
+            <mod name="Exhaust" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Chrome Expansive Exhaust" />
+                    <variant name="Big Bore Exhaust" />
+                    <variant name="Titanium Big Bore Exhaust" />
+                    <variant name="Chrome Tip Exhaust" />
+                    <variant name="Dual Exit Exhaust" />
+                    <variant name="Quadrant Proximate Exhaust" />
+                    <variant name="Triple Octo Exhaust" />
+                    <variant name="Painted Triple Octo Exhaust" />
+                    <variant name="Triple Chrome Cover Exhaust" />
+                    <variant name="Triple Painted CoverExhaust" />
+                    <variant name="Dual Channel Aperture Exhaust" />
+                    <variant name="Chrome Quadrant Exhaust" />
+                    <variant name="Titanium Quadrant Exhaust" />
+                    <variant name="Chrome Sectioned Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Performance Hood" />
+                    <variant name="Vented Hood" />
+                    <variant name="Ram Air Hood" />
+                    <variant name="Double Vented Hood" />
+                    <variant name="Carbon Vented Hood" />
+                    <variant name="Scooped Hood" />
+                    <variant name="Striped Scooped Hood" />
+                    <variant name="Carbon Scooped Hood" />
+                    <variant name="Invert Air Convection Hood" />
+                    <variant name="Competition Hood" />
+                    <variant name="Carbon Competition Hood" />
+                    <variant name="Contention Hood" />
+                    <variant name="Carbon Contention Hood" />
+                </variants>
+            </mod>
+            <mod name="Engine Block" type="VMT_SPOILER">
+                <variants>
+                    <variant name="Stock Engine Block" />
+                    <variant name="Chrome Stock Engine" />
+                    <variant name="Primary Stock Engine" />
+                    <variant name="Secondary Stock Engine" />
+                    <variant name="Chrome Cased Custom V12" />
+                    <variant name="Primary Cased Custom V12" />
+                    <variant name="Secondary Cased Custom V12" />
+                    <variant name="Chrome Race Tuned V8" />
+                    <variant name="Primary Race Tuned V8" />
+                    <variant name="Secondary Race Tuned V8" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Primary Painted Extender" />
+                    <variant name="Secondary Painted Extender" />
+                    <variant name="Carbon Extender" />
+                    <variant name="Street Skirts" />
+                    <variant name="Secondary Street Skirts" />
+                    <variant name="Carbon Skirts" />
+                    <variant name="Custom Carbon Race Skirts" />
+                </variants>
+            </mod>
+            <mod name="Grille" type="VMT_GRILL">
+                <variants>
+                    <variant name="Stock Grille" />
+                    <variant name="Chrome Trim" />
+                    <variant name="Carbon Trim" />
+                    <variant name="Secondary Trim" />
+                    <variant name="Rapid Grille" />
+                    <variant name="Carbon Rapid Grille" />
+                    <variant name="Grated Grille" />
+                    <variant name="Carbon Grated Grille" />
+                    <variant name="Chrome Exposed Intercooler" />
+                    <variant name="Carbon Exposed Intercooler" />
+                    <variant name="Secondary Exposed Intercooler" />
+                    <variant name="Combined Chrome Grille" />
+                    <variant name="Combined Carbon Grille" />
+                </variants>
+            </mod>
+            <mod name="Mirrors" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Mirrors" />
+                    <variant name="Lightweight Mirrors" />
+                    <variant name="Secondary Lightweight Mirrors" />
+                    <variant name="Optimum Carbon Mirrors" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Vortex Generators" />
+                    <variant name="Secondary Vortex Generators" />
+                    <variant name="Carbon Vortex Generators" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="tornado2">
+        <name>Declasse Tornado Custom</name>
+        <wheelType>Lowrider</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Chrome Teeth Bumper" />
+                    <variant name="Chrome Bars Bumper" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Bumper" />
+                    <variant name="Declasse Wheel Bumper" />
+                    <variant name="Tornado Wheel Bumper" />
+                    <variant name="Livery Wheel Bumper" />
+                </variants>
+            </mod>
+            <mod name="Fenders" type="VMT_WING_R">
+                <variants>
+                    <variant name="No Ornaments" />
+                    <variant name="Fender Ornaments" />
+                </variants>
+            </mod>
+            <mod name="Exhausts" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Triple Shotgun Side Exhaust" />
+                    <variant name="Twin Side Pipe Exhaust" />
+                    <variant name="Twin Exhaust" />
+                    <variant name="Twin Shotgun Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Hoods" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Classic Hood" />
+                    <variant name="Triple Intake Bug Catcher" />
+                    <variant name="Single Intake Bug Catcher" />
+                    <variant name="Livery" />
+                    <variant name="Panel Two Tone" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Classic Pinstripe" />
+                    <variant name="Coils Pinstripe" />
+                    <variant name="Pimp Pinstripe" />
+                    <variant name="Detail Pinstripe" />
+                    <variant name="Blue Retro Pinstripe" />
+                    <variant name="Decorative Glow Pinstripe" />
+                    <variant name="Neo Geometric" />
+                    <variant name="The Girls" />
+                    <variant name="Fallen Angel" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Leopard Roof" />
+                    <variant name="Tiger Roof" />
+                    <variant name="Zebra Roof" />
+                    <variant name="Croc Roof" />
+                    <variant name="Camo Roof" />
+                    <variant name="Digital Camo Roof" />
+                </variants>
+            </mod>
+            <mod name="Arch Cover" type="VMT_CHASSIS2">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Primary Color Arch Covers" />
+                    <variant name="Chrome Arch Covers" />
+                    <variant name="Chrome Detail Arch Covers" />
+                    <variant name="Full Chrome Arch Covers" />
+                    <variant name="Livery Detail Arch Covers" />
+                    <variant name="Combo Detail Arch Covers" />
+                </variants>
+            </mod>
+            <mod name="Aerials" type="VMT_CHASSIS3">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Classic Aerials" />
+                    <variant name="Spring Aerials" />
+                    <variant name="Globe Aerials" />
+                </variants>
+            </mod>
+            <mod name="Trim" type="VMT_CHASSIS4">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Pink Pattern" />
+                    <variant name="Yellow Pattern" />
+                    <variant name="Red Pattern" />
+                    <variant name="Blue Pattern" />
+                    <variant name="Blue Wave" />
+                    <variant name="The Girls" />
+                    <variant name="Action Dude" />
+                    <variant name="The Birds" />
+                </variants>
+            </mod>
+            <mod name="Tank" type="VMT_CHASSIS5">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Secondary Color Tank" />
+                    <variant name="Chrome Tank" />
+                    <variant name="Livery Tank" />
+                </variants>
+            </mod>
+            <mod name="Engine Block" type="VMT_ENGINEBAY1">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Tornado Engine Cover" />
+                    <variant name="V8 - Painted Ribbed Covers" />
+                    <variant name="V8 - Chrome Covers" />
+                    <variant name="V8 - Chrome Ribbed Covers" />
+                    <variant name="V8 - Painted Covers" />
+                </variants>
+            </mod>
+            <mod name="Air Filters" type="VMT_ENGINEBAY2">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Front Air Filter" />
+                    <variant name="Chrome Airfilter" />
+                    <variant name="Twin Airfilter" />
+                    <variant name="Vertical Ram Pipes" />
+                </variants>
+            </mod>
+            <mod name="Hydraulics" type="VMT_HYDRO">
+                <variants>
+                    <variant name="Standard Pump" />
+                    <variant name="Chrome Pump" />
+                    <variant name="Quad Pumps (4 in a Row)" />
+                    <variant name="Quad Pumps (2 b 2)" />
+                    <variant name="Quad Pumps (V-Pattern)" />
+                    <variant name="Quad Pumps + Panel Color" />
+                </variants>
+            </mod>
+            <mod name="Trim Design" type="VMT_INTERIOR1">
+                <variants>
+                    <variant name="Stock Trim" />
+                    <variant name="Luxury Velour" />
+                    <variant name="Luxury Leopard Fur" />
+                    <variant name="Luxury Tiger Fur" />
+                    <variant name="Luxury Zebra Fur" />
+                    <variant name="Luxury Crocodile Skin" />
+                    <variant name="Luxury Camo" />
+                    <variant name="Luxury Digital Camo" />
+                    <variant name="Leather Striped" />
+                    <variant name="Leather Striped Leopard" />
+                    <variant name="Leather Striped Tiger" />
+                    <variant name="Leather Striped Zebra" />
+                    <variant name="Leather Striped Crocodile Skin" />
+                    <variant name="Leather Striped Camo" />
+                    <variant name="Leather Striped Digital Camo" />
+                </variants>
+            </mod>
+            <mod name="Dash" type="VMT_INTERIOR3">
+                <variants>
+                    <variant name="Stock Trim" />
+                    <variant name="Pink Pattern" />
+                    <variant name="Yellow Pattern" />
+                    <variant name="Red Pattern" />
+                    <variant name="Blue Pattern" />
+                    <variant name="Blue Wave" />
+                    <variant name="The Girls" />
+                    <variant name="Action Dude" />
+                    <variant name="The Birds" />
+                </variants>
+            </mod>
+            <mod name="Dials" type="VMT_INTERIOR4">
+                <variants>
+                    <variant name="Stock Dials" />
+                    <variant name="Plain Jane" />
+                    <variant name="Flames" />
+                    <variant name="Old School Skull" />
+                    <variant name="Sun God" />
+                    <variant name="Classic 30s" />
+                    <variant name="Rocker Style" />
+                    <variant name="Voodoo Skull" />
+                    <variant name="Stock Dials (Negative)" />
+                    <variant name="Plain Jane (Negative)" />
+                    <variant name="Flames (Negative)" />
+                    <variant name="Old School Skull (Negative)" />
+                    <variant name="Sun God (Negative)" />
+                    <variant name="Classic 30s (Negative)" />
+                    <variant name="Rocker Style (Negative)" />
+                    <variant name="Voodoo Skull (Negative)" />
+                </variants>
+            </mod>
+            <mod name="Steering Wheels" type="VMT_STEERING">
+                <variants>
+                    <variant name="Stock Wheel" />
+                    <variant name="Three-way" />
+                    <variant name="The Toad" />
+                    <variant name="Street Rod" />
+                    <variant name="Two Retro" />
+                    <variant name="Greaser" />
+                    <variant name="Rockabilly" />
+                    <variant name="Old School Cool" />
+                    <variant name="Vintage Racer" />
+                    <variant name="Burnout" />
+                    <variant name="Got Wood?" />
+                    <variant name="Restomod" />
+                    <variant name="La Bomba" />
+                    <variant name="Chain Link" />
+                    <variant name="Starry Eyed" />
+                    <variant name="Deco" />
+                    <variant name="Cruzer" />
+                </variants>
+            </mod>
+            <mod name="Column Shifter Levers" type="VMT_KNOB">
+                <variants>
+                    <variant name="None" />
+                    <variant name="8-Ball" />
+                    <variant name="Eyeball" />
+                    <variant name="Lucky Dice" />
+                    <variant name="All Seeing Eye" />
+                    <variant name="Grenade" />
+                    <variant name="Smmoooking!" />
+                    <variant name="Top O The Morning" />
+                    <variant name="Too Beaucoup" />
+                    <variant name="King Lear" />
+                    <variant name="Old School Mic" />
+                    <variant name="Piston" />
+                    <variant name="Gemset" />
+                    <variant name="6 Shooter" />
+                    <variant name="Pistola" />
+                    <variant name="Pisswasser Pump" />
+                </variants>
+            </mod>
+            <mod name="Plaques" type="VMT_PLAQUE">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Eastside" />
+                    <variant name="Westside" />
+                    <variant name="Low Santos" />
+                    <variant name="Magnetics Script" />
+                    <variant name="Magnetics Block" />
+                    <variant name="Boars" />
+                    <variant name="Vagos" />
+                    <variant name="San Andreas" />
+                    <variant name="San Andreas Initials" />
+                    <variant name="Davis Los Santos" />
+                    <variant name="Benny's" />
+                    <variant name="Eastside (Neon)" />
+                    <variant name="Westside (Neon)" />
+                    <variant name="Low Santos (Neon)" />
+                    <variant name="Magnetics Script (Neon)" />
+                    <variant name="Magnetics Block (Neon)" />
+                    <variant name="Boars (Neon)" />
+                    <variant name="Vagos (Neon)" />
+                    <variant name="San Andreas (Neon)" />
+                    <variant name="San Andreas Initials (Neon)" />
+                    <variant name="Davis Los Santos (Neon)" />
+                    <variant name="Benny's (Neon)" />
+                </variants>
+            </mod>
+            <mod name="Trunk" type="VMT_TRUNK">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Speaker Box Shelf" />
+                    <variant name="Square Speakers Shelf" />
+                    <variant name="Round Speakers Shelf" />
+                </variants>
+            </mod>
+            <mod name="Vanity Plate" type="VMT_PLTVANITY">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Benny's Silver Logo" />
+                    <variant name="Benny's Classic Logo" />
+                    <variant name="Benny's Gold on Black" />
+                    <variant name="Benny's Gold on Blue" />
+                    <variant name="Albany" />
+                    <variant name="Declasse" />
+                    <variant name="Willard" />
+                    <variant name="Vapid" />
+                    <variant name="LS Panic" />
+                    <variant name="Liberty Penetrators" />
+                    <variant name="LS Shrimps" />
+                    <variant name="The Pounders" />
+                    <variant name="True Patriot" />
+                    <variant name="Magnetics Letterman" />
+                    <variant name="Magnetics Monogram" />
+                    <variant name="Magnetics Classic" />
+                </variants>
+            </mod>
+            <mod name="Plateholder" type="VMT_PLTHOLDER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Golfist" />
+                    <variant name="Twisted" />
+                    <variant name="Low 'n' Slow" />
+                    <variant name="Barbed Wire" />
+                    <variant name="Hawaiian" />
+                    <variant name="Davy Jones" />
+                    <variant name="Chain" />
+                    <variant name="Magnetics Chain" />
+                    <variant name="Bike Chain" />
+                    <variant name="Flaming Skull" />
+                    <variant name="Pitbull" />
+                    <variant name="Flames" />
+                    <variant name="Magnetics Classic" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
