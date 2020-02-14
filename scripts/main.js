@@ -298,7 +298,7 @@ function updateOutput() {
   for (i = 0; i < modOptions.length; i++) {
     txt += `      <Item>\n`;
     txt += `        <ModType>` + modOptions[i].id + `</ModType>\n`;
-    txt += `        <ModIndex>` + modOptions[i].value + `</ModIndex>\n`;
+    txt += `        <ModIndex value="` + modOptions[i].value + `" />\n`;
     txt += `      </Item>\n`;
   }
   txt += `    </Mods>\n`;
