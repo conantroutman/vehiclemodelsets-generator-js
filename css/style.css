@@ -22,6 +22,10 @@ body {
 	flex-direction: column;
 }
 
+.code-output {
+	min-height: 750px;
+}
+
 .loadingscreen {
 	position: absolute;
 	top: 0;
