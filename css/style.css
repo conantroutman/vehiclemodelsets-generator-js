@@ -4,9 +4,6 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-.wrapper {
-}
-
 .column {
 	display: flex;
 	flex-direction: column;
