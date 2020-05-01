@@ -133,4 +133,16 @@
         <Wheel name="Six Gun" />
         <Wheel name="Mercenary" />
     </WheelType>
+    <WheelType name="Off-Road">
+        <Wheel name="Raider" />
+        <Wheel name="Mudslinger" />
+        <Wheel name="Nevis" />
+        <Wheel name="Cairngorm" />
+        <Wheel name="Amazon" />
+        <Wheel name="Challenger" />
+        <Wheel name="Duner Basher" />
+        <Wheel name="Five Star" />
+        <Wheel name="Rock Clawler" />
+        <Wheel name="Mill Spec Steelie" />
+    </WheelType>
 </Wheels>
