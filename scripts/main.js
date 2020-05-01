@@ -336,7 +336,7 @@ function copyOutput() {
 }
 
 function createButton(text, id, type, onclick) {
-	let button = document.createElement("a");
+	let button = document.createElement("button");
 	button.innerHTML = text;
 	button.id = id;
 	button.className = "btn btn-" + type;
