@@ -7441,4 +7441,90 @@
             </mod>
         </mods>
     </car>
+    <car id="clique">
+        <name>Vapid Clique</name>
+        <wheelType>Tuner</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Classic Bumper" />
+                    <variant name="Retro Bumper" />
+                    <variant name="Racing Bumper" />
+                    <variant name="Bespoke Clique Bumper" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Bumper" />
+                    <variant name="Classic Bumper" />
+                    <variant name="Retro Bumper" />
+                    <variant name="Racing Bumper" />
+                    <variant name="Bespoke Clique Bumper" />
+                </variants>
+            </mod>
+            <mod name="Mirrors" type="VMT_WING_L">
+                <variants>
+                    <variant name="Stock Mirrors" />
+                    <variant name="Racing Mirrors" />
+                    <variant name="Retro Mirrors" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Remove Hood" />
+                    <variant name="Bespoke Hood Straps" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Bespoke Trunk Straps" />
+                </variants>
+            </mod>
+            <mod name="Grille" type="VMT_GRILL">
+                <variants>
+                    <variant name="Stock Grille" />
+                    <variant name="Remove Indicators" />
+                    <variant name="Open Grille" />
+                    <variant name="Three Bars" />
+                    <variant name="Classic Grille" />
+                    <variant name="Bullet Grille" />
+                    <variant name="Double Barrel Grille" />
+                    <variant name="Custom Death Grille" />
+                </variants>
+            </mod>
+            <mod name="Chassis" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Chassis" />
+                    <variant name="Sports Chassis" />
+                </variants>
+            </mod>
+            <mod name="Bodywork" type="VMT_ROOF">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Remove Side Trim" />
+                    <variant name="Remove Headlight Trim" />
+                    <variant name="Remove All Trim" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Classic Stripes" />
+                    <variant name="Vapid Stripes" />
+                    <variant name="Jakey's Lager" />
+                    <variant name="Hipster 17" />
+                    <variant name="Scooter Bro's Racer" />
+                    <variant name="Premier Racer" />
+                    <variant name="Classic Racer" />
+                    <variant name="Rimm Paint Racer" />
+                    <variant name="Arrow Racer" />
+                    <variant name="Los Santos Racer" />
+                    <variant name="Merry Cliquemas" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
