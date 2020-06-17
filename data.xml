@@ -10293,4 +10293,16 @@
             </mod>
         </mods>
     </car>
+    <car id="shotaro">
+        <name>Nagasaki Shotaro</name>
+        <wheelType>Bike</wheelType>
+        <mods>
+            <mod name="Front Mudguard" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Mudguard" />
+                    <variant name="Remove Mudguard" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
