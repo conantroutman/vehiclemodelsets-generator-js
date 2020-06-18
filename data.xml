@@ -10848,4 +10848,112 @@
             </mod>
         </mods>
     </car>
+    <car id="swinger">
+        <name>Ocelot Swinger</name>
+        <wheelType>Lowrider</wheelType>
+        <mods>
+            <mod name="Headlights" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Headlights" />
+                    <variant name="Race Lights" />
+                    <variant name="Race Lights w/ Fog Lamps" />
+                </variants>
+            </mod>
+            <mod name="Exhausts" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Pinched Dual Exhaust" />
+                    <variant name="Slanted Dual Exhaust" />
+                    <variant name="Round Bore Quad Exhaust" />
+                    <variant name="Pinched Bore Quad Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Stock Hood w/ Latches" />
+                    <variant name="Hood w/ Latches &amp; Screen" />
+                    <variant name="Hood w/ Latches &amp; Wide Screen" />
+                    <variant name="Alt Hood" />
+                    <variant name="Alt Hood w/ Latches" />
+                    <variant name="Alt Hood w/ Latches &amp; Screen" />
+                    <variant name="Alt Hood w/ Latches &amp; Wide Screen" />
+                    <variant name="Race Hood" />
+                    <variant name="Race Hood w/ Latches" />
+                    <variant name="Race Hood w/ Latches &amp; Screen" />
+                    <variant name="Race Hood w/ Latches &amp; Wide Screen" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="Stock Spoiler" />
+                    <variant name="Tuner Spoiler" />
+                    <variant name="Secondary Tuner Spoiler" />
+                    <variant name="Carbon Tuner Spoiler" />
+                    <variant name="Type II Spoiler" />
+                    <variant name="Secondary Type II Spoiler" />
+                    <variant name="Carbon Type II Spoiler" />
+                    <variant name="GT Spoiler" />
+                    <variant name="Secondary GT Spoiler" />
+                    <variant name="Carbon GT Spoiler" />
+                    <variant name="Performance Spoiler" />
+                    <variant name="Secondary Performance Spoiler" />
+                    <variant name="Carbon Performance Spoiler" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Carbon Skirts" />
+                </variants>
+            </mod>
+            <mod name="Valve Covers" type="VMT_GRILL">
+                <variants>
+                    <variant name="Stock Covers" />
+                    <variant name="Carbon Valve Covers" />
+                    <variant name="Chrome Valve Covers" />
+                    <variant name="Primary Valve Covers" />
+                    <variant name="Secondary Valve Covers" />
+                </variants>
+            </mod>
+            <mod name="Trunk" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Trunk" />
+                    <variant name="Stock Trunk w/ Latches" />
+                    <variant name="Outtake Trunk" />
+                    <variant name="Outtake Trunk w/ Latches" />
+                </variants>
+            </mod>
+            <mod name="Air Filter" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Air Filter" />
+                    <variant name="Black Filter" />
+                    <variant name="Black Triple Filter" />
+                    <variant name="Chrome Filter" />
+                    <variant name="Chrome Triple Filter" />
+                    <variant name="Primary Filter" />
+                    <variant name="Primary Triple Filter" />
+                    <variant name="Secondary Filter" />
+                    <variant name="Secondary Triple Filter" />
+                    <variant name="Sweptback Ram Pipes" />
+                    <variant name="Angled Ram Pipes" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Racing Stripes" />
+                    <variant name="Total Ride Motos" />
+                    <variant name="Classic Ocelot Stripes" />
+                    <variant name="Commercial Racing Livery" />
+                    <variant name="Cerveza Barracho" />
+                    <variant name="Hawk &amp; Little" />
+                    <variant name="Hayes Auto Body Shop" />
+                    <variant name="The Ocelot" />
+                    <variant name="Globe Oil" />
+                    <variant name="For Queen and Country" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
