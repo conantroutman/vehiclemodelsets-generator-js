@@ -10576,4 +10576,9 @@
             </mod>
         </mods>
     </car>
+    <car id="raptor">
+        <name>BF Raptor</name>
+        <wheelType>High End</wheelType>
+        <mods />
+    </car>
 </cars>
