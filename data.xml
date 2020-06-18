@@ -10690,4 +10690,162 @@
             </mod>
         </mods>
     </car>
+    <car id="lynx">
+        <name>Ocelot Lynx</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Painted and Carbon Splitter" />
+                    <variant name="Sports Grille" />
+                    <variant name="Custom Chin Spoiler" />
+                    <variant name="Extreme Aero Front Bumper" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Carbon Rear Bumper" />
+                    <variant name="Painted Rear Bumper" />
+                    <variant name="Painted Rear Diffuser" />
+                    <variant name="Painted Bumper and Diffuser" />
+                    <variant name="Carbon Rear Diffuser" />
+                </variants>
+            </mod>
+            <mod name="Exhausts" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Oval Exhaust" />
+                    <variant name="Chrome Tip Exhaust" />
+                    <variant name="Race Exhaust" />
+                    <variant name="Titanium Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Performance Hood" />
+                    <variant name="Double Vented Hood" />
+                    <variant name="Scooped Hood" />
+                    <variant name="Carbon Vented Hood" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="Stock Spoiler" />
+                    <variant name="Mid Level Spoiler" />
+                    <variant name="Carbon Wing" />
+                    <variant name="Drift Wing" />
+                    <variant name="GT Wing" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Carbon Skirts" />
+                </variants>
+            </mod>
+            <mod name="Roll Cage" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Chassis" />
+                    <variant name="Roll Cage" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="XERO Gas" />
+                    <variant name="Ocelot Racing" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
+    <car id="pariah">
+        <name>Ocelot Pariah</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Secondary Strip" />
+                    <variant name="Carbon Strip" />
+                    <variant name="Tuner Bumper" />
+                    <variant name="Secondary Strip Tuner Bumper" />
+                    <variant name="Carbon Strip Tuner Bumper" />
+                    <variant name="GT Bumper" />
+                    <variant name="Secondary GT Bumper" />
+                    <variant name="Carbon GT Bumper" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Carbon Diffuser" />
+                    <variant name="Carbon Trim Diffuser" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Secondary Hood" />
+                    <variant name="Carbon Hood" />
+                    <variant name="Vented Scoop Hood " />
+                    <variant name="Secondary Vented Scoop Hood" />
+                    <variant name="Carbon Vented Scoop Hood" />
+                    <variant name="Performance Hood" />
+                    <variant name="Secondary Performance Hood" />
+                    <variant name="Carbon Performance Hood" />
+                    <variant name="GT Hood" />
+                    <variant name="Secondary GT Hood" />
+                    <variant name="Carbon GT Hood" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="Stock Spoiler" />
+                    <variant name="Tuner Spoiler" />
+                    <variant name="Secondary Tuner Spoiler" />
+                    <variant name="Carbon Tuner Spoiler" />
+                    <variant name="Type II Spoiler" />
+                    <variant name="Secondary Type II Spoiler" />
+                    <variant name="Carbon Type II Spoiler" />
+                    <variant name="GT Spoiler" />
+                    <variant name="Secondary GT Spoiler" />
+                    <variant name="Carbon GT Spoiler" />
+                    <variant name="Performance Spoiler" />
+                    <variant name="Secondary Performance Spoiler" />
+                    <variant name="Carbon Performance Spoiler" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Carbon Skirts" />
+                    <variant name="Pariah Skirts" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Secondary Roof" />
+                    <variant name="Carbon Roof" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Classic White Stripes" />
+                    <variant name="Classic Black Stripes" />
+                    <variant name="Blue Race Stripes" />
+                    <variant name="Red Race Stripes" />
+                    <variant name="Black Offset" />
+                    <variant name="White Offset" />
+                    <variant name="Black Pointed Stripes" />
+                    <variant name="White Pointed Stripes" />
+                    <variant name="Ocelot Stripe" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
