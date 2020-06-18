@@ -10451,4 +10451,129 @@
             </mod>
         </mods>
     </car>
+    <car id="drafter">
+        <name>Obey 8F Drafter</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Carbon Front Splitter" />
+                    <variant name="Street Splitter" />
+                    <variant name="Racing Splitter" />
+                </variants>
+            </mod>
+            <mod name="Rear Diffuser" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Diffuser" />
+                    <variant name="Painted Rear Diffuser" />
+                    <variant name="Painted Custom Diffuser" />
+                    <variant name="Carbon Custom Diffuser" />
+                </variants>
+            </mod>
+            <mod name="Mirrors" type="VMT_WING_L">
+                <variants>
+                    <variant name="Stock Mirrors" />
+                    <variant name="Custom Mirrors" />
+                </variants>
+            </mod>
+            <mod name="Wind Deflectors" type="VMT_WING_L">
+                <variants>
+                    <variant name="No Wind Deflectors" />
+                    <variant name="Plastic Wind Deflector" />
+                    <variant name="Painted Wind Deflector" />
+                    <variant name="Carbon Wind Deflector" />
+                </variants>
+            </mod>
+            <mod name="Exhausts" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Oval Exhaust" />
+                    <variant name="Titanium Exhaust" />
+                    <variant name="Titanium Tuner Exhaust" />
+                    <variant name="Twin Carbon Exhaust" />
+                    <variant name="Race Exhaust" />
+                    <variant name="Big Bore Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Carbon Hood" />
+                    <variant name="Vented Hood" />
+                    <variant name="Scooped Hood" />
+                    <variant name="Street Hood" />
+                    <variant name="Performance Hood" />
+                    <variant name="Carbon Performance Hood" />
+                    <variant name="Tuner Hood" />
+                    <variant name="Race Hood" />
+                    <variant name="Carbon Race Hood" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Small Lip Spoiler" />
+                    <variant name="Big Lip Spoiler" />
+                    <variant name="Carbon Big Lip Spoiler" />
+                    <variant name="Tuner Spoiler" />
+                    <variant name="Low Level Spoiler" />
+                    <variant name="Mid Level Spoiler" />
+                    <variant name="Drift Spoiler" />
+                    <variant name="GT Spoiler" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Carbon Skirt" />
+                    <variant name="Street Skirt" />
+                    <variant name="Sport Skirts" />
+                </variants>
+            </mod>
+            <mod name="Grille" type="VMT_GRILL">
+                <variants>
+                    <variant name="Stock Grille" />
+                    <variant name="Chrome Grille" />
+                    <variant name="Carbon Grille" />
+                    <variant name="Performance Grille" />
+                    <variant name="Sports Grille" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Painted Scoop Roof" />
+                    <variant name="Carbon Scoop Roof " />
+                    <variant name="Roof Spoiler" />
+                    <variant name="Carbon Roof Spoiler" />
+                    <variant name="Tuner Kit" />
+                    <variant name="Racing Kit" />
+                </variants>
+            </mod>
+            <mod name="Roof Accessories" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Roof Rack" />
+                    <variant name="Vortex Generators" />
+                    <variant name="Carbon Vortex Generators" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Twin White Stripes" />
+                    <variant name="Obey Stripe" />
+                    <variant name="Obey Coverage" />
+                    <variant name="Cracked 8F" />
+                    <variant name="The Urban Streets" />
+                    <variant name="Racing The Edge" />
+                    <variant name="Prolaps Golf" />
+                    <variant name="Motor Market Racing" />
+                    <variant name="Gutter &amp; Blood" />
+                    <variant name="Val De Grace" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
