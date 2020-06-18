@@ -10581,4 +10581,113 @@
         <wheelType>High End</wheelType>
         <mods />
     </car>
+    <car id="retinue2">
+        <name>Vapid Retinue Mk II</name>
+        <wheelType>Muscle</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="No Bumper" />
+                    <variant name="Rally Bumper" />
+                    <variant name="Track Bumper" />
+                    <variant name="Street Bumper" />
+                    <variant name="Racing Splitter w/ Oil Cooler" />
+                    <variant name="Racing Lip w/ Intercooler" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Bumper" />
+                    <variant name="Carbon Diffuser" />
+                </variants>
+            </mod>
+            <mod name="Fenders" type="VMT_WING_L">
+                <variants>
+                    <variant name="Stock Fender" />
+                    <variant name="Carbon Arches" />
+                    <variant name="Rally Arches" />
+                    <variant name="Secondary Rally Arches" />
+                    <variant name="Street Arches" />
+                    <variant name="Secondary Street Arches" />
+                    <variant name="Carbon Street Arches" />
+                </variants>
+            </mod>
+            <mod name="Headlights" type="VMT_WING_R">
+                <variants>
+                    <variant name="Stock Headlights" />
+                    <variant name="Horizontal Tape" />
+                    <variant name="Cross Tape" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="No Hood" />
+                    <variant name="Lifted Vent Hood" />
+                    <variant name="Dual Vented Hood" />
+                    <variant name="Rally Hood" />
+                    <variant name="Race Hood" />
+                    <variant name="Carbon Race Hood" />
+                    <variant name="Performance Hood" />
+                    <variant name="Carbon Performance Hood" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Ducktail" />
+                    <variant name="Primary Ducktail" />
+                    <variant name="Street Wing" />
+                    <variant name="Vapid Racing Wing" />
+                    <variant name="Sport Wing" />
+                    <variant name="Vapid Rally Wing" />
+                </variants>
+            </mod>
+            <mod name="Grille" type="VMT_GRILL">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Plastic Housing" />
+                    <variant name="Primary Housing" />
+                    <variant name="Secondary Housing" />
+                    <variant name="Carbon Housing" />
+                </variants>
+            </mod>
+            <mod name="Roll Cage" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="No Roll Cage" />
+                    <variant name="Street Half Cage" />
+                    <variant name="Dash Dodger Cage" />
+                    <variant name="Padded Dash Dodger Cage" />
+                    <variant name="Full Roll Cage" />
+                    <variant name="Padded Full Roll Cage" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Racing Scoop" />
+                    <variant name="Rally Scoop" />
+                    <variant name="Street Scoop" />
+                    <variant name="Primary Sunstrip" />
+                    <variant name="Secondary Sunstrip" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="White Stripes" />
+                    <variant name="Black Stripes" />
+                    <variant name="Vapid Classics" />
+                    <variant name="Redwood Rally" />
+                    <variant name="Queefstat Rally" />
+                    <variant name="Dusche Rally" />
+                    <variant name="Arrow Rally" />
+                    <variant name="Chepalle Rally" />
+                    <variant name="Atomic Rally" />
+                    <variant name="Jakey's Rally" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
