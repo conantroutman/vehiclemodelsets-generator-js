@@ -10305,4 +10305,150 @@
             </mod>
         </mods>
     </car>
+    <car id="sugoi">
+        <name>Dinka Sugoi</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Diffuser" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Diffuser" />
+                    <variant name="Stock w/ Canards" />
+                    <variant name="Racer Diffuser" />
+                    <variant name="Racer Diffuser w/ Canards" />
+                    <variant name="Sweep Diffuser" />
+                    <variant name="Carbon Sweep Diffuser" />
+                    <variant name="Primary Sweep Diffuser" />
+                    <variant name="Arc Diffuser" />
+                    <variant name="Carbon Arc Diffuser" />
+                    <variant name="Primary Arc Racer Diffuser" />
+                    <variant name="GT Diffuser" />
+                    <variant name="Carbon GT Diffuser" />
+                    <variant name="Primary GT Diffuser w/ Canards" />
+                    <variant name="Carbon Downforce Diffuser" />
+                    <variant name="Primary Downforce Diffuser" />
+                </variants>
+            </mod>
+            <mod name="Rear Diffuser" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Rear Diffuser" />
+                    <variant name="Racer Diffuser" />
+                    <variant name="Performance Diffuser" />
+                    <variant name="Sweep Diffuser" />
+                    <variant name="GT Diffuser" />
+                    <variant name="Speed Diffuser" />
+                    <variant name="Turbo Diffuser" />
+                    <variant name="Carbon Downforce Diffuser" />
+                </variants>
+            </mod>
+            <mod name="Mirrors" type="VMT_WING_L">
+                <variants>
+                    <variant name="Stock Mirrors" />
+                    <variant name="Secondary Frame" />
+                    <variant name="Carbon Frame" />
+                    <variant name="Primary Carbon Frame" />
+                    <variant name="Secondary Carbon Frame" />
+                </variants>
+            </mod>
+            <mod name="Exhausts" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Round Exhaust" />
+                    <variant name="Oval Exhaust" />
+                    <variant name="Round Cluster Exhaust" />
+                    <variant name="Sports Exhaust" />
+                    <variant name="Split Exhaust" />
+                    <variant name="Square Cluster Exhaust" />
+                    <variant name="Angled Square Exhaust" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Carbon Stock Hood" />
+                    <variant name="Primary Hood" />
+                    <variant name="Carbon Hood" />
+                    <variant name="Vented Hood" />
+                    <variant name="Carbon Vented Hood" />
+                    <variant name="Vented Catch Hood" />
+                    <variant name="Street Vented Hood" />
+                    <variant name="Rally Hood" />
+                    <variant name="Sports Hood" />
+                    <variant name="Dual Vented Hood" />
+                    <variant name="Performance Hood" />
+                    <variant name="Carbon Performance Hood" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Fin Tail Spoiler" />
+                    <variant name="Racer Tail Spoiler" />
+                    <variant name="Primary Street Spoiler" />
+                    <variant name="Secondary Street Spoiler" />
+                    <variant name="Carbon Street Spoiler" />
+                    <variant name="Arrow Spoiler" />
+                    <variant name="Carbon Arrow Spoiler" />
+                    <variant name="GT Spoiler" />
+                    <variant name="Carbon Track Spoiler" />
+                    <variant name="Track MK2 Spoiler" />
+                    <variant name="Carbon Drag Spoiler" />
+                    <variant name="Secondary Drag Spoiler" />
+                    <variant name="Sports Spoiler" />
+                    <variant name="Sprint Spoiler" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Carbon Skirt" />
+                    <variant name="Street Skirt" />
+                    <variant name="Carbon Street Skirt" />
+                    <variant name="Racer Skirt" />
+                    <variant name="Carbon Racer Skirt" />
+                    <variant name="Jet Skirt" />
+                    <variant name="Carbon Jet Skirt" />
+                    <variant name="Rally Skirt" />
+                    <variant name="Carbon Rally Skirt" />
+                </variants>
+            </mod>
+            <mod name="Grille" type="VMT_GRILL">
+                <variants>
+                    <variant name="Stock Grille" />
+                    <variant name="Top Trim Grille" />
+                    <variant name="Rally Grille" />
+                    <variant name="Rally w/ Top Trim Grille" />
+                    <variant name="Track Grille" />
+                    <variant name="Track w/ Top Trim Grille" />
+                    <variant name="GT Grille" />
+                    <variant name="GT w/ Top Trim Grille" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Rally Scoop &amp; Primary Fin" />
+                    <variant name="Track Scoop &amp; Carbon Fin" />
+                    <variant name="Air Scoop &amp; Carbon Antenna" />
+                    <variant name="Square Scoop &amp; Primary Fin" />
+                    <variant name="GT Scoop &amp; Rally Antennas" />
+                    <variant name="Sports Scoop &amp; Rally Antennas" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Red Stripes" />
+                    <variant name="Checker Stripes" />
+                    <variant name="Sugoi Stripes" />
+                    <variant name="Wave" />
+                    <variant name="Racer 23" />
+                    <variant name="Racer 29" />
+                    <variant name="Racer 99" />
+                    <variant name="Jackal Racing" />
+                    <variant name="Wasabi Kitty" />
+                    <variant name="Red Warrior" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
