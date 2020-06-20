@@ -145,4 +145,42 @@
         <Wheel name="Rock Clawler" />
         <Wheel name="Mill Spec Steelie" />
     </WheelType>
+    <WheelType name="Bike">
+        <Wheel name="Speeway" />
+        <Wheel name="Street Special" />
+        <Wheel name="Racer" />
+        <Wheel name="Track Star" />
+        <Wheel name="Overlord" />
+        <Wheel name="Trident" />
+        <Wheel name="Triple Threat" />
+        <Wheel name="Stilleto" />
+        <Wheel name="Wires" />
+        <Wheel name="Bobber" />
+        <Wheel name="Solidus" />
+        <Wheel name="Ice Shield" />
+        <Wheel name="Loops" />
+        <Wheel name="Romper Racing" />
+        <Wheel name="Warp Drive" />
+        <Wheel name="Snowflake" />
+        <Wheel name="Holy Spoke" />
+        <Wheel name="Old Skool Triple" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+        <Wheel name="Loops" />
+    </WheelType>
 </Wheels>
