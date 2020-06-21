@@ -11266,4 +11266,133 @@
             </mod>
         </mods>
     </car>
+    <car id="italigto">
+        <name>Grotti Itali GTO</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Flared Splitter" />
+                    <variant name="Carbon Canards" />
+                    <variant name="Canards and Flares" />
+                    <variant name="Primary Splitter" />
+                    <variant name="Secondary Splitter" />
+                    <variant name="Carbon Splitter" />
+                    <variant name="Primary Race Kit" />
+                    <variant name="Secondary Race Kit" />
+                    <variant name="Carbon Race Kit" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Primary Diffuser" />
+                    <variant name="Secondary Diffuser" />
+                    <variant name="Primary Lipped Diffuser" />
+                    <variant name="Secondary Lipped Diffuser" />
+                </variants>
+            </mod>
+            <mod name="Mirrors" type="VMT_WING_L">
+                <variants>
+                    <variant name="Stock Mirrors" />
+                    <variant name="Primary Mirrors" />
+                    <variant name="Secondary Mirrors" />
+                    <variant name="Alt Carbon Mirrors" />
+                </variants>
+            </mod>
+            <mod name="Exhausts" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Square Bore Exhausts" />
+                    <variant name="Rounded Bore Exhausts" />
+                    <variant name="Circle Exhausts" />
+                    <variant name="Quad Circle Bore" />
+                    <variant name="Quad Square Bore" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Vent Remove" />
+                    <variant name="Secondary Vent Remove" />
+                    <variant name="Carbon Vent Remove" />
+                    <variant name="Sport Vents" />
+                    <variant name="Central Sport Vents" />
+                    <variant name="Carbon Sport Vents" />
+                    <variant name="Race Setup Hood" />
+                    <variant name="Vanity Race Hood" />
+                    <variant name="Competition Hood" />
+                    <variant name="Carbon Competition Hood" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="Stock Spoiler" />
+                    <variant name="Discreet Spoiler" />
+                    <variant name="Carbon Street Wing" />
+                    <variant name="Alternate Street Wing" />
+                    <variant name="Two Tiered Wing" />
+                    <variant name="Race Wing" />
+                    <variant name="Alternate Race Wing" />
+                    <variant name="Primary Struts Wing" />
+                    <variant name="Primary Race Wing" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Primary Skirt" />
+                    <variant name="Secondary Skirt" />
+                    <variant name="Primary Alt Skirt" />
+                    <variant name="Secondary Alt Skirt" />
+                    <variant name="Carbon Skirt" />
+                    <variant name="Alt Carbon Skirt" />
+                </variants>
+            </mod>
+            <mod name="Hood Catches" type="VMT_GRILL">
+                <variants>
+                    <variant name="Stock Hood Catch" />
+                    <variant name="Modern Hood Latches" />
+                    <variant name="Primary Race Latches" />
+                    <variant name="Secondary Race Latches" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Primary Roof" />
+                    <variant name="Carbon Roof" />
+                    <variant name="Secondary Sports Roof" />
+                    <variant name="Carbon Sports Roof" />
+                    <variant name="Secondary Race Roof" />
+                    <variant name="Carbon Race Roof" />
+                    <variant name="Secondary Roof Scoop" />
+                    <variant name="Double Roof Scoop" />
+                </variants>
+            </mod>
+            <mod name="Engine Block" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Engine Block" />
+                    <variant name="Carbon Engine Block" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Classic Race Stripes" />
+                    <variant name="Motor Market" />
+                    <variant name="Alt Motor Market" />
+                    <variant name="Competition Motor Market" />
+                    <variant name="Mondern Art Grotti" />
+                    <variant name="Digital Cam Stronzo" />
+                    <variant name="Branded Racing" />
+                    <variant name="Alt Branded Racing" />
+                    <variant name="Pegasus Concierge" />
+                    <variant name="Urban Racer" />
+                    <variant name="EgoChaser" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
