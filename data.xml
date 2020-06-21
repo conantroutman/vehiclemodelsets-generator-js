@@ -11395,4 +11395,144 @@
             </mod>
         </mods>
     </car>
+    <car id="schlagengt">
+        <name>Benefactor Schlagen GT</name>
+        <wheelType>High End</wheelType>
+        <mods>
+            <mod name="Front Bumper" type="VMT_BUMPER_F">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Carbon Extender" />
+                    <variant name="Primary Extender" />
+                    <variant name="Secondary Extender" />
+                    <variant name="Race Splitter" />
+                    <variant name="Primary Race Splitter" />
+                    <variant name="Secondary Race Splitter" />
+                    <variant name="Competition Splitter" />
+                    <variant name="Primary Competition Splitter" />
+                    <variant name="Secondary Competition Splitter" />
+                </variants>
+            </mod>
+            <mod name="Rear Bumper" type="VMT_BUMPER_R">
+                <variants>
+                    <variant name="Stock Front Bumper" />
+                    <variant name="Carbon Vents" />
+                    <variant name="Primary Vents" />
+                    <variant name="Secondary Vents" />
+                    <variant name="Carbon Diffuser" />
+                    <variant name="Primary Diffuser" />
+                    <variant name="Secondary Diffuser" />
+                </variants>
+            </mod>
+            <mod name="Sunstrip" type="VMT_WING_L">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Globe Oil" />
+                    <variant name="Hardstand" />
+                    <variant name="Benefactor" />
+                </variants>
+            </mod>
+            <mod name="Mirrors" type="VMT_WING_R">
+                <variants>
+                    <variant name="Stock Mirrors" />
+                    <variant name="Primary Mirrors" />
+                    <variant name="Carbon Fiber Mirrors" />
+                </variants>
+            </mod>
+            <mod name="Exhausts" type="VMT_EXHAUST">
+                <variants>
+                    <variant name="Stock Exhaust" />
+                    <variant name="Triple Rear Exhaust" />
+                    <variant name="Race Side Exhausts" />
+                    <variant name="Alt Race Side Exhausts " />
+                    <variant name="Competition Side Exhausts" />
+                </variants>
+            </mod>
+            <mod name="Hood" type="VMT_BONNET">
+                <variants>
+                    <variant name="Stock Hood" />
+                    <variant name="Sport Vents" />
+                    <variant name="Sport Vents Carbon" />
+                    <variant name="Race Vents" />
+                    <variant name="Race Vents Carbon" />
+                    <variant name="Rounded Vent" />
+                    <variant name="Rounded Vent Carbon" />
+                    <variant name="Alt Rounded Vent" />
+                    <variant name="Alt Rounded Vent Carbon " />
+                    <variant name="Street Vents" />
+                    <variant name="Street Vents Carbon" />
+                </variants>
+            </mod>
+            <mod name="Spoiler" type="VMT_SPOILER">
+                <variants>
+                    <variant name="Stock Spoiler" />
+                    <variant name="No Spoiler" />
+                    <variant name="Small Spoiler" />
+                    <variant name="Street Spoiler" />
+                    <variant name="Carbon Street Spoiler" />
+                    <variant name="Carbon Race Spoiler" />
+                    <variant name="Primary Race Spoiler" />
+                    <variant name="Secondary Race Spoiler" />
+                    <variant name="Carbon Big Wang" />
+                    <variant name="Primary Big Wang" />
+                    <variant name="Secondary Big Wang" />
+                </variants>
+            </mod>
+            <mod name="Skirts" type="VMT_SKIRT">
+                <variants>
+                    <variant name="Stock Skirts" />
+                    <variant name="Primary Extended Skirts" />
+                    <variant name="Secondary Extended Skirts" />
+                    <variant name="Carbon Extended Skirts" />
+                    <variant name="Primary Race Skirts" />
+                    <variant name="Secondary Race Skirts" />
+                    <variant name="Carbon Race Skirts" />
+                </variants>
+            </mod>
+            <mod name="Grille" type="VMT_GRILL">
+                <variants>
+                    <variant name="Stock Grille" />
+                    <variant name="Alt Grille" />
+                    <variant name="Double Alt Grille" />
+                    <variant name="Classic Grille w/ Carbon Icon" />
+                    <variant name="Classic Grille w/ Primary Icon" />
+                    <variant name="Classic Grille w/ Secondary Icon" />
+                </variants>
+            </mod>
+            <mod name="Roof" type="VMT_ROOF">
+                <variants>
+                    <variant name="Stock Roof" />
+                    <variant name="Secondary Roof" />
+                    <variant name="Carbon Roof" />
+                    <variant name="Primary Alt Roof" />
+                    <variant name="Secondary Alt Roof" />
+                    <variant name="Carbon Alt Roof" />
+                </variants>
+            </mod>
+            <mod name="Chassis" type="VMT_CHASSIS">
+                <variants>
+                    <variant name="Stock Chassis" />
+                    <variant name="Racing Seats" />
+                    <variant name="Racing Seats w/ Dials" />
+                    <variant name="Racing Seats w/ Primary Cage" />
+                    <variant name="Racing Seats w/ Secondary Cage" />
+                </variants>
+            </mod>
+            <mod name="Livery" type="VMT_LIVERY_MOD">
+                <variants>
+                    <variant name="None" />
+                    <variant name="Red Stripes" />
+                    <variant name="White Stripes" />
+                    <variant name="Mosaic Splash" />
+                    <variant name="Love Muscle" />
+                    <variant name="Cherenkov Blue" />
+                    <variant name="Cherenkov Purple" />
+                    <variant name="Rimm Paint Blue" />
+                    <variant name="Rimm Paint Orange" />
+                    <variant name="Red Abstract" />
+                    <variant name="Blue Abstract" />
+                </variants>
+            </mod>
+        </mods>
+    </car>
 </cars>
