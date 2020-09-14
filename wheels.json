@@ -1,0 +1,36 @@
+{
+  "Wheels": [
+    {
+      "name": "High End",
+      "variants": ["Shadow", "Hyper", "Blade", "Diamond", "Supa Gee", "Chromatic Z", "Merchie ch.Lip", "Obey RS", "GT Chrome", "Cheetah R", "Solar", "Split Ten", "Dash VIP", "LozspeedTen", "Carbon Inferno", "Carbon Shadow", "Carbon Z", "Carbon Solar", "Carbon Cheetah R", "Carbon S Racer"]
+    },
+    {
+      "name": "Lowrider",
+      "variants": ["Flare", "Wired", "Triple Golds", "Big Worm", "Seven Fives", "Split Six", "Fresh Mesh", "Lead SLed", "Turbine", "Super Fin", "Classic Rod", "Dollar", "Dukes", "Low Five", "Gooch"]
+    },
+    {
+      "name": "Tuner",
+      "variants": ["Cosmo", "Super Mesh", "Outsider", "Rollas", "Drffmeister", "Slicer", "El Quatro", "Dubbed", "Five Star", "Slideways", "Apex", "Stanced EG", "Countersteer", "Endo v.1", "Endo v.2", "Gruppe Z", "ChokuDori", "Chicane", "Saisoku", "Dished Eight", "Fujiwara", "Zokusha", "Battle VIII", "Rally Master"]
+    },
+    {
+      "name": "SUV",
+      "variants": ["VIP", "Benefactor", "Cosmo", "Bippu", "Royal Six", "Fagorme", "Deluxe", "Iced Out", "Cognoscenti", "LozSpeed Ten", "Supernova", "Obey RS", "LozSpeed Baller", "Extravagano", "Split Six", "Empowered", "Sunrise", "Dash VIP", "Cutter"]
+    },
+    {
+      "name": "Sport",
+      "variants": ["Inferno", "Deep Five", "Lozspeed Mk.v", "Diamond Cut", "Chrono", "Feroci RR", "FiftyNine", "Mercie", "Synthetic Z", "Organic Type D", "Endo v.1", "GT One", "Duper 7", "Uzer", "GroundRide", "S Racer", "Venum", "Cosmo", "Dash VIP", "Ice Kid", "Ruff Weld", "Wangan Master", "Super Five", "Endo v.2", "Slit Six"]
+    },
+    {
+      "name": "Muscle",
+      "variants": ["Classic Five", "Dukes", "Muscle Freak", "Kracka", "Azrea", "Mecha", "Black Top", "Drag SPL", "Revolver", "Classic Rod", "Fairle", "Spooner", "Five Star", "Old School", "El Jefe", "Dodman", "Six Gun", "Mercenary"]
+    },
+    {
+      "name": "OffRoad",
+      "variants": ["Raider", "Mudslinger", "Nevis", "Cairngorm", "Amazon", "Challenger", "Duner Basher", "Five Star", "Rock Clawler", "Mill Spec Steelie"]
+    },
+    {
+      "name": "Bike",
+      "variants": ["Speeway", "Street Special", "Racer", "Track Star", "Overlord", "Trident", "Triple Threat", "Stilleto", "Wires", "Bobber", "Solidus", "Ice Shield", "Loops", "Romper Racing", "Warp Drive", "Snowflake", "Holy Spoke", "Old Skool Triple", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops", "Loops"]
+    }
+  ]
+}
