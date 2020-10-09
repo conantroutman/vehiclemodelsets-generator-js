@@ -7268,6 +7268,13 @@
           "variants": ["None", "Classic Twin Black Stripe", "Classic Twin White Stripe", "No. 8 Classic Race", "No. 7 Track Day", "No. 187 Vintage Vapid", "No. 9 Debonaire", "No. 53 Classic Vapid", "No. 60 Dense", "No. 1 Globe Oil", "No. 18 Hommegina"]
         }
       ]
+    },
+    {
+      "id": "duke3",
+      "brand": "Imponte",
+      "name": "Duke O' Death",
+      "wheels": "Muscle",
+      "mods": []
     }
   ]
 }
