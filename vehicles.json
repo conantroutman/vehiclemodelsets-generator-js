@@ -7003,6 +7003,74 @@
           "variants": ["None", "Yellow Pinstripe", "Grey Stripes", "Classic White Stripes", "Negative Stripes", "Two Tone", "RJ Farthings", "Arrow Gasoline", "Alpha Mail", "Lowrider", "Globe Oil"]
         }
       ]
+    },
+    {
+      "id": "dominator3",
+      "brand": "Vapid",
+      "name": "Dominator GTX",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Primary Extender", "Secondary Extender", "Carbon Extender", "Stickerbomb Extender"]
+        },
+        {
+          "name": "Rear Panel",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Panel", "Secondary Rear Panel", "Carbon Rear Panel", "Blacked Rear Panel"]
+        },
+        {
+          "name": "Mudguards",
+          "type": "VMT_WING_L",
+          "variants": ["None", "Vapid Mudguards"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_R",
+          "variants": ["Stock Fender", "Body Arches", "Secondary Body Arches", "Carbon Body Arches", "Chrome Body Arches", "Stickerbomb Body Arches"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Rally Exhaust", "Carbon Rally Exhaust", "Dual Big Bore Exhaust", "Carbon Dual Big Bore Exhaust", "Twin Carbon Tip Exhaust", "Twin Aluminum Tip Exhaust", "Twin Titanium Tip Exhaust", "Twin Carbon Novelty Exhaust", "Twin Aluminum Novelty Exhaust", "Twin Titanium Novelty Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Stripped Hood", "Secondary Stripped Hood", "Carbon Stripped Hood", "Stickerbomb Stripped Hood", "Intake Hood", "Carbon Intake Hood", "Bulkhead Hood", "Carbon Bulkhead Hood", "Vented Hood Scoop", "Carbon Vented Hood Scoop", "Performance Hood", "Carbon Performance Hood", "Rally Spec Hood", "Carbon Rally Spec Hood", "Vanity Hood", "Carbon Vanity Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Extended Skirt", "Secondary Extended Skirt", "Carbon Extended Skirt", "Stickerbomb Extended Skirt", "Street Skirt", "Secondary Street Skirt", "Carbon Street Skirt", "Stickerbomb Street Skirt", "MK1 Ram Bar", "MK1 Secondary Ram Bar", "MK1 Stickerbomb Ram Bar", "MK2 Ram Bar", "MK2 Secondary Ram Bar", "MK2 Blacked Ram Bar"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Roadster Grille", "Carbon Roadster Grille", "Tuner Grille", "Carbon Tuner Grille", "Sports Grille", "Chrome Sports Grille", "Shark Grille", "Carbon Shark Grille", "Grinder Grille", "Carbon Grinder Grille"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "GT Spoiler", "Secondary GT Spoiler", "Carbon GT Spoiler", "Sports Spoiler", "Secondary Sports Spoiler", "Carbon Sports Spoiler", "Aerodyne Fin", "Secondary Aerodyne Fin", "Carbon Aerodyne Fin", "Drag Spoiler", "Secondary Drag Spoiler", "Carbon Drag Spoiler", "Dovetail Spoiler", "Secondary Dovetail Spoiler", "Carbon Dovetail Spoiler", "Chrome Garage Spoiler", "Garage Spoiler"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Stripped Roof", "Secondary Stripped Roof", "Carbon Stripped Roof", "Stickerbomb Stripped Roof", "Sports Roof", "Performance Roof", "Secondary Performance Roof", "Carbon Performance Roof", "Race Vents", "Carbon Race Vents", "MK1 Roof Scoop", "MK1 Carbon Roof Scoop", "MK2 Roof Scoop", "MK2 Carbon Roof Scoop", "Vortex Generators", "Secondary Vortex Generators", "Carbon Vortex Generators", "Stickerbomb Vortex Generators"]
+        },
+        {
+          "name": "Brace Bar",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Brace Bar", "Stickerbomb Strut Brace", "Lightweight Racing Strut Brace", "Midweight Racing Strut Brace", "Heavyweight Racing Strut Brace", "GT Strut Brace"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Yellow Pinstripe", "Grey Stripes", "Classic White Stripes", "Negative Stripes", "Two Tone", "RJ Farthings", "Arrow Gasoline", "Alpha Mail", "Lowrider", "Globe Oil"]
+        }
+      ]
     }
   ]
 }
