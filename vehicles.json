@@ -7197,6 +7197,49 @@
           "variants": ["None", "Kisama Beer", "Shopping List", "Shopping List Alt", "Atomic Tires", "Redwood Cigarettes", "Almost Had You", "Sakura Tee", "Princess Robot Bubblegum", "Auto Exotic", "Auto Exotic Alt", "We Hungry", "Maibatsu"]
         }
       ]
+    },
+    {
+      "id": "impaler",
+      "brand": "Declasse",
+      "name": "Impaler",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Primary Bumper", "Lowrider Bumper"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Primary Bumper", "Moulded Bumper", "Primary Moulded Bumper", "Wheelie Bar"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Big Bore Exhausts", "Big Chrome Exhausts", "Chrome Plated Exhausts", "Dual Chrome Plated Exhausts"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Single Intake Hood", "Sports Hood", "Pinned Low Level Cowl Hood", "Exposed Air Filter", "Exposed Ram Pipes", "High Single Bug Catcher", "High Trimple Bug Catcher"]
+        },
+        {
+          "name": "Splitter",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Splitter", "Plastic Splitter", "Chrome Splitter"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Lip Spoiler", "Low Level Spoiler", "Drag Wing"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Lowrider", "Sport Stripe", "Classic Stripes", "Two Toned", "Declasse Racer", "Smoke Flames", "Classic Flames", "FIXUP Drag Colours", "eCola Drag Colours", "Hawk & Little Drag Colours"]
+        }
+      ]
     }
   ]
 }
