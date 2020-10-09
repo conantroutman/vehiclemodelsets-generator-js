@@ -6950,6 +6950,59 @@
           "variants": ["None", "Primary Color Sunstrip", "Secondary Color Sunstrip", "Carbon Sunstrip"]
         }
       ]
+    },
+    {
+      "id": "deviant",
+      "brand": "Schyster",
+      "name": "Deviant",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Remove Splitters", "Plastic Splitter", "Primary Splitter", "Extended Splitter", "Chin Spoiler", "Plastic Extended", "Carbon Extended", "Carbon Splitters"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Stepped Bumper", "Chrome w/ Plastic Strip", "Primary w/ Plastic Strip", "Primary Bumper", "Chrome Bumper", "Carbon Bumper"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Rear Exit", "Double Rear", "Square Dual Side"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Carbon Hood", "Vented Hood", "Secondary Hood", "Exposed Charger", "Scooped Hood", "Carbon Charger", "Carbon Scoop"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Custom Skirts"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Single Grille", "Dark Chrome Single", "Dark Chrome Slats", "Secondary Slats", "Kinked Slats", "Seven Slat Grille", "Plastic Grille", "Phantom Grille", "Plastic Phantom", "Dark Chrome Phantom", "Clasic Grille"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Smooth Ducktail", "Carbon Ducktail", "Notch Ducktail", "Roof Lip", "Boot Lip", "Plastic Boot Lip", "Low Level Spoiler", "Low Secondary", "Drag Wing", "Carbon Drag Wing"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Livery Roof", "Carbon Roof"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Yellow Pinstripe", "Grey Stripes", "Classic White Stripes", "Negative Stripes", "Two Tone", "RJ Farthings", "Arrow Gasoline", "Alpha Mail", "Lowrider", "Globe Oil"]
+        }
+      ]
     }
   ]
 }
