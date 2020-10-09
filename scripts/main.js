@@ -258,15 +258,15 @@ function updateOutput() {
   //Item
   txt += "<Item>\n";
   //Name
-  txt += "  <Name>" + document.getElementById("car-select").value + "</Name>\n";
+  txt += `  <Name>${document.getElementById("car-select").value}</Name>\n`;
   //Variations
   txt += `  <Variations type="CAmbientVehicleModelVariations">\n`;
   //BodyColours
   for (i = 1; i <= 4; i++) {
-    txt += `    <BodyColour` + i + ` value="` + document.getElementById("color" + i).value + `" />\n`;
+    txt += `    <BodyColour${i} value="${document.getElementById("color" + i).value}" />\n`;
   }
   //WindowTint
-  txt += `    <WindowTint value="` + document.getElementById("tint").value + `" />\n`;
+  txt += `    <WindowTint value="${document.getElementById("tint").value}" />\n`;
   //ColourCombination
   txt += `    <ColourCombination value="-1" />\n`;
   //Livery
@@ -278,14 +278,14 @@ function updateOutput() {
   //Mods Items
   for (i = 0; i < modOptions.length; i++) {
     txt += `      <Item>\n`;
-    txt += `        <ModType>` + modOptions[i].id + `</ModType>\n`;
-    txt += `        <ModIndex value="` + modOptions[i].value + `" />\n`;
+    txt += `        <ModType>${modOptions[i].id}</ModType>\n`;
+    txt += `        <ModIndex value="${modOptions[i].value}" />\n`;
     txt += `      </Item>\n`;
   }
   txt += `    </Mods>\n`;
   //Extra
   for (i = 1; i <= 10; i++) {
-    txt += `    <Extra` + i + `>CantUse</Extra` + i + `>\n`;
+    txt += `    <Extra${i}>CantUse</Extra${i}>\n`;
   }
   txt += `  </Variations>\n`;
   //Probability
