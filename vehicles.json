@@ -6816,6 +6816,54 @@
           "variants": ["None", "1 Redwood", "8 Fort Zancudo", "28 You Tool", "33 Atomic Tires", "19 Patriot Beer", "50 Bank of Liberty", "71 Shrewsbury Shotguns", "65 Lucky Plucker", "56 Device", "48 P's & Q's", "62 Air Herler", "13 Bean Machine", "69 Republican Space Rangers", "26 Jock Cranley", "53 Biglogs", "30 Flint Tools", "39 Globe Oil", "66 Righteous Slaughter", "23 LTD Gasoline", "42 Logger Light", "34 Cover Up Paints", "43 Rainé", "20 Meinmacht", "25 eCola", "22 Auto Exotic", "29 Weazel Network", "16 Burger Shot", "45 Sprunk X-treme", "65 Ragga Rum", "5 Power Metal"]
         }
       ]
+    },
+    {
+      "id": "ruston",
+      "brand": "Hijak",
+      "name": "Ruston",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Vented Race Bumper", "Vented Flared Bumper", "Enticer Bumper", "Velocious Bumper"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Carbon Rear Bumper", "Secondary Diffuser", "Tuner Rear Bumper", "Vented Rear Bumper"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Titanium Twin Angled Exhaust", "Dual Chrome Tip Exhaust", "Chrome Tip Exhaust", "Dual Titanium Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_HOOD",
+          "variants": ["Stock Hood", "Custom Instep Hood", "Double Vented Hood", "Ram Air Hood", "Drop Vented Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Low Level Carbon Skirt", "Carbon Race Skirt", "High Level Carbon Skirt", "Carbon GT Skirt", "Custom Vented Skirt"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Primary Wing", "Low Level Spoiler", "GT Wing", "Race Wing", "High Level GT Wing"]
+        },
+        {
+          "name": "Splitter",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Splitter", "Carbon Curved Splitter", "Carbon Inset Splitter", "Carbon Pointed Splitter", "Carbon Angled Splitter"]
+        },
+        {
+          "name": "Roll Cages",
+          "type": "VMT_CHASSIS",
+          "variants": ["No Roll Cage", "Half Cage", "Street Cage", "Race Cage", "Track Cage"]
+        }
+      ]
     }
   ]
 }
