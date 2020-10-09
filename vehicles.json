@@ -6803,6 +6803,19 @@
           "variants": ["Stock Mirrors", "Colour Coded Mirrors", "Carbon Mirrors", "Custom Mirrors"]
         }
       ]
+    },
+    {
+      "id": "hotring",
+      "brand": "Declasse",
+      "name": "Hotring Sabre",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "1 Redwood", "8 Fort Zancudo", "28 You Tool", "33 Atomic Tires", "19 Patriot Beer", "50 Bank of Liberty", "71 Shrewsbury Shotguns", "65 Lucky Plucker", "56 Device", "48 P's & Q's", "62 Air Herler", "13 Bean Machine", "69 Republican Space Rangers", "26 Jock Cranley", "53 Biglogs", "30 Flint Tools", "39 Globe Oil", "66 Righteous Slaughter", "23 LTD Gasoline", "42 Logger Light", "34 Cover Up Paints", "43 Rainé", "20 Meinmacht", "25 eCola", "22 Auto Exotic", "29 Weazel Network", "16 Burger Shot", "45 Sprunk X-treme", "65 Ragga Rum", "5 Power Metal"]
+        }
+      ]
     }
   ]
 }
