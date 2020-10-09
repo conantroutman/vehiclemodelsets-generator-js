@@ -7275,6 +7275,20 @@
       "name": "Duke O' Death",
       "wheels": "Muscle",
       "mods": []
+    },
+    {
+      "id": "windsor",
+      "brand": "Enus",
+      "name": "Windsor",
+      "wheels": "High End",
+      "mods": []
+    },
+    {
+      "id": "windsor2",
+      "brand": "Enus",
+      "name": "Windsor Drop",
+      "wheels": "High End",
+      "mods": []
     }
   ]
 }
