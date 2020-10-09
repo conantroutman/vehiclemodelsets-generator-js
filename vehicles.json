@@ -6751,13 +6751,56 @@
         },
         {
           "name": "Roof",
-          "type": "VMT_SPOILER",
+          "type": "VMT_ROOF",
           "variants": ["Stock Roof", "Sunstrip"]
         },
         {
           "name": "Roll Cages",
           "type": "VMT_CHASSIS",
           "variants": ["No Roll Cage", "Roll Cage and Chassis Upgrade"]
+        }
+      ]
+    },
+    {
+      "id": "veriler2",
+      "brand": "Bravado",
+      "name": "Verlier",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Painted & Carbon Splitter", "Painted Bumper & Splitter", "Custom Front Splitter", "Curved Aero Splitter", "Flat Aero Splitter", "GT Bumper"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Fenders", "Race Wing Vents"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Dual Exit Exhaust", "Race Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_HOOD",
+          "variants": ["Stock Hood", "Vented Hood", "Secondary Vented Hood", "Carbon Hood", "Ram Air Hood", "Carbon Vented Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Carbon Skirt"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Tuner Wing", "Secondary Wing", "Drift Wing", "Color Coded Wing", "GT Wing"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Mirrors", "Colour Coded Mirrors", "Carbon Mirrors", "Custom Mirrors"]
         }
       ]
     }
