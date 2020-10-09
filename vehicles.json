@@ -662,6 +662,7 @@
       "id": "omnis",
       "brand": "Obey",
       "name": "Omnis",
+      "wheels": "Sport",
       "mods": [
         {
           "name": "Exhaust",
@@ -6375,7 +6376,7 @@
         {
           "name": "Spoiler",
           "type": "VMT_SPOILER",
-          "variants": ["None", "Ducktail Spoiler", "Inset Ducktail Spoiler", "Low Level Spoiler", "Primary Low Level Spoiler", "Secondary Low Level Spoiler", "Bolted Dovetail Spoiler", "Primary Super Spoiler", "Secondary Super Spoiler"]
+          "variants": ["None", "Ducktail Spoiler", "Inset Ducktail Spoiler", "Low Level Spoiler", "Primary Low Level Spoiler", "Secondary Low Level Spoiler", "Bolted Dovetail Spoiler", "Primary Super Spoiler", "Secondary Super Spoiler", "Primary Race Spoiler", "Secondary Race Spoiler", "Carbon Race Spoiler", "Mk2 Primary Race Spoiler", "Mk2 Secondary Race Spoiler", "Mk2 Carbon Race Spoiler", "Mk3 Primary Race Spoiler", "Mk3 Secondary Race Spoiler", "Mk3 Carbon Race Spoiler"]
         },
         {
           "name": "Skirts",
@@ -6398,6 +6399,16 @@
           "variants": ["Stock Chassis", "Roll Cage", "Roll Cage w/ Carbon Seats", "Mk1 Racing Cage", "Mk2 Racing Cage", "Mk3 Racing Cage", "Mk4 Racing Cage"]
         },
         {
+          "name": "Mirrors",
+          "type": "VMT_CHASSIS5",
+          "variants": ["Stock Mirrors", "Chrome Mirrors", "Secondary Mirrors", "Bullet Mirrors", "Primary Bullet Mirrors", "Secondary Bullet Mirrors"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_ENGINEBAY1",
+          "variants": ["Stock Mirrors", "Chrome Mirrors", "Secondary Mirrors", "Bullet Mirrors", "Primary Bullet Mirrors", "Secondary Bullet Mirrors"]
+        },
+        {
           "name": "Livery",
           "type": "VMT_LIVERY_MOD",
           "variants": ["None", "Stamped Bravado", "White Gauntlet", "Black Gauntlet", "Red Gauntlet", "No.36 Barracho", "No.55 Rally Racer", "No.81 Bilgeco", "No.03 Demonoli", "No.05 Tri-Tone", "No.03 Hotshot Tenshun"]
@@ -6407,7 +6418,7 @@
     {
       "id": "dukes3",
       "brand": "Imponte",
-      "name": "Beater Dukes NOT FINISHED",
+      "name": "Beater Dukes",
       "wheels": "Muscle",
       "mods": [
         {
@@ -6421,9 +6432,14 @@
           "variants": ["No Wheelie Bar", "Repaired Rear Bumper", "Wheelie Bar", "Wheelie Bar w/ Chute"]
         },
         {
-          "name": "Fenders",
+          "name": "Mirrors",
           "type": "VMT_WING_L",
-          "variants": ["Stock Bullbars", "Primary Color Bullbar", "Secondary Color Bullbar", "Black Classic Bullbar", "Primary Color Classic Bullbar", "Secondary Color Classic Bullbar"]
+          "variants": ["Stock Mirrors", "Oval Mirrors", "Square Mirrors", "Cone Mirrors", "Circular Mirrors"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_R",
+          "variants": ["Stock Fenders", "Repeaired Fenders", "Fender Flares"]
         },
         {
           "name": "Exhaust",
@@ -6439,6 +6455,11 @@
           "name": "Spoiler",
           "type": "VMT_SPOILER",
           "variants": ["None", "Mid Level Spoiler", "Angled Spoiler", "Angled Inset Spoiler", "Ducktail Spoiler", "Street Spoiler", "Bolted Dovetail Spoiler", "Drag Spoiler"]
+        },
+        {
+          "name": "Louvers",
+          "type": "VMT_SKIRT",
+          "variants": ["No Louvers", "Sprint Louvers", "Dash Louvers", "Race Louvers", "Sports Louvers"]
         },
         {
           "name": "Grille",
@@ -6542,6 +6563,201 @@
           "name": "Roof",
           "type": "VMT_ROOF",
           "variants": ["Stock Roof", "No Roof"]
+        }
+      ]
+    },
+    {
+      "id": "ninef",
+      "brand": "Obey",
+      "name": "9F",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Custom Front Splitter"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Custom Rear Bumper"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Chrome Tip Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_HOOD",
+          "variants": ["Stock Hood", "Carbon Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Custom Skirts"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Low Level Spoiler"]
+        }
+      ]
+    },
+    {
+      "id": "ninef2",
+      "brand": "Obey",
+      "name": "9F Cabrio",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Custom Front Splitter"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Custom Rear Bumper"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Chrome Tip Exhaust", "Dual Exit Exhaust", "Big Bore Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_HOOD",
+          "variants": ["Stock Hood", "Carbon Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Custom Skirts"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Low Level Spoiler"]
+        },
+        {
+          "name": "Chassis",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Chassis", "Carbon Panels"]
+        }
+      ]
+    },
+    {
+      "id": "raiden",
+      "brand": "Coil",
+      "name": "Raiden",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Primary Color Splitter", "Secondary Color Splitter", "Carbon Splitter"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Street Diffuser", "Race Diffuser"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Mirrors", "Secondary Stylized Mirrors", "Carbon Stylized Mirrors"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_HOOD",
+          "variants": ["Stock Hood", "Secondary Stripe Hood", "Carbon Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Primary Skirts", "Secondary Skirts", "Carbon Skirt"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Primary Color Spoiler", "Secondary Color Spoiler", "Carbon Spoiler", "Race Spoiler", "Touring Spoiler", "Competition Spoiler"]
+        }
+      ]
+    },
+    {
+      "id": "seven70",
+      "brand": "Dewbauchee",
+      "name": "Seven-70",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Titanium Exhaust", "Oval Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_HOOD",
+          "variants": ["Stock Hood", "Carbon Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Custom Skirts", "Carbon Skirts"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Low Level Spoiler", "High Level Spoiler", "Carbon Wing", "Carbon Wing Type II"]
+        }
+      ]
+    },
+    {
+      "id": "sultan",
+      "brand": "Karin",
+      "name": "Sultan",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Custom Front Splitter", "Custom Splitter & Intercooler"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Custom Rear Bumper", "Carbon Rear Diffuser"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Titanium Tuner Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_HOOD",
+          "variants": ["Stock Hood", "Double Vented Hood", "Carbon Hood", "Carbon Vented Hood", "Carbon Scooped Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Custom Skirts"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Low Level Spoiler", "High Level Spoiler", "GT Wing"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_SPOILER",
+          "variants": ["Stock Roof", "Sunstrip"]
+        },
+        {
+          "name": "Roll Cages",
+          "type": "VMT_CHASSIS",
+          "variants": ["No Roll Cage", "Roll Cage and Chassis Upgrade"]
         }
       ]
     }
