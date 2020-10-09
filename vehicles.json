@@ -6589,7 +6589,7 @@
         },
         {
           "name": "Hood",
-          "type": "VMT_HOOD",
+          "type": "VMT_BONNET",
           "variants": ["Stock Hood", "Carbon Hood"]
         },
         {
@@ -6627,7 +6627,7 @@
         },
         {
           "name": "Hood",
-          "type": "VMT_HOOD",
+          "type": "VMT_BONNET",
           "variants": ["Stock Hood", "Carbon Hood"]
         },
         {
@@ -6670,7 +6670,7 @@
         },
         {
           "name": "Hood",
-          "type": "VMT_HOOD",
+          "type": "VMT_BONNET",
           "variants": ["Stock Hood", "Secondary Stripe Hood", "Carbon Hood"]
         },
         {
@@ -6698,7 +6698,7 @@
         },
         {
           "name": "Hood",
-          "type": "VMT_HOOD",
+          "type": "VMT_BONNET",
           "variants": ["Stock Hood", "Carbon Hood"]
         },
         {
@@ -6736,7 +6736,7 @@
         },
         {
           "name": "Hood",
-          "type": "VMT_HOOD",
+          "type": "VMT_BONNET",
           "variants": ["Stock Hood", "Double Vented Hood", "Carbon Hood", "Carbon Vented Hood", "Carbon Scooped Hood"]
         },
         {
@@ -6784,7 +6784,7 @@
         },
         {
           "name": "Hood",
-          "type": "VMT_HOOD",
+          "type": "VMT_BONNET",
           "variants": ["Stock Hood", "Vented Hood", "Secondary Vented Hood", "Carbon Hood", "Ram Air Hood", "Carbon Vented Hood"]
         },
         {
@@ -6840,7 +6840,7 @@
         },
         {
           "name": "Hood",
-          "type": "VMT_HOOD",
+          "type": "VMT_BONNET",
           "variants": ["Stock Hood", "Custom Instep Hood", "Double Vented Hood", "Ram Air Hood", "Drop Vented Hood"]
         },
         {
@@ -6862,6 +6862,92 @@
           "name": "Roll Cages",
           "type": "VMT_CHASSIS",
           "variants": ["No Roll Cage", "Half Cage", "Street Cage", "Race Cage", "Track Cage"]
+        }
+      ]
+    },
+    {
+      "id": "infernus2",
+      "brand": "Pegassi",
+      "name": "Infernus Classic",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Engine Block",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Engine Block", "Primary Color Block", "Secondary Color Block", "Carbon Block"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Chrome Tip Exhaust", "Titanium Tuner Exhaust", "Titanium Exhaust"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Primary Color Skirts", "Secondary Color Skirts", "Carbon Skirts"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Classic Spoiler", "Mid Level Spoiler", "Muscle Killer", "Mid Level GT Wing", "Carbon Wing Type II", "Extreme Downforce BGW"]
+        },
+        {
+          "name": "Splitter",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Splitter", "Primary Color Splitter", "Secondary Color Splitter", "Carbon Splitter", "Primary Color Race Splitter", "Secondary Color Race Splitter", "Carbon Race Splitter"]
+        },
+        {
+          "name": "Bodywork",
+          "type": "VMT_CHASSIS",
+          "variants": ["None", "Primary Color Fins", "Secondary Color Fins", "Carbon Fins", "Primary Color Gills", "Secondary Color Gills", "Carbon Gills"]
+        },
+        {
+          "name": "Engine Cover",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Engine Cover", "Remove Engine Cover", "Primary Color Louver", "Secondary Color Louver", "Carbon Louver"]
+        }
+      ]
+    },
+    {
+      "id": "turismo2",
+      "brand": "Grotti",
+      "name": "Turismo Classic",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Lightweight Stock Front Bumper", "Classic Front Bumper", "Racer Front Bumper", "Racer Front Bumper w/ Carbon", "GT Front Bumper", "GT Front Bumper w/ Carbon"]
+        },
+        {
+          "name": "Engine Block",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Engine Block", "Primary Color Block", "Secondary Color Block"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Carbon Tipped Exhaust", "Chrome Tipped Exhaust", "Titanium Tipped Exhaust", "Wide Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Stock Hood w/ Stripe", "Vented Hood", "Vented Hood w/ Stripe", "Racer Hood", "Racer Hood w/ Stripe", "GT Hood", "GT Hood w/ Stripe"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Secondary Color Skirts", "Carbon Skirts"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Stock Spoiler", "Secondary Color Spoiler", "Carbon Spoiler", "GT Wing", "Secondary Color GT Wing", "Carbon GT Wing", "Sport Wing", "Secondary Color Sport Wing", "Carbon Spoirt Wing", "Racing Wing", "Secondary Color Race Wing"]
+        },
+        {
+          "name": "Sunstrip",
+          "type": "VMT_ROOF",
+          "variants": ["None", "Primary Color Sunstrip", "Secondary Color Sunstrip", "Carbon Sunstrip"]
         }
       ]
     }
