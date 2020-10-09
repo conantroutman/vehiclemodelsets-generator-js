@@ -7071,6 +7071,132 @@
           "variants": ["None", "Yellow Pinstripe", "Grey Stripes", "Classic White Stripes", "Negative Stripes", "Two Tone", "RJ Farthings", "Arrow Gasoline", "Alpha Mail", "Lowrider", "Globe Oil"]
         }
       ]
+    },
+    {
+      "id": "penumbra",
+      "brand": "Maibatsu",
+      "name": "Penumbra",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Custom Front Splitter", "Carbon Splitter & Canards"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Carbon Rear Bumper", "Painted Diffuser & Tow Hook", "Carbon Diffuser & Tow Hook"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Dual Titanium Exhaust", "Titanium Tuner Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Carbon Hood", "Vented Hood", "Carbon Vented Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Custom Skirts 1", "Custom Skirts 2"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Exposed Intercooler"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Low Level Spoiler", "High Level Spoiler", "GT Wing", "Tuner Wing"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Carbon Roof"]
+        },
+        {
+          "name": "Roll Cages",
+          "type": "VMT_CHASSIS",
+          "variants": ["No Roll Cage", "Roll Cage & Chassis Upgrade"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Dual White Stripes", "Dual Black Stripes", "Thick White Stripes", "Thick Black Stripes", "Hard Parking", "Vinyltastic", "Neon Tear", "Maibatsu Works", "Maibatsu Racing", "Almost Had You"]
+        }
+      ]
+    },
+    {
+      "id": "penumbra2",
+      "brand": "Maibatsu",
+      "name": "Penumbra FF",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Plate Remove", "Vent Remove", "Underbite Bumper", "Street Bumper", "Futurism Bumper", "Street Alt Bumper", "Style Bumper", "Racing Bumper", "Basking Shark Bumper", "Racing Alt Bumper"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Stock w/ Diffuser", "Stock w/ Big Diffuser", "Street Rear Bumper", "Ribbed Street Rear Bumper", "Ribbed Street w/ Diffuser", "Race Rear Bumper", "Ribbed Race Rear Bumper", "Ribbed Race w/ Diffuser"]
+        },
+        {
+          "name": "Sunstrip",
+          "type": "VMT_WING_L",
+          "variants": ["None", "Primary Sunstrip", "Plastic Sunstrip", "Globe Oil Sunstrip", "Hardstand Sunstrip"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_WING_R",
+          "variants": ["Stock Mirrors", "Carbon Mirrors", "Secondary Mirrors"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Dual Stock Exhausts", "Single Small Exhaust", "Titanium Tipped Exhaust", "Dual Small Bore Exhausts", "Dual Titanium Tip Exhausts", "Dual Double Bore Exhausts", "Dual Double Small Exhausts", "Double Titanium Tip Exhausts"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Round Vents Hood", "Carbon Round Vents Hood", "Carbon Round Vents Alt Hood", "Large Square Vent Hood", "Carbon Large Square Vent Hood", "Square Vent Hood", "Carbon Square Vent Hood", "Sport Hood", "Carbon Sport Hood", "Street Hood", "Carbon Street Hood", "Race Spec Hood", "Carbon Race Spec Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Carbon Skirt", "Small Lip Skirt", "Carbon Small Lip Skirt", "Large Lip Skirt", "Carbon Large Lip Skirt", "Angled Large Lip Skirt", "Carbon Angled Large Lip Skirt", "Bulbous Skirt", "Carbon Bulbous Skirt", "Shelved Skirt", "Carbon Shelved Skirt", "Rounded Shelf Skirt", "Carbon Rounded Shelf Skirt", "Long Round Shelf Skirt", "Carbon Round Shelf Skirt"]
+        },
+        {
+          "name": "Splitter",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Splitter", "Primary Splitter", "Carbon Splitter", "Primary Race Splitter", "Carbon Race Splitter", "Basic Lip", "Carbon Basic Lip", "Race Splitter Alt", "Carbon Race Splitter Alt", "Primary Setup w/ Intercooler I", "Carbon Setup w/ Intercooler I", "Primary Race w/ Intercooler I", "Carbon Race w/ Intercooler I", "Race Setup w/ Intercooler II", "Carbon race w/ Intercooler II", "Race Setup Alt w/ Intercooler II", "Carbon Race Alt w/ Intercooler II"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Small Wing", "Carbon Small Wing", "Street Wing", "Carbon Street Wing", "Angled Wing", "Carbon Angled Wing", "Standard Wing", "Carbon Standard Wing", "Extended Wing", "Carbon Extended Wing", "Large Standard Wing", "Carbon Large Standard Wing", "Large Extended Wing", "Carbon Large Extended Wing", "Big Wing", "Carbon Big Wing", "Double Wing", "Carbon Double Wing", "Chassis Mounted Wing", "Carbon Mounted Wing", "Chassis Mounted Alt Wing", "Carbon Mounted Alt Wing"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Scoop", "Carbon Roof", "Race Scoop", "Carbon Race Scoop", "Built-in Scoop", "Built-in Scoop Alt"]
+        },
+        {
+          "name": "Front Seats",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Seats", "Street Seats", "Racing Seats", "Carbon Seats", "Competition Seats", "Street Seats w/ Primary Cage", "Racing Seats w/ Primary Cage", "Carbon Seats w/ Primary Cage", "Competition w/ Primary Cage", "Street w/ Secondary Cage", "Racing w/ Secondary Cage", "Carbon w/ Secondary Cage", "Competition w/ Secondary Cage"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Kisama Beer", "Shopping List", "Shopping List Alt", "Atomic Tires", "Redwood Cigarettes", "Almost Had You", "Sakura Tee", "Princess Robot Bubblegum", "Auto Exotic", "Auto Exotic Alt", "We Hungry", "Maibatsu"]
+        }
+      ]
     }
   ]
 }
