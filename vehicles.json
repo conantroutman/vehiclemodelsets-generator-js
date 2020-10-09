@@ -7240,6 +7240,34 @@
           "variants": ["None", "Lowrider", "Sport Stripe", "Classic Stripes", "Two Toned", "Declasse Racer", "Smoke Flames", "Classic Flames", "FIXUP Drag Colours", "eCola Drag Colours", "Hawk & Little Drag Colours"]
         }
       ]
+    },
+    {
+      "id": "ellie",
+      "brand": "Vapid",
+      "name": "Ellie",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Standard Splitter", "Painted Splitter"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Side Exit Exhaust", "Stock Exh w/ Cus Hood", "Side Exit Exh w/ Cus Hood", "Sacrilege Hood w/ Blower", "Sacrilege Hood w/ Blower II", "Sacrilege w/ Exhausts", "Sacrilege w/ Exhausts II"]
+        },
+        {
+          "name": "Sunstrip",
+          "type": "VMT_ROOF",
+          "variants": ["None", "Vapid Motor Company", "Vapid Racing", "Chepalle", "Globe Oil"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Classic Twin Black Stripe", "Classic Twin White Stripe", "No. 8 Classic Race", "No. 7 Track Day", "No. 187 Vintage Vapid", "No. 9 Debonaire", "No. 53 Classic Vapid", "No. 60 Dense", "No. 1 Globe Oil", "No. 18 Hommegina"]
+        }
+      ]
     }
   ]
 }
