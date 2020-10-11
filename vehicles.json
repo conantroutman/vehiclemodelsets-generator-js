@@ -7496,7 +7496,7 @@
       "id": "landstalker2",
       "brand": "Dundreary",
       "name": "Landstalker XL",
-      "wheels": "Sport",
+      "wheels": "SUV",
       "mods": [
         {
           "name": "Front Bumper",
@@ -7547,6 +7547,64 @@
           "name": "Livery",
           "type": "VMT_LIVERY_MOD",
           "variants": ["None", "Single White Stripes", "Two-Tone Paint", "Flame Livery", "Army Camo", "Yeti Mall Ninja", "Two-Tone Digital Camo", "Blood Splatter", "Sessanta Nove", "Bigness X Sessanta Nove", "Dolla Dolla"]
+        }
+      ]
+    },
+    {
+      "id": "coquette4",
+      "brand": "Invetero",
+      "name": "Coquette D10",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Vented Splitter", "Vented Splitter w/ Canards", "Racing Splitter", "Racing Splitter w/ Canards", "Full Splitter Kit"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Racing Diffuser", "Racing Diffuser w/ Canards", "Tuner Diffuser", "Tuner Diffuser w/ Canards"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Sport Diffuser", "Carbon Sport Diffuser", "Racing Diffuser", "Carbon Racing Diffuser", "Performance Diffuser", "Carbon Performance Diffuser"]
+        },
+        {
+          "name": "Roof Scoop",
+          "type": "VMT_BONNET",
+          "variants": ["None", "Dual Vents", "Secondary Dual Vents", "Carbon Dual Vents", "Tuner Vents", "Secondary Tuner Vents", "Carbon Tuner Vents"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Winged Skirts", "Secondary Winged Skirts", "Carbon Winged Skirts"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Carbon Housing", "Carbon w/ Primary Panel", "Carbon w/ Secondary Panel"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Carbon Wing", "Street Wing", "Carbon Street Wing", "Racing Wing", "Carbon Racing Wing", "Performance Wing", "Competition Wing", "Carbon Competition Wing"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Remove Roof", "Secondary Roof", "Carbon Roof"]
+        },
+        {
+          "name": "Sunstrip",
+          "type": "VMT_CHASSIS",
+          "variants": ["None", "Primary Sunstrip", "Secondary Sunstrip", "Carbon Sunstrip"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Black Racing Stripe", "White Racing Stripe", "Twin Black Racing Stripes", "Twin White Racing Stripes", "Black Invetero Stripe", "Yellow Invetero Stripe", "Patriot Beer", "Paint Party", "Racing Camo", "Pegassi Hunter"]
         }
       ]
     }
