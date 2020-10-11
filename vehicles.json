@@ -7322,6 +7322,59 @@
           "variants": ["Stock Engine Bay", "Chromed V8"]
         }
       ]
+    },
+    {
+      "id": "vamos",
+      "brand": "Declasse",
+      "name": "Vamos ADD THE FENDERS",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Custom Chin Spoiler", "Extended Chin Spoiler", "Painted Front Bumper", "Custom Chin Spoiler", "Painted & Chin Spoiler", "Painted Bumper & Splitter"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Painted Rear Bumper", "Wheelie Bar", "Wheelie Bar and Chute"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Chrome Tip Exhaust", "Big Bore Exhaust", "Straight Pipe Exhaust", "Race Exhaust", "Hotring Exhaust", "Titanium Hotring Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Carbon Hood", "Performance Hood", "Cowl Induction Hood", "Tall Cowl Induction Hood", "Triple Intake Bug Catcher", "Single Intake Bug Catcher", "High Rise Ram Pipes", "Low Triple Bug Catcher", "Low Single Bug Catcher", "Low Intake Bug Catcher"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Black Open Grille", "Mesh Grille", "Exposed Intercooler", "Exposed Turbo Grille", "Exposed Twin Turbo Grille"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Low Level Spoiler", "Lip Spoiler", "Ducktail Spoiler", "Stock Car Wing", "Drag Wing", "Extended Drag Wing", "Extended Carbon Drag Wing", "Drift Wing"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Vinyl Roof"]
+        },
+        {
+          "name": "Roll Cages",
+          "type": "VMT_CHASSIS",
+          "variants": ["No Roll Cage", "Roll Cage and Chassis Upgrade", "Stunt Cage"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Dual White Stripes", "Dual Black Stripes", "Thick White Stripes", "Thick Black Stripes", "Hard Parking", "Vinyltastic", "Neon Tear", "Maibatsu Works", "Maibatsu Racing", "Almost Had You"]
+        }
+      ]
     }
   ]
 }
