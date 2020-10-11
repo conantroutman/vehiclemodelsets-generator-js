@@ -7491,6 +7491,64 @@
       "name": "Cognoscenti Cabrio",
       "wheels": "Sport",
       "mods": []
+    },
+    {
+      "id": "landstalker2",
+      "brand": "Dundreary",
+      "name": "Landstalker XL",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Lip Splitter", "Street Splitter", "Sports Splitter", "Race Splitter", "Bolt-On Extended Splitter"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Custom Bumper", "Street Bumper", "Steet Bumper Sec. Trim"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_WING_R",
+          "variants": ["Stock Mirrors", "Plastic Mirrors", "Primary Mirrors"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Double Oval Exhaust", "Dual Oval Exhaust", "Double Exhaust System", "Dual Boxed Exhaust", "Large Dual Oval Exhaust", "Rounded Oval Exhaust", "Dual Large Angled Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Twin Scooped Vented Hood", "Large Scooped Vented Hood", "Double Vented Hood", "Middle Twin Vented Hood", "Bolt-On Intake Hood", "Intake Vented Hood", "Chrome Hood Vent"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Side Skirts", "Chrome Steps", "Step Boards", "Chrome Step Boards", "Ridged Side Steps", "Chrome Ridged Side Steps", "Running Boards", "Chrome Running Boards"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Mesh Grille", "Honeycomb Grille Mesh", "Secondary Stock Grille", "Billet Grille", "Medium Grille", "Secondary Heavy Duty Grille"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Low Level Spoiler", "High Level Spoiler", "GT Wing", "Tuner Wing"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Rack Rails", "Roof Bars", "Vertical Roof Rack", "Ski Rack", "Small Roof Basket", "Large Roof Rack"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Single White Stripes", "Two-Tone Paint", "Flame Livery", "Army Camo", "Yeti Mall Ninja", "Two-Tone Digital Camo", "Blood Splatter", "Sessanta Nove", "Bigness X Sessanta Nove", "Dolla Dolla"]
+        }
+      ]
     }
   ]
 }
