@@ -7270,7 +7270,7 @@
       ]
     },
     {
-      "id": "duke3",
+      "id": "dukes3",
       "brand": "Imponte",
       "name": "Duke O' Death",
       "wheels": "Muscle",
@@ -7289,6 +7289,39 @@
       "name": "Windsor Drop",
       "wheels": "High End",
       "mods": []
+    },
+    {
+      "id": "ratloader2",
+      "brand": "Bravado",
+      "name": "Rat-Truck",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Fenders", "Remove Fenders", "Cycle Fenders"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Short Exhausts", "Straight Exit Exhausts", "Stinger Exhaust", "Side Exit Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Remove Hood", "Single Scoop With Hood", "Single Scoop Without Hood", "Triple Scoop With Hood", "Triple Scoop Without Hood"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Grille Bars Removed", "Vintage Grille", "Grille Cowl Removed"]
+        },
+        {
+          "name": "Engine Bay",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Engine Bay", "Chromed V8"]
+        }
+      ]
     }
   ]
 }
