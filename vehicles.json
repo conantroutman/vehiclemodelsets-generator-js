@@ -7375,6 +7375,49 @@
           "variants": ["None", "Dual White Stripes", "Dual Black Stripes", "Thick White Stripes", "Thick Black Stripes", "Hard Parking", "Vinyltastic", "Neon Tear", "Maibatsu Works", "Maibatsu Racing", "Almost Had You"]
         }
       ]
+    },
+    {
+      "id": "tigon",
+      "brand": "Lampadati",
+      "name": "Tigon",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Canard", "Racer Splitter", "Downforce Splitter", "Performance Splitter", "Arc Splitter", "GT Splitter"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Racer Diffuser", "Racer MKII Diffuser", "Performance Diffuser", "Speed Diffuser", "Turbo Diffuser"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Round Exhaust", "Round Cluster Exhaust", "Split Exhaust", "Jet Exhaust", "Dual Round Exhaust"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Race Skirts", "Track Skirts", "Sports Skirts", "Arrow Skirts", "GT MKII Skirts"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Primary Race Spoiler", "Secondary Race Spoiler", "Track Spoiler", "GT Spoiler", "Carbon Arrow Spoiler", "Primary Arrow Spoiler", "Secondary Arrow Spoiler", "Primary GT MKII Spoiler", "Secondary GT MKII Spoiler", "Primary Arc Spoiler", "Secondary Arc Spoiler"]
+        },
+        {
+          "name": "Sunstrip",
+          "type": "VMT_ROOF",
+          "variants": ["None", "Primary Sunstrip", "Secondary Sunstrip"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Race Stripes", "Yellow Double Stripes", "Speed Stripes", "Green Double Stripes", "Racer 4", "Racer 10", "Racer 23", "Jackal Racing", "Sprint", "Flames"]
+        }
+      ]
     }
   ]
 }
