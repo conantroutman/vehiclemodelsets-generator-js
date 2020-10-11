@@ -2122,7 +2122,7 @@
     {
       "id": "habanero",
       "brand": "Emperor",
-      "name": "Emperor Habanero",
+      "name": "Habanero",
       "wheels": "SUV",
       "mods": []
     },
@@ -7270,7 +7270,7 @@
       ]
     },
     {
-      "id": "dukes3",
+      "id": "dukes2",
       "brand": "Imponte",
       "name": "Duke O' Death",
       "wheels": "Muscle",
@@ -7418,6 +7418,79 @@
           "variants": ["None", "Race Stripes", "Yellow Double Stripes", "Speed Stripes", "Green Double Stripes", "Racer 4", "Racer 10", "Racer 23", "Jackal Racing", "Sprint", "Flames"]
         }
       ]
+    },
+    {
+      "id": "mamba",
+      "brand": "Declasse",
+      "name": "Mamba",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Big Bore Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Performance Hood", "Secondary Scooped Hood", "Secondary Performance Hood", "Carbon Scooped Hood", "Carbon Performance Hood"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "No Roof", "Custom Roof"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "White Stripes", "Black Stripes", "Blue Stripes", "Red Stripes", "Hot Rod Flames", "White Stripe Racer", "Black Stripe Racer", "White Retro Racer", "Black Retro Racer", "Orange Retro Racer"]
+        }
+      ]
+    },
+    {
+      "id": "feltzer3",
+      "brand": "Benefactor",
+      "name": "Stirling GT",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Rear Bumper Delete"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Titanium Exhaust", "Race Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Carbon Hood"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Twin Rally Lamps", "Quad Rally Lamps"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Spare Wheel"]
+        },
+        {
+          "name": "Roll Cages",
+          "type": "VMT_CHASSIS",
+          "variants": ["No Roll Cage", "Roll Cage and Chassis Upgrade", "Rally Cage & Modifications"]
+        }
+      ]
+    },
+    {
+      "id": "cogcabrio",
+      "brand": "Enus",
+      "name": "Cognoscenti Cabrio",
+      "wheels": "Sport",
+      "mods": []
     }
   ]
 }
