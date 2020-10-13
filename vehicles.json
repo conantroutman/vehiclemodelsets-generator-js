@@ -7607,6 +7607,64 @@
           "variants": ["None", "Black Racing Stripe", "White Racing Stripe", "Twin Black Racing Stripes", "Twin White Racing Stripes", "Black Invetero Stripe", "Yellow Invetero Stripe", "Patriot Beer", "Paint Party", "Racing Camo", "Pegassi Hunter"]
         }
       ]
+    },
+    {
+      "id": "gb200",
+      "brand": "Vapid",
+      "name": "GB200",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Fog Light Covers", "Removed Fogs", "Scoop Splitter", "Exposed Intercooler"]
+        },
+        {
+          "name": "Rear Diffuser",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Diffuser", "Removed Diffuser", "Rally Diffuser", "Diffuser w/ Tow Hook"]
+        },
+        {
+          "name": "Mudguards",
+          "type": "VMT_WING_L",
+          "variants": ["No Mudguards", "Mudguards"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Twin Chrome Exhaust"]
+        },
+        {
+          "name": "Trunk",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Trunk", "Smooth Trunk", "Rallycross", "Rallycross Smooth", "Vented Rallycross", "Vented Rallycross II", "Scoop", "Vented Rallycross III", "Vented Scoop", "Smooth Carbon", "Rallycross Carbon"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Extended Skirts"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Mirrors", "Racing Mirrors", "Carbon Racing Mirrors", "Secondary Mirrors"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Roof Spoiler", "Rally Spoiler", "Super Downforce Spoiler"]
+        },
+        {
+          "name": "Chassis",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Chassis", "Rally Fogs", "Secondary Cage", "Primary Cage", "Chrome Cage", "Rally Setup"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Classic White Stripes", "Lower Blue Stripes", "Classic Blue Stripes", "Black Stripes", "Lower Red Stripes", "Red Rally", "Globe Oil 08", "Blue Rally", "Arrow Gasoline", "Sprunk"]
+        }
+      ]
     }
   ]
 }
