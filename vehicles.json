@@ -7764,6 +7764,69 @@
           "variants": ["None", "Sports Spoiler"]
         }
       ]
+    },
+    {
+      "id": "yosemite2",
+      "brand": "Declasse",
+      "name": "Drift Yosemite",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Front Bumper Delete", "No Bumper & Chin Spoiler", "Bumper & Chin Spoiler", "Chin Spoiler & Splitter", "Smooth Bumper", "Smooth Bumper & Spoiler", "Smooth Bumper & Splitter", "Vented Valance", "MK2 Valance with Fogs", "Vented Valance with Splitter", "MK2 Valance with Splitter"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Rear Bumper Delete"]
+        },
+        {
+          "name": "Sunstrip",
+          "type": "VMT_WING_L",
+          "variants": ["None", "Sunstrip"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Chrome Tip Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Secondary Color Hood", "Rusty Hood", "Carbon Hood", "Ram Air Hood", "Secondary Ram Air Hood"]
+        },
+        {
+          "name": "Bedliners",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Truck Bed", "Rusty bed", "Primary Paint", "Secondary Paint", "Rubber Anti-Skid", "Chrome Anti-Skid", "Light Wood Bed", "Old Wood Bed", "Raised Rusty Bed", "Raised Rubber Bed", "Raised Light Wood Bed", "Raised Old Wood Bed"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Primary Grille", "Secondary Grille", "Primary Grille & Dechrome", "Secondary Grille & Dechrome"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Tailgate Delete", "Short Tailgate Spoiler", "Mid Tailgate Spoiler", "Primary Bed Cap", "Secondary Bed Cap", "Tall Tailgate Spoiler", "Carbon Track Wing", "Carbon GT Wing", "Carbon Autocross Wing"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Black Rubber Bed Cover", "Primary Bed Cover", "Secondary Bed Cover", "Rusty Bed Cover"]
+        },
+        {
+          "name": "Roll Cages",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Chassis", "Roll Cage", "Reinforced Bed", "High Roll Bar"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Yellow Flames", "Blue Flames", "Track Master", "Dark Cutout", "The Patriot", "Rat Race", "Faded Flames", "Ron Racing", "Drift Assault", "Ragga Rum"]
+        }
+      ]
     }
   ]
 }
