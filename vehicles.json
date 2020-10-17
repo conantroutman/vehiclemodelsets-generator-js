@@ -7665,6 +7665,34 @@
           "variants": ["None", "Classic White Stripes", "Lower Blue Stripes", "Classic Blue Stripes", "Black Stripes", "Lower Red Stripes", "Red Rally", "Globe Oil 08", "Blue Rally", "Arrow Gasoline", "Sprunk"]
         }
       ]
+    },
+    {
+      "id": "khamelion",
+      "brand": "Hijak",
+      "name": "Khamelion",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Titanium Exhaust", "Dual Exit Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Carbon Hood", "Double Vented Hood"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Low Level Spoiler", "High Level Spoiler"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Painted Roof", "Carbon Roof"]
+        }
+      ]
     }
   ]
 }
