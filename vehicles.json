@@ -7731,6 +7731,39 @@
           "variants": ["None", "Primary Color Spoiler", "Secondary Color Spoiler", "Carbon Spoiler", "Race Spoiler", "Touring Spoiler", "Competition Spoiler"]
         }
       ]
+    },
+    {
+      "id": "specter",
+      "brand": "Dewbauchee",
+      "name": "Specter",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Carbon Curve Splitter"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Tow Eye"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Dual Oval Exhaust"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Short Carbon Skirts"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Sports Spoiler"]
+        }
+      ]
     }
   ]
 }
