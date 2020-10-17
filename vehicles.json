@@ -7693,6 +7693,44 @@
           "variants": ["Stock Roof", "Painted Roof", "Carbon Roof"]
         }
       ]
+    },
+    {
+      "id": "neon",
+      "brand": "Pfister",
+      "name": "Neon",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Primary Color Splitter", "Secondary Color Splitter", "Carbon Splitter", "Competition Splitter", "Secondary Competition Splitter", "Carbon Competition Splitter"]
+        },
+        {
+          "name": "Rear Diffuser",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Diffuser", "Race Diffuser", "Carbon Race Diffuser"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Mirrors", "Race Mirrors", "Carbon Race Mirrors", "Primary Rear Cameras", "Secondary Rear Cameras", "Carbon Rear Cameras"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Double Stripe", "Single Stripe"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Primary Skirts", "Secondary Skirts", "Carbon Skirts", "Primary Race Skirts", "Secondary Race Skirts", "Carbon Race Skirts", "Primary Competition Skirts", "Secondary Competition Skirts", "Carbon Competition Skirts"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Primary Color Spoiler", "Secondary Color Spoiler", "Carbon Spoiler", "Race Spoiler", "Touring Spoiler", "Competition Spoiler"]
+        }
+      ]
     }
   ]
 }
