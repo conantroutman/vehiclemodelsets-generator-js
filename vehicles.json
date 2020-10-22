@@ -6356,7 +6356,7 @@
         {
           "name": "Front Fenders",
           "type": "VMT_WING_L",
-          "variants": ["Stock Front Fenders", "Fender Inlet Vents", "Primary Vent Scoops", "Chrome Vent Scoops", "Carbon Vent Scoops", "Fender Ducts", "Chrome Fender Ducts", "Carbon Fender Ducts", ""]
+          "variants": ["Stock Front Fenders", "Fender Inlet Vents", "Primary Vent Scoops", "Chrome Vent Scoops", "Carbon Vent Scoops", "Fender Ducts", "Chrome Fender Ducts", "Carbon Fender Ducts"]
         },
         {
           "name": "Rear Fenders",
@@ -6384,19 +6384,34 @@
           "variants": ["Stock Skirts", "Custom Skirt", "Primary Custom Skirt", "Secondary Custom Skirt", "Ridged Skirt", "Primary Ridged Skirt", "Secondary Ridged Skirt", "Competition Skirt"]
         },
         {
-          "name": "Grille",
+          "name": "Nose Accesories",
           "type": "VMT_GRILL",
-          "variants": ["Stock Grille", "Primary Sectioned Grilles", "Secondary Sectioned Grilles", "Primary Performance Grilles", "Secondary Performance Grilles", "Competition Grilles"]
+          "variants": ["No Nose Accesories", "Bumper Lip", "Primary Bumper Lip", "Secondary Bumper Lip", "Ridgeline Bumper", "Primary Ridgeline Bumper", "Secondary Ridgeline Bumper"]
         },
         {
           "name": "Roof",
           "type": "VMT_ROOF",
-          "variants": ["Stock Roof", "Primary Sunstrip", "Secondary Sunstrip", "Rear Window Louvers", "Primary Roof", "Vinyl Roof", "Secondary Roof Setup", "Primary Roof Setup", "Vinyl Roof Setup"]
+          "variants": ["Stock Roof", "Primary Roof", "Vinyl Roof", "Carbon Roof"]
         },
         {
-          "name": "Chassis",
+          "name": "Rear Cover",
           "type": "VMT_CHASSIS",
-          "variants": ["Stock Chassis", "Roll Cage", "Roll Cage w/ Carbon Seats", "Mk1 Racing Cage", "Mk2 Racing Cage", "Mk3 Racing Cage", "Mk4 Racing Cage"]
+          "variants": ["Stock Rear Cover", "Primary Rear Cover", "Secondary Rear Cover"]
+        },
+        {
+          "name": "Roll Cage",
+          "type": "VMT_CHASSIS2",
+          "variants": ["No Roll Cage", "Primary Half Cage", "Secondary Half Cage", "Primary Full Cage", "Secondary Full Cage", "Padded Primary Full Cage", "Padded Secondary Full Cage"]
+        },
+        {
+          "name": "Aerial",
+          "type": "VMT_CHASSIS3",
+          "variants": ["None", "Left Fender Aerial", "Right Fender Aerial"]
+        },
+        {
+          "name": "Sunstrip",
+          "type": "VMT_CHASSIS4",
+          "variants": ["None", "Sunstrip", "Primary Sunstrip", "Secondary Sunstrip"]
         },
         {
           "name": "Mirrors",
@@ -6404,14 +6419,29 @@
           "variants": ["Stock Mirrors", "Chrome Mirrors", "Secondary Mirrors", "Bullet Mirrors", "Primary Bullet Mirrors", "Secondary Bullet Mirrors"]
         },
         {
-          "name": "Mirrors",
+          "name": "Splitter",
           "type": "VMT_ENGINEBAY1",
-          "variants": ["Stock Mirrors", "Chrome Mirrors", "Secondary Mirrors", "Bullet Mirrors", "Primary Bullet Mirrors", "Secondary Bullet Mirrors"]
+          "variants": ["None", "Panel Splitter", "Primary Panel Splitter", "Pointed Panel Splitter", "Primary Pointed Panel Splitter", "Twin Wedged Splitter", "Primary Twin Wedged Splitter", "Full Wedged Splitter", "Primary Full Wedged Splitter"]
         },
         {
           "name": "Livery",
           "type": "VMT_LIVERY_MOD",
           "variants": ["None", "Stamped Bravado", "White Gauntlet", "Black Gauntlet", "Red Gauntlet", "No.36 Barracho", "No.55 Rally Racer", "No.81 Bilgeco", "No.03 Demonoli", "No.05 Tri-Tone", "No.03 Hotshot Tenshun"]
+        },
+        {
+          "name": "Hood Catches",
+          "type": "VMT_PLAQUE",
+          "variants": ["None", "Primary Hood Latches", "Secondary Hood Latches", "Priamry Mid Hood Latches", "Secondary Mid Hood Latches", "Modern Hood Latches", "Angled Hood Latches"]
+        },
+        {
+          "name": "Louvers",
+          "type": "VMT_PLTVANITY",
+          "variants": ["None", "Rear Window Louvers", "Dual Window Braces", "Triple Window Braces"]
+        },
+        {
+          "name": "Headlight Covers",
+          "type": "VMT_INTERIOR2",
+          "variants": ["Stock Headlight Cover", "Full Blacked Lights", "Full Secondary Lights", "Primary Black-Topped Lights", "Secondary Black-Topped Lights", "Black Primary-Topped Lights", "Black Secondary-Topped Lights"]
         }
       ]
     },
@@ -6762,9 +6792,9 @@
       ]
     },
     {
-      "id": "veriler2",
+      "id": "verlierer2",
       "brand": "Bravado",
-      "name": "Verlier",
+      "name": "Verlierer",
       "wheels": "Sport",
       "mods": [
         {
