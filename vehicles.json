@@ -7857,6 +7857,132 @@
           "variants": ["None", "Yellow Flames", "Blue Flames", "Track Master", "Dark Cutout", "The Patriot", "Rat Race", "Faded Flames", "Ron Racing", "Drift Assault", "Ragga Rum"]
         }
       ]
+    },
+    {
+      "id": "elegy",
+      "brand": "Annis",
+      "name": "Elegy Retro Custom",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Stickerbomb Splitter", "Carbon Front Splitter", "Painted Extended Splitter", "Black Extended Splitter", "Extended Front Diffuser", "Splitter With Canards"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Carbon Rear Diffuser", "Carbon Track Diffuser", "Carbon Race Diffuser"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock", "Single Vent Front Fenders", "Twin Vent Front Fenders", "Wide Angular Rear Fenders", "Primary Color Bolt-On Arches", "Secondary Color Bolt-On Arches", "Carbon Bolt-On Arches"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Chrome Tip Exhaust", "Big Bore Exhaust", "Race Exhaust", "Oval Exhaust", "Titanium Exhaust", "Titanium Tuner Exhaust", "Twin Chrome Tip Exhaust", "Twin Titanium Exhaust", "Twin Titanium Tuner Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Stickerbomb Hood", "Ducted Hood", "Vented Hood", "Double Vented Hood", "Performance Hood", "Raised Extreme Hood", "Carbon Hood", "Carbon Ducted Hood", "Carbon Vented Hood", "Carbon Double Vented Hood", "Carbon Performance Hood", "Carbon Extreme Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Sideskirt Extensions", "Secondary Skirt Extensions", "Carbon Skirt Extensions", "Drift Skirts", "Secondary Drift Skirts"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Secondary Grille Surround", "Black Grille Surround", "Carbon Grille Surround"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Short Lip Spoiler", "Extended Lip Spoiler", "Bolt-On Ducktail", "Drag Spoiler", "Stock Car Spoiler", "Mid Level Spoiler", "Carbon Flap Spoiler", "Low Spoiler", "Low Carbon Spoiler", "Classic RS Wing", "Carbon Classic RS Wing", "Tuner Wing", "Carbon Wing Type II", "Extreme Downforce BGW", "Muscle Killer Wing", "Drift Wing", "GT Wing", "Tarmac Attack Wing", "Extreme Street Racer Wing", "Extreme Time Attack Wing"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Roof Spoiler", "Carbon Roof Spoiler", "Vortex Generators", "Carbon Vortex Generators", "Carbon Roof", "Carbon & Roof Spoiler", "Carbon & Vortex Generators"]
+        },
+        {
+          "name": "Roll Cages",
+          "type": "VMT_CHASSIS",
+          "variants": ["None", "Street Half Cage", "Dash Dodger Cage", "Padded Dash Dodger Cage", "Full Roll Cage", "Padded Full Roll Cage"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Dual White Stripes", "Dual Black Stripes", "Thick White Stripes", "Thick Black Stripes", "Hard Parking", "Vinyltastic", "Neon Tear", "Maibatsu Works", "Maibatsu Racing", "Almost Had You"]
+        },
+        {
+          "name": "Bumper Mesh",
+          "type": "VMT_PLTVANITY",
+          "variants": ["Stock", "Debadged Grille", "Remove Grille Mesh", "Remove Bumper Mesh", "Remove Grille & Bumper Mesh"]
+        },
+        {
+          "name": "Plateholder",
+          "type": "VMT_PLTHOLDER",
+          "variants": ["None", "Golfist", "Twisted", "Low 'n' Slow", "Barbed Wire", "Hawaiian", "Davy Jones", "Chain", "Magnetics Chain", "Bike Chain", "Flaming Skull", "Pitbull", "Flames", "Magnetics Classic"]
+        }
+      ]
+    },
+    {
+      "id": "elegy2",
+      "brand": "Annis",
+      "name": "Elegy RH8",
+      "wheels": "Sport",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Carbon Frton Splitter", "Splitter with Canards"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Carbon Rear Diffuser", "Painted Rear Bumper", "Painted Bumper & Diffuser"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Dual Titanium Exhaust", "Race Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Vented Hood", "Double Vented Hood", "Carbon Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Custom Skirts 1", "Custom Skirts 2", "Custom Skirts 3", "Custom Skirts 4"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Black Grille", "Exposed Intercooler"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Low Level Spoiler", "High Level Spoiler", "Tuner Wing", "Carbon Wing", "GT Wing"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Carbon Roof"]
+        },
+        {
+          "name": "Roll Cages",
+          "type": "VMT_CHASSIS",
+          "variants": ["No Roll Cage", "Roll Cage & Chassis Upgrade"]
+        }
+      ]
     }
   ]
 }
