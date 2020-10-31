@@ -8114,6 +8114,59 @@
           "variants": ["None", "Hardstand Stripe", "Orange 190z", "'It's Lower'", "Sponsor Bash", "Red Jackal Racing", "Blue Jackal Racing", "Red Karin Stream", "Green Karin Stream", "Classic Rally", "Amigas Watermark"]
         }
       ]
+    },
+    {
+      "id": "cheburek",
+      "brand": "RUNE",
+      "name": "Cheburek",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Cardboard Bumper", "Remove Bumper", "Classic Bumper", "Retro Bumper", "Retro Bumper w/ Splitter", "Race Bumper", "Race Bumper w/ Oil Cooler", "Tuner Bumper"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Cardboard Bumper", "Remove Bumper", "Classic Bumper", "Retro Bumper"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Mirrors", "Plastic Fender Mirrors", "Primary Fender Mirrors"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Cardboard Vents", "Carbon Hood", "Sport Hood", "Carbon Sport Hood", "Race Hood", "Carbon Race Hood", "Tuner Hood", "Carbon Tuner Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Cardboard Skirts", "Tuner Skirts"]
+        },
+        {
+          "name": "Headlights",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Headlights", "Partially Covered", "Full Cover"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Cardboard Spoiler", "Tailgate Spoiler", "Mid Tailgate Spoiler", "Stickerbomb Tailgate Spoiler", "Tail Tailgate Spoiler", "Tuner Spoiler", "Race Spoiler", "Primary Rally Spoiler", "Secondary Rally Spoiler"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Cardboard Vent", "Roof Rack", "Small Luggage", "Load'a Luggage", "Vortex Generators", "Window Louvers", "Primary Roof Spoiler"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Classic Stripes", "Crimson Star", "Hardbass", "ProLaps", "Atomic Tires", "Fuakru Tires", "Tinkle Mobile", "Cherenkov Vodka", "Rusty Prolaps", "Rusted"]
+        }
+      ]
     }
   ]
 }
