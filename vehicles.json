@@ -7983,6 +7983,137 @@
           "variants": ["No Roll Cage", "Roll Cage & Chassis Upgrade"]
         }
       ]
+    },
+    {
+      "id": "savestra",
+      "brand": "Annis",
+      "name": "Savestra",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Primary Splitter", "Secondary Splitter", "Lightweight Splitter", "Lightweight Bumper", "Removed Bumper", "Capped Removed Bumper", "Lightweight Bumper w/ Splitter", "Capped Indicators", "Secondary Capped Indicators", "Removed Bumper w/ Splitter", "Primary Bumper w/ Splitter", "Splitter with Tow Hook"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Lightweight Bumper", "Removed Bumper", "Capped Removed Bumper", "Primary Bumper", "Chrome Bumper", "Touring Bumper"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Fender", "Skinny Fenders", "Lightweight Skinny Fenders", "Secondary Skinny Fenders", "Primary Wide Body Fenders", "Secondary Wide Body Fenders", "Rounded Fenders", "GT Fenders"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Race Exhaust", "Big Bore Exhaust", "Shakotan Exhaust", "Dual Exit Exhaust", "Rally Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Secondary Hood", "Carbon Hood", "Vented Hood", "Side Vented Hood", "Secondary Side Vented Hood", "Exposed Turbos"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Mirrors", "Chrome Mirrors", "No Mirrors", "Chrome Classic Mirrors", "Lightweight Mirrors"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Chrome Open Grille", "Vented Grille", "Chrome Vented Grille", "Full Chrome Grille", "Lightweight Grille", "Chrome Encased Fog Lights", "Primary Grille", "Chrome Lights and Intakes", "Lights and Intakes", "Grille Spoiler", "Chrome Intakes", "Blacked Out Intakes"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Low Ducktail", "Low Level Spoiler", "High Ducktail", "Bolt On Ducktail", "Street Spoiler", "Race Spoiler", "Primary Race Spoiler", "Touring Spoiler", "Big Wang"]
+        },
+        {
+          "name": "Weapons",
+          "type": "VMT_ROOF",
+          "variants": ["No Weapon", "Mounted Machine Guns"]
+        },
+        {
+          "name": "Chassis",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Chassis", "Roll Cage", "Luggage Rack", "Cage and Rack", "Lightweight Louvers", "Primary Louvers", "Race Spec", "Rack and Louvers", "Rally Spec"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Yellow Stripe", "The 'Savestra'", "White Stripe", "Annis", "Classic Racing Livery", "Spenders", "Olympian", "Deludamol", "Spenders Alternate", "Estancia"]
+        }
+      ]
+    },
+    {
+      "id": "z190",
+      "brand": "Karin",
+      "name": "190z",
+      "wheels": "Lowrider",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Remove", "Custom Bumper", "Exposed Bumper", "Secondary Exposed Bumper", "Carbon Exposed Bumper", "Stickerbomb Exposed Bumper", "Tuner Bumper", "Secondary Tuner Bumper", "Carbon Tuner Bumper", "Stickerbomb Tuner Bumper", "Sports Bumper", "Secondary Sports Bumper", "Stickerbomb Sports Bumper", "Drift Bumper", "Secondary Drift Bumper", "Stickerbomb Drift Bumper"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Remove", "Hook Bracket", "Tow Line", "Stock Bracket", "Stock Support Kit", "Extended Bumper", "Extended Kit", "Extended Support Kit", "Secondary Bumper", "Secondary Kit", "Secondary Support Kit", "Bolstered Bumper", "Bolstered Kit", "Bolstered Support Kit"]
+        },
+        {
+          "name": "Brace Bar",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Brace Bar", "Carbon Strut Brace", "Medium Titanium Strut Brace", "Titanium Strut Brace", "Triangulated Strut Brace", "Wide Titanium Strut Brace", "Stickerbomb Strut Brace", "Polished Twin Bar Strut Brace", "Extreme Billet Strut Brace", "Lightened Racing Strut Brace"]
+        },
+        {
+          "name": "Engine Detail",
+          "type": "VMT_WING_R",
+          "variants": ["Stock Engine Detail", "Muscle Carburetor", "GT Radiator", "Muscle Kit", "GT Kit", "Carbon GT Kit", "Sports Radiator", "Sports Muscle Kit", "Sports GT Kit", "Carbon Sports GT Kit"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Big Bore Exhaust", "Rally Exhaust", "Carbon Rally Exhaust", "Side Pipe Exhaust", "Quad Stack Exhaust", "Six Stack Exhaust", "Flush Hood Exhaust", "Vented Quad Stack Exhaust", "Vented Six Stack Exhaust", "Vented Flush Hood Exhaust", "Hexad Exhaust", "Vented Hexad Exhaust", "Exposed Side Exhaust", "Vented Exposed Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Remove", "Carbon Hood", "Ridged Inset Hood", "Carbon Ridged Hood", "Vented Hood", "Carbon Vented Hood", "Sports Hood", "Carbon Sports Hood", "Stickerbomb Hood", "Vanity Hood", "Carbon Vanity Hood", "Indent Hood", "Carbon Indent Hood", "Classic Vent Hood", "Carbon Classic Hood", "Intake Hood", "Carbon Intake Hood"]
+        },
+        {
+          "name": "Arch Covers",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Arch Covers", "Basic Arches", "Secondary Basic Arches", "Carbon Basic Arches", "Bolted Arches", "Secondary Bolted Arches", "Carbon Bolted Arches", "Trimmed Arches", "Secondary Trimmed Arches", "Carbon Trimmed Arches", "Basic Arch Kit", "Secondary Basic Kit", "Carbon Basic Kit", "Bolted Arch Kit", "Secondary Bolted Kit", "Carbon Bolted Kit", "Trimmed Arch Kit", "Secondary Trimmed Kit", "Carbon Trimmed Kit"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Remove", "Framed Grille", "Shark Grille", "Chrome Shark Grille", "Secondary Shark Grille", "Carbon Shark Grille", "Mesh Grate Grille", "Diamond Grille", "Chrome Diamond Grille", "Secondary Diamond Grille", "Carbon Diamond Grille"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Classic Spoiler", "Carbon Low Level Spoiler", "Bootlip Spoiler", "Blacked Bootlip Spoiler", "Secondary Bootlip Spoiler", "Carbon Bootlip Spoiler", "Dovetail Spoiler", "Blacked Dovetail Spoiler", "Secondary Dovetail Spoiler", "Carbon Dovetail Spoiler", "Drift Spoiler", "Blacked Drift Spoiler", "Secondary Drift Spoiler", "Carbon Drift Spoiler", "Section Spoiler", "Blacked Section Spoiler", "Secondary Section Spoiler", "Carbon Section Spoiler", "Race Spoiler", "Chrome Garage Spoiler", "Garage Spoiler"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Mirrors", "Remove", "Chrome Detail", "Secondary Detail", "Carbon Detail", "Stylized Mirrors", "Chrome Stylized Mirrors", "Secondary Stylized Mirrors", "Carbon Stylized Mirrors", "Classic Mirrors", "Chrome Classic Mirrors", "Secondary Classic Mirrors", "Carbon Classic Mirrors"]
+        },
+        {
+          "name": "Engine Block",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Engine Block", "Textured Detail", "Chrome Detail", "Primary Detail", "Secondary Detail", "Carbon Detail", "Stickerbomb Detail", "Textured Cambelt Cover", "Chrome Cambelt Cover", "Primary Cambelt Cover", "Secondary Cambelt Cover", "Carbon Cambelt Cover", "Stickerbomb Cambelt Cover"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Hardstand Stripe", "Orange 190z", "'It's Lower'", "Sponsor Bash", "Red Jackal Racing", "Blue Jackal Racing", "Red Karin Stream", "Green Karin Stream", "Classic Rally", "Amigas Watermark"]
+        }
+      ]
     }
   ]
 }
