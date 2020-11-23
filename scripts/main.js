@@ -205,7 +205,7 @@ function generateGenericInputFields() {
   modSelect.id = "VMT_SUSPENSION";
   for (j = 0; j < 5; j++) {
     modOption = document.createElement("option");
-    modOption.innerHTML = suspensions[j] + " Suspension";
+    modOption.innerHTML = `${suspensions[j]} Suspension`;
     modOption.value = j - 1;
     modSelect.appendChild(modOption);
 
@@ -222,7 +222,7 @@ function generateGenericInputFields() {
 function generateWheels(type, callback) {
   let modLabel = document.createElement("label");
   let modSelect = document.createElement("select");
-  modLabel.innerHTML = "Wheels (" + type + ")";
+  modLabel.innerHTML = `Wheels (${type})`;
   modSelect.className = "form-control";
   modSelect.id = "VMT_WHEELS";
   modOption = document.createElement("option");
@@ -253,44 +253,39 @@ function generateWheels(type, callback) {
 
 //Update/print the output code
 function updateOutput() {
-  let modOptions = document.getElementById("mods").getElementsByTagName("select");
-  let txt = "";
-  //Item
-  txt += "<Item>\n";
-  //Name
-  txt += `  <Name>${document.getElementById("car-select").value}</Name>\n`;
-  //Variations
-  txt += `  <Variations type="CAmbientVehicleModelVariations">\n`;
-  //BodyColours
-  for (i = 1; i <= 4; i++) {
-    txt += `    <BodyColour${i} value="${document.getElementById("color" + i).value}" />\n`;
-  }
-  //WindowTint
-  txt += `    <WindowTint value="${document.getElementById("tint").value}" />\n`;
-  //ColourCombination
-  txt += `    <ColourCombination value="-1" />\n`;
-  //Livery
-  txt += `    <Livery value="-1" />\n`;
-  //ModKit
-  txt += `    <ModKit value="0" />\n`;
-  //Mods
-  txt += `    <Mods>\n`;
-  //Mods Items
-  for (i = 0; i < modOptions.length; i++) {
-    txt += `      <Item>\n`;
-    txt += `        <ModType>${modOptions[i].id}</ModType>\n`;
-    txt += `        <ModIndex value="${modOptions[i].value}" />\n`;
-    txt += `      </Item>\n`;
-  }
-  txt += `    </Mods>\n`;
-  //Extra
-  for (i = 1; i <= 10; i++) {
-    txt += `    <Extra${i}>CantUse</Extra${i}>\n`;
-  }
-  txt += `  </Variations>\n`;
-  //Probability
-  txt += `  <Probability value="1.000000" />\n`;
-  txt += `</Item>`;
+  let modOptions = Array.from(document.querySelector("#mods").querySelectorAll("select"));
+  let txt = `<Item>
+    <Name>${document.querySelector("#car-select").value}</Name>
+    <Variations type="CAmbientVehicleModelVariations">
+      <BodyColour1 value="${document.querySelector("#color1").value}" />
+      <BodyColour2 value="${document.querySelector("#color2").value}" />
+      <BodyColour3 value="${document.querySelector("#color3").value}" />
+      <BodyColour4 value="${document.querySelector("#color4").value}" />
+      <WindowTint value="${document.querySelector("#tint").value}" />
+      <ColourCombination value="-1" />
+      <Livery value="-1" />
+      <ModKit value="0" />
+      <Mods>
+        ${modOptions.map((mod) => {
+          return `<Item>
+            <ModType>${mod.id}</ModType>
+            <ModIndex value="${mod.value}" />
+          </Item>`;
+        })}
+      </Mods>
+      <Extra1>CantUse</Extra1>
+      <Extra2>CantUse</Extra2>
+      <Extra3>CantUse</Extra3>
+      <Extra4>CantUse</Extra4>
+      <Extra5>CantUse</Extra5>
+      <Extra6>CantUse</Extra6>
+      <Extra7>CantUse</Extra7>
+      <Extra8>CantUse</Extra8>
+      <Extra9>CantUse</Extra9>
+      <Extra10>CantUse</Extra10>
+    </Variations>
+    <Probability value="1.000000" />
+  </Item>`;
   document.getElementById("output").innerHTML = txt;
 }
 
