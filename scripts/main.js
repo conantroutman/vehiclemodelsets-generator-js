@@ -1,32 +1,10 @@
-var xmlData, xmlColors, xmlWheels;
-var isLoaded = false;
-var loadedFiles = 0;
-var loadingTime = 1000;
-
 function setup() {
   let i = 0;
   loadFiles();
   generateColors();
-  /*setTimeout(function () {
-    hideLoadingScreen();
-    generateCars();
-    //generateColors();
-    generateMods();
-    //updateOutput();
-  }, loadingTime);*/
 }
 
 function loadFiles() {
-  /*parseXML("data.xml", function (e) {
-		xmlData = e;
-		console.log("Loaded");
-	});
-	parseXML("colors.xml", function (e) {
-		xmlColors = e;
-	});
-	parseXML("wheels.xml", function (e) {
-		xmlWheels = e;
-	});*/
 
   fetch("../vehicles.json")
     .then((response) => response.json())
@@ -34,26 +12,6 @@ function loadFiles() {
       generateCars(data);
     })
     .then(hideLoadingScreen());
-}
-
-function testCallback(xml) {
-  //loadedFiles++;
-  console.log(loadedFiles);
-}
-
-function parseXML(file, callback) {
-  var xhr = new XMLHttpRequest();
-  xhr.open("GET", file, true);
-  xhr.onreadystatechange = function () {
-    if (this.readyState === 4 && this.status === 200) {
-      loadedFiles++;
-      callback(this);
-    }
-  };
-  xhr.onerror = function (e) {
-    console.error(xhr.statusText);
-  };
-  xhr.send(null);
 }
 
 //--------------------------------------------------------------------------------------------------------------------------
