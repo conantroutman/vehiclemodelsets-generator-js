@@ -321,3 +321,11 @@ function cardNavigate(id) {
       break;
   }
 }
+
+function reset() {
+  const inputs = Array.from(document.querySelector("#mods").querySelectorAll("select"));
+  inputs.forEach((input) => {
+    input.value = '-1';
+  });
+  updateOutput();
+}
