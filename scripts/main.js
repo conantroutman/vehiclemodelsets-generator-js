@@ -211,8 +211,8 @@ function generateWheels(type, callback) {
 
 //Update/print the output code
 function updateOutput() {
-  let modOptions = Array.from(document.querySelector("#mods").querySelectorAll("select"));
-  let txt = `<Item>
+  const modOptions = Array.from(document.querySelector("#mods").querySelectorAll("select"));
+  const txt = `<Item>
     <Name>${document.querySelector("#car-select").value}</Name>
     <Variations type="CAmbientVehicleModelVariations">
       <BodyColour1 value="${document.querySelector("#color1").value}" />
@@ -224,12 +224,12 @@ function updateOutput() {
       <Livery value="-1" />
       <ModKit value="0" />
       <Mods>
-        ${modOptions.map((mod) => {
-          return `<Item>
+        ${modOptions.map((mod) => 
+          `<Item>
             <ModType>${mod.id}</ModType>
             <ModIndex value="${mod.value}" />
-          </Item>`;
-        })}
+          </Item>`
+        ).join('\n          ')}
       </Mods>
       <Extra1>CantUse</Extra1>
       <Extra2>CantUse</Extra2>
