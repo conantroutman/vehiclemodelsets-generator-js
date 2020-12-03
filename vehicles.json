@@ -8856,6 +8856,69 @@
           "variants": ["Stock Roof", "Secondary Roof", "Carbon Roof", "Wood Vinyl Roof", "Stickerbomb Roof", "Checkerboard Roof", "Mosaic Roof"]
         }
       ]
+    },
+    {
+      "id": "retinue",
+      "brand": "Vapid",
+      "name": "Retinue",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Bumper Mounted Rally Lights", "Front Bumper Delete", "Body Mounted Rally Lights", "Safari Bullbars & Lights"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Rear Bumper Delete"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Fender", "Arch Extensions"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Dual Exit Exhaust", "Race Exhaust", "Big Bore Exhaust", "Shakotan Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Hood Pins", "Carbon Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Black Rubber Mudflaps"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Low Ducktail", "High Ducktail", "Extended Ducktail", "Ducktail Decklid", "Mid Level Wing"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["None", "Extended Chin Spoiler", "Drilled Valance", "Drilled Valance & Splitter"]
+        },
+        {
+          "name": "Chassis",
+          "type": "VMT_CHASSIS",
+          "variants": ["No Roll Cage", "Roll Cage and Chassis Upgrade"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Sunstrip"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "White Body Stripe", "Double Body Stripe", "Dusche Rally Team", "Redwood Racing", "Team Xero", "Ron Performance", "Retro Rally", "Stronzo Rally"]
+        }
+      ]
     }
   ]
 }
