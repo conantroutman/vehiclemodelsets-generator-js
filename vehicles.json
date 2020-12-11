@@ -9006,6 +9006,50 @@
           "variants": ["None", "Simple Stripe", "Orange Retro Stripe", "Blue Retro Stripe", "Black Slash Stripe", "Red Slash Stripe", "Red Hot Summer", "Sausage Box", "Surf's Up", "Rusted Out", "Rusty Shop Van", "Rusty Retro Stripe", "Rusty Red Hot Summer"]
         }
       ]
+    },
+    {
+      "id": "trophytruck2",
+      "brand": "Vapid",
+      "name": "Desert Raid",
+      "wheels": "OffRoad",
+      "mods": [
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Drone", "Badger"]
+        }
+      ]
+    },
+    {
+      "id": "trophytruck",
+      "brand": "Vapid",
+      "name": "Trophy Truck",
+      "wheels": "OffRoad",
+      "mods": [
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Vapid Racing", "Western Motorcycle"]
+        }
+      ]
+    },
+    {
+      "id": "tornado6",
+      "brand": "Declasse",
+      "name": "Tornado Rat Rod",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Custom Rat Exhausts"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Triple Intake Bug Catcher", "Single Intake Bug Catcher"]
+        }
+      ]
     }
   ]
 }
