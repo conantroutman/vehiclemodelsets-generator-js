@@ -1467,13 +1467,13 @@
       "id": "casco",
       "brand": "Lampadati",
       "name": "Casco",
-      "wheels": "Muscle",
+      "wheels": "Lowrider",
       "mods": []
     },
     {
       "id": "monroe",
       "brand": "Pegassi",
-      "name": "Casco",
+      "name": "Monroe",
       "wheels": "Muscle",
       "mods": []
     },
@@ -5681,7 +5681,8 @@
       "id": "raptor",
       "brand": "BF",
       "name": "Raptor",
-      "wheels": "High End"
+      "wheels": "High End",
+      "mods": []
     },
     {
       "id": "retinue2",
@@ -5852,16 +5853,6 @@
           "name": "Hood",
           "type": "VMT_BONNET",
           "variants": ["Stock Hood", "Stock Hood w/ Latches", "Hood w/ Latches & Screen", "Hood w/ Latches & Wide Screen", "Alt Hood", "Alt Hood w/ Latches", "Alt Hood w/ Latches & Screen", "Alt Hood w/ Latches & Wide Screen", "Race Hood", "Race Hood w/ Latches", "Race Hood w/ Latches & Screen", "Race Hood w/ Latches & Wide Screen"]
-        },
-        {
-          "name": "Spoiler",
-          "type": "VMT_SPOILER",
-          "variants": ["Stock Spoiler", "Tuner Spoiler", "Secondary Tuner Spoiler", "Carbon Tuner Spoiler", "Type II Spoiler", "Secondary Type II Spoiler", "Carbon Type II Spoiler", "GT Spoiler", "Secondary GT Spoiler", "Carbon GT Spoiler", "Performance Spoiler", "Secondary Performance Spoiler", "Carbon Performance Spoiler"]
-        },
-        {
-          "name": "Skirts",
-          "type": "VMT_SKIRT",
-          "variants": ["Stock Skirts", "Carbon Skirts"]
         },
         {
           "name": "Valve Covers",
@@ -8917,6 +8908,102 @@
           "name": "Livery",
           "type": "VMT_LIVERY_MOD",
           "variants": ["None", "White Body Stripe", "Double Body Stripe", "Dusche Rally Team", "Redwood Racing", "Team Xero", "Ron Performance", "Retro Rally", "Stronzo Rally"]
+        }
+      ]
+    },
+    {
+      "id": "viseris",
+      "brand": "Lampadati",
+      "name": "Viseris",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Blacked Extension", "Primary Extension", "Secondary Extension", "Bolted Extension", "Race Setup"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Removed", "Chrome Stock"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Fender", "Panel Splits", "Widebody Kit"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Twin Titanium Tips", "Twin Chrome", "Horizontal Single", "Carbon Big Bore", "Cannons", "Mk1 Diffusers", "Mk2 Diffusers"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Secondary Detail", "Carbon Detail", "Single Vent"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Blacked Extensions", "Primary Extensions", "Secondary Extensions", "Bolted Extensions"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Hoodlip Spoiler", "Slipstream Spoiler", "Tailgate Spoiler", "V Wing Spoiler", "Priamry Dovetail Spoiler", "Carbon Dovetail Spoiler", "Carbon Race Spoiler", "Carbon Aerodyn Spoiler", "Carbon Drag Spoiler", "Competition Spoiler"]
+        },
+        {
+          "name": "Engine Cover",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Engine Cover", "Carbon Detail", "Vented Cover", "Carbon Vented Cover", "Blacked Louvers", "Primary Louvers", "Rear Roof Scoops", "Vanity Cover"]
+        },
+        {
+          "name": "Chassis",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Chassis", "Parcel Shelf", "Interior Window", "GT Filters"]
+        },
+        {
+          "name": "Weapons",
+          "type": "VMT_ROOF",
+          "variants": ["No Weapon", "Mounted Machine Guns"]
+        }
+      ]
+    },
+    {
+      "id": "youga2",
+      "brand": "Bravado",
+      "name": "Youga Classic",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Exhausts",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Double Exhaust"]
+        },
+        {
+          "name": "Tailgate",
+          "type": "VMT_SPOILER",
+          "variants": ["Stock Tailgate", "Spare Wheel"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Arch Extensions"]
+        },
+        {
+          "name": "Chassis",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Chassis", "Side Steps"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Sunshade"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Simple Stripe", "Orange Retro Stripe", "Blue Retro Stripe", "Black Slash Stripe", "Red Slash Stripe", "Red Hot Summer", "Sausage Box", "Surf's Up", "Rusted Out", "Rusty Shop Van", "Rusty Retro Stripe", "Rusty Red Hot Summer"]
         }
       ]
     }
