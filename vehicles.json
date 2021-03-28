@@ -37,7 +37,7 @@
       "id": "brawler",
       "brand": "Coil",
       "name": "Brawler",
-      "wheels": "Off-Road",
+      "wheels": "OffRoad",
       "mods": [
         {
           "name": "Front Bumper",
@@ -190,7 +190,7 @@
       "id": "penetrator",
       "brand": "Ocelot",
       "name": "Penetrator",
-      "wheels": "Tuner",
+      "wheels": "Sport",
       "mods": [
         {
           "name": "Front Bumper",
@@ -456,7 +456,7 @@
       "id": "tempesta",
       "brand": "Pegassi",
       "name": "Tempesta",
-      "wheels": "Tuner",
+      "wheels": "High End",
       "mods": [
         {
           "name": "Front Bumper",
@@ -790,6 +790,7 @@
       "id": "streiter",
       "brand": "Benefactor",
       "name": "Streiter",
+      "wheels": "Sport",
       "mods": [
         {
           "name": "Front Bumper",
@@ -4391,7 +4392,8 @@
     },
     {
       "id": "kuruma",
-      "name": "Karin Kuruma",
+      "brand": "Karin",
+      "name": "Kuruma",
       "wheels": "Sport",
       "mods": [
         {
@@ -7348,7 +7350,7 @@
     {
       "id": "vamos",
       "brand": "Declasse",
-      "name": "Vamos ADD THE FENDERS",
+      "name": "Vamos",
       "wheels": "Muscle",
       "mods": [
         {
@@ -7360,6 +7362,11 @@
           "name": "Rear Bumper",
           "type": "VMT_BUMPER_R",
           "variants": ["Stock Rear Bumper", "Painted Rear Bumper", "Wheelie Bar", "Wheelie Bar and Chute"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Fender", "Trim Delete", "Painted Arch Extensions", "Carbon Arch Extensions"]
         },
         {
           "name": "Exhaust",
@@ -9048,6 +9055,944 @@
           "name": "Hood",
           "type": "VMT_BONNET",
           "variants": ["Stock Hood", "Triple Intake Bug Catcher", "Single Intake Bug Catcher"]
+        }
+      ]
+    },
+    {
+      "id": "manana2",
+      "brand": "Albany",
+      "name": "Manana Custom",
+      "wheels": "Lowrider",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Bumper Detail & Lower Lip", "Bumper Detail", "Lower Lip"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Fenders", "Curb Feelers", "Arch Flames"]
+        },
+        {
+          "name": "Exhausts",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Dual Exit Exhaust"]
+        },
+        {
+          "name": "Headlight Covers",
+          "type": "VMT_GRILL",
+          "variants": ["No Headlight Covers", "Headlight Grilles"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Simple Pinstripe", "Colored Pinstripe", "Pinstripe Shapes", "Purple Cruiser", "Vampire Custom", "Geometric", "Rainbow Rider", "Gilded Pinstripe", "Blue Floral", "Orange Floral", "The Works", "Alternate The Works"]
+        },
+        {
+          "name": "Arch Covers",
+          "type": "VMT_CHASSIS2",
+          "variants": ["None", "Painted Fender Skirt", "Painted & Chrome Fender Skirt"]
+        },
+        {
+          "name": "Tank",
+          "type": "VMT_CHASSIS5",
+          "variants": ["None", "Primary Color Tank", "Secondary Color Tank", "Livery Tank", "Chrome Tank"]
+        },
+        {
+          "name": "Engine Block",
+          "type": "VMT_ENGINEBAY1",
+          "variants": ["None", "V8 - Painted Ribbed Covers", "V8 - Chrome Covers", "V8 - Chrome Ribbed Covers", "V8 - Painted Livery Covers"]
+        },
+        {
+          "name": "Air Filters",
+          "type": "VMT_ENGINEBAY2",
+          "variants": ["None", "Chrome Air Filter", "Twin Air Filter", "Vertical Ram Pipes", "Blower", "Big Blower"]
+        },
+        {
+          "name": "Hydraulics",
+          "type": "VMT_HYDRO",
+          "variants": ["Standard Pump", "Chrome Pump", "Quad Pumps (4 in a Row)", "Quad Pumps (2 by 2)", "Quad Pumps (V-Pattern)"]
+        },
+        {
+          "name": "Trim Design",
+          "type": "VMT_INTERIOR1",
+          "variants": ["Stock Trim", "Padded Interior", "Padded Camo", "Padded Digital Camo", "Padded Zebra", "Padded Tiger", "Padded Leopard", "Padded Croc", "Striped Interior", "Striped Digital Camo", "Striped Zebra", "Striped Tiger", "Striped Croc"]
+        },
+        {
+          "name": "Dials",
+          "type": "VMT_INTERIOR4",
+          "variants": ["Stock Dials", "Plain Jane", "Flames", "Old School Skull", "Sun God", "Classic 30s", "Rocker Style", "Voodoo Skull"]
+        },
+        {
+          "name": "Trunk",
+          "type": "VMT_TRUNK",
+          "variants": ["None", "Speaker Box Shelf", "Square Speakers Shelf", "Round Speakers Shelf", "Twin Sub Trunk Install", "Triple Sub Trunk Install"]
+        },
+        {
+          "name": "Steering Wheel",
+          "type": "VMT_STEERING",
+          "variants": ["Stock Wheel", "Three-way", "The Toad", "Street Rod", "Two Retro", "Greaser", "Rockabilly", "Old School Cool", "Vintage Racer", "Burnout", "Got Wood?", "Restomod", "La Bomba", "Chain Link", "Starry Eyed", "Deco", "Cruzer"]
+        },
+        {
+          "name": "Column Shifter Levers",
+          "type": "VMT_KNOB",
+          "variants": ["None", "8-Ball", "Eyeball", "Lucky Dice", "All Seeing Eye", "Grenade", "Smmoooking!", "Top O The Morning", "Too Beaucoup", "King Lear", "Old School Mic", "Piston", "Gemset", "6 Shooter", "Pistola", "Pisswasser Pump"]
+        },
+        {
+          "name": "Plaques",
+          "type": "VMT_PLAQUE",
+          "variants": ["None", "Eastside", "Westside", "Low Santos", "Magnetics Script", "Magnetics Block", "Boars", "Vagos", "San Andreas", "San Andreas Initials", "Davis Los Santos", "Benny's", "Eastside (Neon)", "Westside (Neon)", "Low Santos (Neon)", "Magnetics Script (Neon)", "Magnetics Block (Neon)", "Boars (Neon)", "Vagos (Neon)", "San Andreas (Neon)", "San Andreas Initials (Neon)", "Davis Los Santos (Neon)", "Benny's (Neon)"]
+        },
+        {
+          "name": "Vanity Plate",
+          "type": "VMT_PLTVANITY",
+          "variants": ["None", "Benny's Silver Logo", "Benny's Classic Logo", "Benny's Gold on Black", "Benny's Gold on Blue", "Albany", "Declasse", "Willard", "Vapid", "LS Panic", "Liberty Penetrators", "LS Shrimps", "The Pounders", "True Patriot", "Magnetics Letterman", "Magnetics Monogram", "Magnetics Classic"]
+        },
+        {
+          "name": "Plateholder",
+          "type": "VMT_PLTHOLDER",
+          "variants": ["None", "Golfist", "Twisted", "Low 'n' Slow", "Barbed Wire", "Hawaiian", "Davy Jones", "Chain", "Magnetics Chain", "Bike Chain", "Flaming Skull", "Pitbull", "Flames", "Magnetics Classic"]
+        }
+      ]
+    },
+    {
+      "id": "fagaloa",
+      "brand": "Vulcar",
+      "name": "Fagaloa",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Remove Bumper", "Rusted Bumper", "Tuner Bumper", "Tourer Bumper", "Rusted Tourer Bumper"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Remove Bumper", "Rusted Bumper"]
+        },
+        {
+          "name": "Body Work",
+          "type": "VMT_WING_L",
+          "variants": ["None", "Rusted Trim", "Half-mast", "Full Wood"]
+        },
+        {
+          "name": "Headlights",
+          "type": "VMT_WING_R",
+          "variants": ["Stock Headlights", "Rusted Lids", "Secondary Trim", "Rusted Trim", "Retro Trim", "Rusted Retro Trim", "Headlight Tape"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Shotgun Exhaust", "Dual Exhausts"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Mirrors", "Rusted Mirrors", "Custom Mirrors", "Rusted Custom Mirrors", "Stock Fender Mirrors", "Rusted Fender Mirrors", "Custom Fender Mirrors", "Custom Rusted Fender Mirrors", "Retro Mirrors", "Rusted Retro Mirrors"]
+        },
+        {
+          "name": "Visor",
+          "type": "VMT_SPOILER",
+          "variants": ["No Visor", "Basic Visor", "Rusted Visor", "Retro Visor", "Rusted Retro Visor"]
+        },
+        {
+          "name": "Covered Fog Lights",
+          "type": "VMT_GRILL",
+          "variants": ["No Covered Fog Lights", "Basic Lights", "Tourer Lights", "Race Lights", "Rally Lights", "Rallye De Paleto"]
+        },
+        {
+          "name": "Chassis",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Chassis", "Wooden Interior"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Roof Rack", "Rusted Rack", "Ski Rack", "Small Luggage", "Load'a Luggage", "Surfboard"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Classic Stripes", "Retro", "Dirty 30", "Zombix Racer", "POWER METAL", "Rallye De Paleto", "Scooter Bro's Racer", "Vulcar Racing", "Macbeth Racer", "Rusted"]
+        }
+      ]
+    },
+    {
+      "id": "komoda",
+      "brand": "Lampadati",
+      "name": "Komoda",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Primary Extended Splitter", "Secondary Extended Splitter", "Carbon Extended Splitter", "Primary Street Splitter", "Secondary Street Splitter", "Carbon Street Splitter", "Prim. Bolt-On Street Spoiler", "Sec. Bolt-On Street Splitter", "Carbon Bolt-On Street Splitter", "Prim. Bolt-On Race Splitter", "Sec. Bolt-On Race Splitter", "Carbon Bolt-On Race Splitter"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Stock Bumper w/ Fins", "Carbon Stock Bumper w/ Fins", "Street Bumper w/ Fins", "Carbon Street Bumper w/ Fins"]
+        },
+        {
+          "name": "Mudguards",
+          "type": "VMT_WING_L",
+          "variants": ["None", "Primary Mudflaps", "Secondary Mudflaps", "Black Rubber Mudflaps"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_WING_R",
+          "variants": ["Stock Mirrors", "Secondary Mirror", "Carbon Mirror"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Oval Exhausts", "Dual Rounded Exhausts", "Split Oval Exhausts", "Dual Squared Exhausts"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Secondary Stock Hood", "Carbon Stock Hood", "Primary Street Hood", "Secondary Street Hood", "Carbon Street Hood", "Prim. Twin Vented Hood", "Sec. Twin Vented Hood", "Carbon Twin Vented Hood", "Primary Middle Intake", "Secondary Middle Intake", "Carbon Middle Intake", "Prim. Intake Vented Hood", "Sec. Intake Vented Hood", "Carbon Intake Vented Hood", "Prim. High Performance Hood", "Sec. High Performance Hood", "Carbon High Performance Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Primary Skirt", "Secondary Skirt", "Carbon Skirt", "Primary Street Skirt", "Secondary Street Skirt", "Carbon Street Skirt", "Primary Racing Skirt", "Secondary Racing Skirt", "Carbon Racing Skirt", "Primary Sports Skirt", "Secondary Sports Skirt", "Carbon Sports Skirt", "Primary Competition Skirt", "Secondary Competition Skirt", "Carbon Competition Skirt", "Primary Ridged Skirt", "Secondary Ridged Skirt", "Carbon Ridged Skirt"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["Stock Spoiler", "Prim. Small Lip Spoiler", "Sec. Small Lip Spoiler", "Carbon Small Lip Spoiler", "Prim. Short Lip Spoiler", "Sec. Short Lip Spoiler", "Carbon Short Lip Spoiler", "Prim. Extended Lip Spoiler", "Sec. Extended Lip Spoiler", "Carbon Extended Lip Spoiler", "Prim. Bolt-On Lip Spoiler", "Sec. Bolt-On Lip Spoiler", "Carbon Bolt-On Lip Spoiler", "Primary Ducktail Spoiler", "Secondary Ducktail Spoiler", "Carbon Ducktail Spoiler", "Prim. Bolt-On Ducktail Spoiler", "Sec. Bolt-On Ducktail Spoiler", "Carbon Bolt-On Ducktail Spoiler", "Primary Race Spoiler", "Secondary Race Spoiler", "Carbon Race Spoiler", "Primary GT Spoiler", "Secondary GT Spoiler", "Carbon Aggressive Spoiler"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Secondary Stock Roof", "Carbon Stock Roof", "Primary Roof w/ Vortex Fins", "Secondary Roof w/ Vortex Fins", "Carbon Roof w/ Vortex Fins", "Primary Roof Vent", "Secondary Roof Vent", "Carbon Roof Vent", "Primary Vent w/ Vortex Fins", "Secondary Vent w/ Vortex Fins", "Carbon Vent w/ Vortex Fins"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Thick White Racing Stripes", "Thick Black Racing Stripes", "White Lampadati Race Stripes", "Black Lampadati Race Stripes", "Lampadati Race", "Redwood Race", "Fleeca Race", "ProLaps", "Yogarishima", "Army Camo"]
+        }
+      ]
+    },
+    {
+      "id": "seminole2",
+      "brand": "Canis",
+      "name": "Seminole Frontier",
+      "wheels": "SUV",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Ram Plate", "Lifted Ram Bar", "Primary Bullbar", "Secondary Bullbar", "Bullbar II", "Primary Bullbar III", "Secondary Bullbar III", "Primary Bullbar IV", "Secondary Bullbar IV"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Fenders", "Primary Fenders", "Secondary Fenders", "XL Fenders", "Primary XL Fenders", "Secondary XL Fenders"]
+        },
+        {
+          "name": "Mudguards",
+          "type": "VMT_WING_R",
+          "variants": ["None", "Mudguards"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Dual Tail Pipes", "Shotgun Exhausts", "XL Shotgun Exhausts", "Oval Exhausts", "Angled Shotgun Exhausts"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Inset Hood", "Aftermarket Hood", "Cowl Hood", "Reverse Cowl Hood", "Scooped Hood", "Vented Hood", "Primary Vented Hood", "Secondary Vented Hood"]
+        },
+        {
+          "name": "Side Steps",
+          "type": "VMT_SKIRT",
+          "variants": ["No Side Steps", "Slat Steps", "Piped Steps"]
+        },
+        {
+          "name": "Deflector",
+          "type": "VMT_SPOILER",
+          "variants": ["No Deflector", "Plastic Wind Deflector", "Primary Wind Deflector", "Secondary Wind Deflector"]
+        },
+        {
+          "name": "Grill",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Half Slatted Grille", "Full Slatted Grille", "Box Grille", "Canis Grille", "Primary Canis Grille", "Secondary Canis Grille"]
+        },
+        {
+          "name": "Roll Cage",
+          "type": "VMT_CHASSIS",
+          "variants": ["No Roll Cage", "Primary Custom Half Cage", "Secondary Custom Half Cage", "Primary Full Cage", "Secondary Full Cage"]
+        },
+        {
+          "name": "Mirrors",
+          "type": "VMT_CHASSIS2",
+          "variants": ["Stock Mirrors", "Terrain Mirrors"]
+        },
+        {
+          "name": "Roof Accessories",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Light Bar", "Raid Rack", "Primary Light Covers", "Secondary Light Covers", "Raid Roof Kit", "Primary Raid Roof Kit II", "Secondary Raid Roof Kit II"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Canis Tri-Tone", "Old Wood", "Desert Stripes", "Sunset Stripes", "Siberia", "Terrain Tumbler", "Two-Tone Camo", "Offroader", "Forest Ranger", "Clean Me"]
+        }
+      ]
+    },
+    {
+      "id": "avarus",
+      "brand": "LCC",
+      "name": "Avarus",
+      "wheels": "Bike",
+      "mods": [
+        {
+          "name": "Frame",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Frame", "Sharp Tail Frame"]
+        },
+        {
+          "name": "Front Mudguard",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Mudguard", "Custom Short Tip Mudguard", "Custom Chrome Tip Mudguard"]
+        },
+        {
+          "name": "Oil Tank",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Oil Tank", "Custom Oil Tank"]
+        },
+        {
+          "name": "Rear Mudguard",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Mudguard", "Fat Tail Mudguard", "Short Tail Mudguard"]
+        },
+        {
+          "name": "Fuel Tank",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Fuel Tank", "Peanut Tank", "Speeder Tank", "Bobber Tank", "Vintage Tank", "Wide Custom Tank"]
+        },
+        {
+          "name": "Belt Drive Cover",
+          "type": "VMT_SPOILER",
+          "variants": ["Stock Belt Drive Cover", "Chrome Cover", "Secondary Color Cover", "Chrome Custom Cover", "Secondary Color Custom Cover", "Secondary Color Expo Cover", "Chrome Expo Cover", "Secondary Color Open Cover", "Chrome Open Cover", "Secondary Color Rims Cover", "Chrome Rims Cover", "Secondary Color Flame Cover", "Chrome Flame Cover"]
+        },
+        {
+          "name": "Engine Block",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Engine Block", "Half Chrome Engine", "Secondary Color Engine", "Full Chrome Engine"]
+        },
+        {
+          "name": "Air Filter",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Air Filter", "Chrome Air FIlter", "Large Pod Air Filter", "Medium Pod Air Filter", "Front Facing Pod Air Filter", "Sharp Tip Cone Air Filter", "Big Scoop Air Filter", "Short Ram Pipe", "Long Angled Ram Pipe"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Drag Pipes", "Side Slash Exhausts", "Phantom Pipes"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Red Flames", "Blue Flames", "Ghost Flames", "Basic Pinstripe", "Outline Pinstripe", "Classic Pinstripe", "Patriot Paintover", "Blue Tribal", "Tropical Green", "Ornate Stripe", "Stealthy Snake", "Major Milspec", "Flamed Patina", "Thin Stripe Patina", "Fat Stripe Patina", "Patriot Patina", "Outline Pinstripe Patina", "Classic Pinstripe Patina"]
+        }
+      ]
+    },
+    {
+      "id": "defiler",
+      "brand": "Shitzu",
+      "name": "Defiler",
+      "wheels": "Bike",
+      "mods": [
+        {
+          "name": "Fairing",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Fairing", "Body", "Underside", "Body & Underside"]
+        },
+        {
+          "name": "Front Mudguard",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Mudguard", "Remove Mudguard", "Arrowhead Front Mudguard"]
+        },
+        {
+          "name": "Headlights",
+          "type": "VMT_SPOILER",
+          "variants": ["Stock Headlights", "Marauder Fairing", "Remove Fairing"]
+        },
+        {
+          "name": "Seat",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Seat", "Aggressor Seat"]
+        },
+        {
+          "name": "Rear Mudguard",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Mudguard", "Remove Mudguard"]
+        },
+        {
+          "name": "Fuel Tank",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Fuel Tank", "Aggressor Tank", "Speeder Tank", "Marauder Tank", "Hellion Tank"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Phantom Pipes", "Side Slash Exhausts", "Stubby Exhaust", "Dual Stack Pipes"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Classic Orange Stripe", "Classic Red Stripe", "Classic Green Stripe", "Classic Blue Stripe", "Green Race Livery", "Blue Race Livery", "Red Race Livery", "Yellow Race Livery", "Custom Blue", "Custom Yellow", "Custom Purple", "Custom Red"]
+        }
+      ]
+    },
+    {
+      "id": "esskey",
+      "brand": "Pegassi",
+      "name": "Esskey",
+      "wheels": "Bike",
+      "mods": [
+        {
+          "name": "Front Mudguard",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Mudguard", "Remove Mudguard", "Offroad Mudguard", "Small Mudguard", "Retro Mudguard"]
+        },
+        {
+          "name": "Headlights",
+          "type": "VMT_SPOILER",
+          "variants": ["Stock Headlights", "Remove Fairing"]
+        },
+        {
+          "name": "Seat",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Seat", "Offroad Seat", "Lightweight Seat", "Racing Seat", "Classic Racing Seat"]
+        },
+        {
+          "name": "Rear Mudguard",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Mudguard", "Additional Mudguard", "Remove Plate Holder"]
+        },
+        {
+          "name": "Fuel Tank",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Fuel Tank", "High Capacity Tank", "Smooth Tank", "Classic Tank", "Reinforced Tank"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Stubby Exhaust", "GP Exhaust", "Dual Exhaust", "Twin Exhaust"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Classic Yellow Flames", "Classic Red Flames", "Black Race Stripes", "Red Race Stripes", "Blue Race Stripes", "Orange Retro Fade", "Blue Retro Fade", "Black Retro Fade", "Blue Retro Block", "Black Retro Block", "Black Retro Stripe", "Red Retro Stripe"]
+        }
+      ]
+    },
+    {
+      "id": "manchez",
+      "brand": "Maibatsu",
+      "name": "Manchez",
+      "wheels": "Bike",
+      "mods": [
+        {
+          "name": "Frame",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Frame", "Chrome Frame", "Painted Frame"]
+        },
+        {
+          "name": "Front Mudguard",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Mudguard", "Race Mudguard", "Offroad Mudguard", "Stunt Mudguard"]
+        },
+        {
+          "name": "Seat",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Seat", "Sport Seat"]
+        },
+        {
+          "name": "Rear Mudguard",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Mudguard", "Sporty Mudguard"]
+        },
+        {
+          "name": "Fuel Tank",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Fuel Tank", "Pit Tank", "Sport Tank", "Race Tank"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Sporty Exhaust", "Twin Exhaust", "Custom Shotgun Exhaust"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Maibatsu Orange", "Maibatsu Blue", "Maibatsu", "Maibatsu Stripe Green", "Maibatsu Stripe Yellow", "Maibatsu Stripe Red", "Maibatsu Stripe Blue", "Maibatsu Stripe Black", "Rogue White", "Rogue Black", "Rogue Lime", "Rogue Orange"]
+        }
+      ]
+    },
+    {
+      "id": "nightblade",
+      "brand": "Western",
+      "name": "Nightblade",
+      "wheels": "Bike",
+      "mods": [
+        {
+          "name": "Frame",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Frame", "Side Vent Covers", "Painted Livery Side Covers", "Full Vent Side Covers"]
+        },
+        {
+          "name": "Front Mudguard",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Mudguard", "Saber Mudguard", "Sporty Mudguard"]
+        },
+        {
+          "name": "Fuel Tank",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Fuel Tank", "Triple Vent Tank", "Phantom Tank", "Single Vent Phantom Tank", "Triple Vent Phantom Tank"]
+        },
+        {
+          "name": "Engine Block",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Engine Block", "Full Chrome Engine", "Secondary Color Engine"]
+        },
+        {
+          "name": "Air Filter",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Air Filter", "Air Dam Spoiler", "Stealth Air Dam Spoiler", "Cobra Air Dam Spoiler"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Twin Side Exit Exhaust", "Twin Side Exit Chrome Exhaust", "Twin Big Bore Exhaust", "Twin Bore Chrome Tip Exhaust"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Black Race Stripes", "White Race Stripes", "Yellow Race Stripes", "Green Race Stripes", "Red Race Stripes", "White Scallops", "Red Scallops", "Blue Scallops", "Orange Scallops", "Green Tribal Flames", "Red Tribal Flames", "Yellow Tribal Flames"]
+        }
+      ]
+    },
+    {
+      "id": "rrocket",
+      "brand": "Western",
+      "name": "Rampant Rocket",
+      "wheels": "Bike",
+      "mods": [
+        {
+          "name": "Air Filter",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Air Filter", "Dual Filter Blower", "Single Filter Blower", "Oval Intake Bugcatcher", "Triple Intake Bugcatcher"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Modern Media", "Impotent Rage", "Tackles Out!", "The Lost MC", "Das Ist Dusche", "Late Night Promotions", "Estancia Tobacco", "Big Ol' Wiener", "Poppin' Cherries", "Ignorance is Bliss"]
+        }
+      ]
+    },
+    {
+      "id": "stryder",
+      "brand": "Nagasaki",
+      "name": "Stryder",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Rear Mudguards",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Mudguards", "Carbon Mudguard", "Street Mudguard", "Street Carbon Mudguard", "Racer Mudguard", "Racer Carbon Mudguard"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Carbon Stock Exhaust", "Street Exhaust", "Racer Exhaust", "Sports Exhaust", "Quad Exhaust"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Orange Stripe", "Dual White Stripes", "Red & Blue Stripe", "Triple Stripes", "Stryder Stripes", "Dual Gradient Stripes", "Speedophile", "Wiwang 91", "Cocks 6", "Jackal Racing 99"]
+        }
+      ]
+    },
+    {
+      "id": "vortex",
+      "brand": "Pegassi",
+      "name": "Vortex",
+      "wheels": "Bike",
+      "mods": [
+        {
+          "name": "Frame",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Frame", "Chrome Frame", "Engraved Frame"]
+        },
+        {
+          "name": "Front Mudguard",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Mudguard", "Remove Mudguard", "Chopped Mudguard", "Extended Mudguard", "Secondary Color Mudguard", "Carbon Mudguard", "Scoop Mudguard"]
+        },
+        {
+          "name": "Headlights",
+          "type": "VMT_SPOILER",
+          "variants": ["Stock Headlights", "Rounded Cover", "Pointed Cover", "Number Plate", "Alien Cover", "Alien Secondary Lights"]
+        },
+        {
+          "name": "Seat",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Seat", "Short Seat", "Sharp Tail Seat"]
+        },
+        {
+          "name": "Fuel Tank",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Fuel Tank", "Aggressor Tank"]
+        },
+        {
+          "name": "Engine Block",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Engine Block", "Primary Color Engine", "Secondary Color Engine", "It's Lit"]
+        },
+        {
+          "name": "Fairing",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Fairing", "Flicked Fairing", "Carbon Fairing"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Titanium Exhaust"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Classic Red Stripe", "Yellow Race Stripe", "Black Tribal", "Classic Green Stripe", "Orange Two Tone", "Classic Blue Stripe", "Purple Race Stripe", "Black Two Tone", "Cyan Race Stripe", "Tropical Red", "White Two Tone", "Tropical Green"]
+        }
+      ]
+    },
+    {
+      "id": "yosemite3",
+      "brand": "Declasse",
+      "name": "Yosemite Rancher",
+      "wheels": "OffRoad",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Front Bumper Delete", "No Bumper & Chin Spoiler", "Bumper & Chin Spoiler", "Smooth Bumper", "Smooth Bumper & Spoiler", "Vented Valance", "MK2 Valance with Fogs", "Chrome Stud Bumper", "Chrome Sweep Bumper", "Offroad Trail Bumper", "Offroad Crux Bumper", "Offroad Ridge Bumper", "Offroad Stinger Bumper", "Offroad Shield Bumper"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Rear Bumper Delete", "Chrome Stud Rear Bumper", "Chrome Sweep Rear Bumper", "Chrome Trail Rear Bumper", "Offroad Stinger Rear Bumper"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Fenders", "Street Flares", "Arc Flares", "Raptor Flares", "Extended Raptor Flares", "Extended Arc Flares"]
+        },
+        {
+          "name": "Bullbar",
+          "type": "VMT_WING_R",
+          "variants": ["No Bullbars", "Single Loop Bar", "Secondary Single Loop Bar", "Primary Single Loop Bar", "Triple Loop Bar", "Secondary Triple Loop Bar", "Primary Triple Loop Bar", "Short Frame Bar", "Secondary Short Frame Bar", "Primary Short Frame Bar", "Wide Frame Bar", "Secondary Wide Frame Bar", "Primary Wide Frame Bar", "Force Wide Bar", "Secondary Force Wide Bar", "Primary Force Wide Bar"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Tuner Exhausts", "Chrome Exhausts", "Side Exit Exhausts", "Side Exit Titanium Exhausts", "Side Exit Trail Exhausts"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Secondary Color Hood", "Rusty Hood", "Carbon Hood", "Primary Trail Hood", "Secondary Trail Hood", "Secondary Hood w/ Triple Intake", "Secondary Hood w/ Single Intake", "Wiper Hood", "Primary Hood w/ Triple Intake", "Primary Hood w/ Single Intake", "Stinger Hood", "Power Bulge Hood", "Power Bulge Vented Hood", "Stinger Vented Hood"]
+        },
+        {
+          "name": "Side Step",
+          "type": "VMT_SKIRT",
+          "variants": ["No Side Steps", "Nerf Bars", "Nerf Bars w/ Branding", "Trail Side Steps", "Crux Side Steps", "Stinger Side Steps", "Rhino Side Steps"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Primary Grille", "Secondary Grille", "Primary Grille & Dechrome", "Secondary Grille & Dechrome", "Cross Grille", "Primary Cross Grille", "Dual Paint Mesh Grille", "Billet Grille", "Primary Mesh Grille"]
+        },
+        {
+          "name": "Truck Door",
+          "type": "VMT_SPOILER",
+          "variants": ["Stock Truck Door", "Chrome Branding", "Cargo Webbed Net", "Cargo Net", "Tube Door", "Tube Web Door w/ Brake Lamp", "Tube Trail Door", "Tube Trail Door w/ Brake Lamp"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Primary Bed Cap", "Secondary Bed Cap", "Offroad Soft Top", "Offroad Open Soft Top", "No Roof"]
+        },
+        {
+          "name": "Roll Cage",
+          "type": "VMT_CHASSIS",
+          "variants": ["No Roll Cage", "Roll Cage", "Web Roll Cage", "Padded Roll Cage", "Padded Rhino Roll Cage"]
+        },
+        {
+          "name": "Roll Cage",
+          "type": "VMT_CHASSIS2",
+          "variants": ["No Roll Cage", "Roll Cage", "Short Roll Cage w/ Fuel Cell", "4 Point Roll Cage", "Full Web Roll Cage", "Full Padded Roll Cage", "Roll Cage w/ Tire Mount", "Roll Cage w/ Recovery Kit"]
+        },
+        {
+          "name": "Skid Plate",
+          "type": "VMT_CHASSIS3",
+          "variants": ["None", "Street Skid Plate", "Performance Skid Plate", "Trail Skid Plate", "Crux Skid Plate", "Stinger Skid Plate", "Rhino Skid Plate"]
+        },
+        {
+          "name": "Secondary Light Surround",
+          "type": "VMT_CHASSIS4",
+          "variants": ["None", "Roof Light Bar", "Roof Search Light"]
+        },
+        {
+          "name": "Hood Accessories",
+          "type": "VMT_CHASSIS5",
+          "variants": ["None", "Chrome Hood Catch", "Angled Hood Pins", "Cable Hood Latch", "Hood Deflector", "Trail Hood Deflector", "Crux Hood Deflector", "Stinger Hood Deflector", "Chrome Hood Catch w/ Vents", "Angled Hood Pins w/ Vents", "Cable Hood Latch w/ Vents"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Dash Stripes", "Skid Stripes", "Sunset Stripes", "Sprint Stripes", "Jackal Racing Camo", "Reptile Camo", "Shark Camo", "Sticky Camo", "Slick Camo", "Track Master", "Autocross Destroyer", "Patriot Beer", "Rat Race", "Benny's Shop Truck", "Al's Shop Truck", "Diego's Shop Truck", "Ragga Rum", "Drift Assault"]
+        },
+        {
+          "name": "Seats",
+          "type": "VMT_SEATS",
+          "variants": ["None", "Rustic Carpet Covered Bench", "Two Tone Oldschool Bench", "Two Tone Bench", "Two Tone Shifter Bench", "Gator Skin Bench", "Snake Skin Bench", "WWII Bomber Seat", "Basic Bucket Seat", "Lightweight Race Seat", "Aluminium Bucket Seat"]
+        },
+        {
+          "name": "Doors",
+          "type": "VMT_DOOR_L",
+          "variants": ["Stock Doors", "Quarter Door w/ Quarter Window", "Tube Short Net Doors", "Tube Short Doors", "Tube Short Web Doors", "Tube Half Doors", "Tube Half Web Doors", "Tube Full Doors", "Tube Full Web Doors"]
+        },
+        {
+          "name": "Snorkel",
+          "type": "VMT_DOOR_R",
+          "variants": ["None", "Trail Snorkel", "Ram Snorkel"]
+        },
+        {
+          "name": "Truck Bed",
+          "type": "VMT_TRUNK",
+          "variants": ["None", "Primary Paint Bed", "Secondary Paint Bed"]
+        }
+      ]
+    },
+    {
+      "id": "blazer4",
+      "brand": "Nagasaki",
+      "name": "Street Blazer",
+      "wheels": "OffRoad",
+      "mods": [
+        {
+          "name": "Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Primary Agressor Bars", "Primary Arrow Bars", "Secondary Agressor Bars", "Secondary Arrow Bars", "Carbon Aggressor Bars", "Carbon Arrow Bars"]
+        },
+        {
+          "name": "Arch Covers",
+          "type": "VMT_WING_L",
+          "variants": ["None", "Painted Street Guards", "Painted Race Guards", "Carbon Street Guards", "Carbon Race Guards"]
+        },
+        {
+          "name": "Sissy Bar",
+          "type": "VMT_WING_R",
+          "variants": ["Stock Sissy Bar", "Secondary Paint Backrest", "Carbon Backrest", "Remove Backrest"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Primary Street Step", "Primary Racing Cage", "Carbon Street Step", "Carbon Racing Cage"]
+        },
+        {
+          "name": "Mudguards",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Mudguard", "Standard Painted Covers", "Curved Painted Covers", "Grated Painted Covers", "Standard Carbon Covers", "Curved Carbon Covers", "Grated Carbon Covers"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["Stock Spoiler", "Primary Race Spoiler", "Secondary Race Spoiler", "Primary Competition Spoiler", "Secondary Competition Spoiler"]
+        },
+        {
+          "name": "Air Filter",
+          "type": "VMT_ROOF",
+          "variants": ["None", "Primary Air Vent", "Carbon Air Vent"]
+        },
+        {
+          "name": "Frame",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Frame", "Minim Body", "Intake Body"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Dual Painted Exhaust", "Twin Painted Exhaust", "Carbon Stock Exhaust", "Dual Carbon Exhaust", "Twin Carbon Exhaust"]
+        }
+      ]
+    },
+    {
+      "id": "dubsta3",
+      "brand": "Benefactor",
+      "name": "Dubsta 6x6",
+      "wheels": "OffRoad",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Chrome Bullbar", "Bullbar & Winch", "Bullbar & Lights", "Bullbar with Winch & Lights", "Black Bullbar", "Black Bullbar with Winch & Lights"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Chrome Rear Guard", "Black Rear Guard"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Off-Road Hood", "Off-Road Hood with Spare"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Slatted Grille", "Mesh Grille", "Black Grille", "Chrome Grille"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Roof Rack", "Roof Rack with Spotlights", "Black Roof Rack", "Black Roof Rack/Spotlights"]
+        }
+      ]
+    },
+    {
+      "id": "rumpo3",
+      "brand": "Bravado",
+      "name": "Rumpo Custom",
+      "wheels": "Muscle",
+      "mods": []
+    },
+    {
+      "id": "hellion",
+      "brand": "Annis",
+      "name": "Hellion",
+      "wheels": "SUV",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Front Bumper Delete", "Ram Plate", "Primary Ram Plate", "Secondary Ram Plate", "Bull Bar", "Primary Bull Bar", "Secondary Bull Bar", "Lifted Ram Bar", "Primary Lifted Ram Bar", "Secondary Lifted Ram Bar", "Bull Bar II", "Primary Bull Bar II", "Secondary Bull Bar II", "Bull Bar III", "Primary Bull Bar III", "Secondary Bull Bar III"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Rear Bumper Delete", "Light Cage", "Primary Light Cage", "Secondary Light Cage", "Ram Bar", "Primary Ram Bar", "Secondary Ram Bar", "Competition Kit", "Primary Competition Kit", "Secondary Competition Kit"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Fenders", "Fenders Delete", "Stock Primary Fenders", "Stock Secondary Fenders", "Bolted Fenders", "Secondary Bolted Fenders", "Flared Fenders", "Primary Flared Fenders", "Secondary Flared Fenders"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Exposed Air Filters", "Intersected Turbo", "Big Daddy Turbo", "V8", "Oval Intake Bugcatcher", "Triple Intake Bugcatcher", "Twin Turbo", "Twin Turbo w/ Air Filters"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Inset Hood", "Aftermarket Hood", "Cowl Hood", "Reverse Cowl Hood", "Scooped Hood", "Vented Hood", "Primary Vented Hood", "Secondary Vented Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Slat Skirt", "Primary Slat Skirt", "Secondary Slat Skirt", "Piped Step", "Primary Piped Step", "Secondary Piped Step", "Lifted Piped Step", "Primary Lifted Piped Step", "Secondary Lifted Piped Step"]
+        },
+        {
+          "name": "Window Plate",
+          "type": "VMT_SPOILER",
+          "variants": ["No Window Plate", "Window Plates", "Primary Window Plates", "Secondary Window Plates"]
+        },
+        {
+          "name": "Grill",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Grille Delete", "Exposed Chrome Grille", "Exposed Carbon Grille", "Grated Grille", "Chrome Piped Grille", "Carbon Piped Grille", "Chrome Slatted Grille", "Carbon Slatted Grille", "Annis Grille", "Carbon Annis Grille"]
+        },
+        {
+          "name": "Roll Cage",
+          "type": "VMT_CHASSIS",
+          "variants": ["No Roll Cage", "Primary Half Cage", "Secondary Half Cage", "Primary Full Cage", "Secondary Full Cage"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Light Bar", "Raid Rack", "Raid Kit"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "White Stripes", "Black Stripes", "Atomic Sponsor", "Redwood", "No.56 Meinmacht", "Lube and 69", "Globe Ranger", "Patriot Beer", "Impotent Rage", "Nightmare"]
+        }
+      ]
+    },
+    {
+      "id": "wolfsbane",
+      "brand": "Western",
+      "name": "Wolfsbane",
+      "wheels": "Bike",
+      "mods": [
+        {
+          "name": "Frame",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Frame", "Sharp Tail Frame"]
+        },
+        {
+          "name": "Front Mudguard",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Mudguard", "Basic Front Mudguard", "Chopper Front Mudguard", "Arrowhead Front Mudguard", "Diamond Front Mudguard"]
+        },
+        {
+          "name": "Oil Tank",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Oil Tank", "Custom Oil Tank"]
+        },
+        {
+          "name": "Rear Mudguard",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Mudguard", "Painted Round Oil Tank", "Simple Box Oil Tank", "Chrome Round Oil Tank"]
+        },
+        {
+          "name": "Fuel Tank",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Fuel Tank", "Peanut Tank", "Speeder Tank", "Bobber Tank", "Vintage Tank", "Wide Custom Tank", "Stretched Tank", "Diamond Tank"]
+        },
+        {
+          "name": "Belt Drive Cover",
+          "type": "VMT_SPOILER",
+          "variants": ["Stock Belt Drive Cover", "Remove Primary Cover", "Painted Primary Cover", "Exposed Chrome Primary", "Basic Black Primary Cover", "Chrome Primary Cover", "Black Billet Primary Cover", "Chrome Billet Primary Cover", "Painted Custom Primary Cover", "Chrome Custom Primary Cover", "Painted Openworked Cover", "Chrome Openworked Cover"]
+        },
+        {
+          "name": "Engine Block",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Engine Block", "Half Chrome Engine", "Secondary Color Engine", "Full Chrome Engine"]
+        },
+        {
+          "name": "Air Filter",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Air Filter", "Chrome Air Filter", "Large Pod Air Filter", "Medium Pod Air Filter", "Front Facing Pod Air Filter", "Cone Air Filter", "Sharp Tip Cone Air Filter", "Big Scoop Air FIlter", "Short Ram Pipe", "Long Angled Ram Pipe"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Chrome Short Exhaust", "Wrapped Short Exhaust", "Chrome Straight Exhaust", "Chrome Wideboy Exhaust", "Chrome Racer Exhaust", "Long Twin Exhaust", "Upswept Chopper Exhaust"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Red Flames", "Blue Flames", "Ghost Flames", "Basic Pinstripe", "Outline Pinstripe", "Classic Pinstripe", "Patriot Paintover", "Blue Tribal", "Tropical Green", "Ornate Stripe", "Stealthy Snake", "Major Milspec", "Flamed Patina", "Thin Stripe Patina", "Fat Stripe Patina", "Patriot Patina", "Outline Pinstripe Patina", "Classic Pinstripe Patina"]
         }
       ]
     }

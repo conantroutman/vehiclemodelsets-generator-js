@@ -1,3 +1,6 @@
+let jsonData;
+const carSelect = document.getElementById("car-select");
+
 function setup() {
   let i = 0;
   loadFiles();
@@ -9,6 +12,7 @@ function loadFiles() {
   fetch("../vehicles.json")
     .then((response) => response.json())
     .then((data) => {
+      jsonData = data;
       generateCars(data);
     })
     .then(hideLoadingScreen());
@@ -95,12 +99,12 @@ function generateWindowTint() {
 // generateCars - Generates a drop-down list for car selection.
 //--------------------------------------------------------------------------------------------------------------------------
 function generateCars(data) {
-  let carSelect = document.getElementById("car-select");
   let carOption = document.createElement("option");
 
   // Sort the vehicle list alphabetically by vehicle name
   data.vehicles.sort((a, b) => (`${a.brand} ${a.name}` > `${b.brand} ${b.name}` ? 1 : -1));
 
+  // Generate HTML option elements for each vehicle
   data.vehicles.forEach((element) => {
     carOption = document.createElement("option");
     carOption.value = element.id;
@@ -328,4 +332,37 @@ function reset() {
     input.value = '-1';
   });
   updateOutput();
+}
+
+//--------------------------------------------------------------------------------------------------------------------------
+// Filter the car selection dropdown
+//--------------------------------------------------------------------------------------------------------------------------
+
+const filterInput = document.querySelector('#car-filter');
+filterInput.addEventListener('keyup', filterCars);
+
+function filterCars() {
+  if (filterInput.value.length > 0) {
+
+    const filter = filterInput.value;
+    console.log(filter)
+    let filteredVehicles = {vehicles: []}
+
+    // Look through the complete list of vehicles and pick out the ones with matching name/brand and add to the filtered list
+    jsonData.vehicles.forEach((element) => {
+      if (element.name.toLowerCase().includes(filter.toLowerCase()) || element.brand.toLowerCase().includes(filter.toLowerCase())) {
+        filteredVehicles.vehicles.push(element);
+      }
+    });
+
+    carSelect.innerHTML = '';
+    generateCars(filteredVehicles)
+
+    //console.log(jsonData);
+  }
+  // Reset the filter if the filter input is empty
+  else if (filterInput.value.length == 0) {
+    carSelect.innerHTML = '';
+    generateCars(jsonData);
+  }
 }

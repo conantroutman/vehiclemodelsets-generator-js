@@ -12,7 +12,7 @@
 			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 			crossorigin="anonymous"
 		/>
-		<script src="scripts/main.js"></script>
+		<script src="scripts/main.js" defer></script>
 	</head>
 
 	<body onload="setup()">
@@ -53,9 +53,14 @@
 								</div>
 								<div class="card-body">
 									<div id="car">
-										<select id="car-select" class="form-control">
-											<option value="" selected>Select Car</option>
-										</select>
+										<div class="input-group">
+											<input type="text" id="car-filter" class="form-control" placeholder="Filter...">
+										</div>
+										<div class="input-group">
+											<select id="car-select" class="form-control">
+												<option value="" selected>Select Car</option>
+											</select>
+										</div>
 									</div>
 									<div id="colors" class="options"></div>
 									<div id="mods" class="options"></div>
