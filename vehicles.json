@@ -532,7 +532,8 @@
       "id": "xls",
       "brand": "Benefactor",
       "name": "XLS",
-      "wheels": "SUV"
+      "wheels": "SUV",
+      "mods": []
     },
     {
       "id": "prototipo",
@@ -9993,6 +9994,253 @@
           "name": "Livery",
           "type": "VMT_LIVERY_MOD",
           "variants": ["None", "Red Flames", "Blue Flames", "Ghost Flames", "Basic Pinstripe", "Outline Pinstripe", "Classic Pinstripe", "Patriot Paintover", "Blue Tribal", "Tropical Green", "Ornate Stripe", "Stealthy Snake", "Major Milspec", "Flamed Patina", "Thin Stripe Patina", "Fat Stripe Patina", "Patriot Patina", "Outline Pinstripe Patina", "Classic Pinstripe Patina"]
+        }
+      ]
+    },
+    {
+      "id": "weevil",
+      "brand": "BF",
+      "name": "Weevil",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Bumper Delete", "Plastic Splitter", "Primary Splitter", "Secondary Splitter", "Carbon Splitter", "No Bumper & Primary Splitter", "No Bumper & Secondary Splitter", "No Bumper & Carbon Splitter", "Extended Bullbar", "Buggy Bullbar", "Baja Bullbar", "Injection Bullbar", "Chrome Extended Bullbar", "Chrome Buggy Bullbar", "Chrome Baja Bullbar", "Chrome Injection Bullbar"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Rear Bumper Delete", "Plastic Rear Bumper", "Injection Rear Cage", "Buggy Rear Cage", "Baja Rear Cage", "Chrome Injection Rear Cage", "Chrome Buggy Rear Cage", "Chrome Baja Rear Cage"]
+        },
+        {
+          "name": "Front Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Front Fenders", "Headlight Hoods", "Wire Stoneguards", "Blackout Covers", "Front Arch Extensions", "Carbon Fenders", "Chopped Fenders", "Primary Chopped Fenders", "Carbon Chopped Fenders", "Fender Delete"]
+        },
+        {
+          "name": "Rear Fenders",
+          "type": "VMT_WING_R",
+          "variants": ["Stock Rear Fenders", "Rear Arch Extensions", "Carbon Rear Fenders", "Chopped Rear Fenders", "Primary Chopped Rear Fenders", "Carbon Chopped Rear Fenders", "Fender Delete"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Chrome Exhausts", "Big Bore Exhausts", "Upswept Exhausts", "Central Exhausts", "Upswept Central Exhausts", "Baby Stinger", "Big Bore Stinger", "Upswept Stinger", "Side Stinger", "Mega Stinger", "Mega Side Stinger"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Secondary Hood", "Carbon Hood", "Foglight Hood", "Secondary Foglight Hood", "Carbon Foglight Hood"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Basic Running Boards", "Chrome Running Boards", "Primary Running Boards", "Secondary Running Boards", "Carbon Running Boards", "Offroad Kit"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Primary Race Wing", "Carbon Race Wing", "Primary Drag Wing", "Carbon Drag Wing", "Extreme Aero Wing"]
+        },
+        {
+          "name": "Hood Accessories",
+          "type": "VMT_GRILL",
+          "variants": ["None", "Adventure Kit"]
+        },
+        {
+          "name": "Roll Cage",
+          "type": "VMT_CHASSIS",
+          "variants": ["No Roll Cage", "Half Cage", "Half Cage & Sports Seats", "Half Cage & Street Seats", "Cage & Drift Seats", "Cage & Drag Seats", "Cage & Race Seats", "Cage & Carbon Seats"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Primary Sunstrip", "Secondary Sunstrip", "Vintage Rack", "Seaside Getaway", "Tire Rack", "Offroad Rack", "Vintage Rack & Board I", "Vintage Rack & Board II", "Vintage Rack & Board III", "Basic Rack & Board I", "Basic Rack & Board II", "Basic Rack & Board III", "Modern Rack & Board I", "Modern Rack & Board II", "Modern Rack & Board III", "Modern Rack & Board IV"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Hot Rod Flames", "Purple Flames", "Backyard Camo", "Arid Camo", "BF Cup Car", "Stronzo Racing", "Evil Weevil", "Barnfind", "Forgotten Racer", "Beatnik Beater", "Tie Dyed", "Flower Power", "Peace, Man", "Trippy Vibes", "Love Machine"]
+        }
+      ]
+    },
+    {
+      "id": "brioso2",
+      "brand": "Grotti",
+      "name": "Brioso 300",
+      "wheels": "Muscle",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Remove Bumper", "Basic Bumper", "Classic Bumber", "Retro Bumper", "Rallye De Paleto I", "Rally Lights", "Rallye De Paleto II"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Remove Bumper", "Basic Bumper", "Classic Bumper", "Retro Bumper"]
+        },
+        {
+          "name": "Sunstrip",
+          "type": "VMT_WING_L",
+          "variants": ["None", "Primary Sunstrip", "Secondary Sunstrip", "Carbon Sunstrip"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_R",
+          "variants": ["Stock Fenders", "Plastic Arches", "Carbon Arches"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Twin Exhausts", "Chrome Exhaust", "Twin Chrome Exhausts", "Rally Exhaust", "Blast Pipes"]
+        },
+        {
+          "name": "Trunk",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Hood Rack", "Hood Luggage", "Popped Hood", "Racing Hood"]
+        },
+        {
+          "name": "Bodywork",
+          "type": "VMT_SKIRT",
+          "variants": ["None", "Remove Reflectors", "Remove Reflectors & Trim", "Remove All"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Secondary Trunk", "Carbon Trunk"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Full Painted Roof", "Top Down", "Primary Roof", "Full Primary Roof", "Primary w/ Top Down", "Carbon Roof", "Full Carbon Roof", "Carbon w/ Top Down", "Roof Rack", "Roof Luggage", "Full Top Down"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Black Stripes", "White Stripes", "Grotti Stripes", "Arrow Gasoline", "Grotti Racing", "Fukaru Tires", "Pole Position", "Ragga Rum", "Atomic Tires", "Total Ride Motors"]
+        }
+      ]
+    },
+    {
+      "id": "italirsx",
+      "brand": "Grotti",
+      "name": "Itali RSX",
+      "wheels": "High End",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Primary Splitter", "Carbon Splitter", "Primary Super Splitter", "Secondary Super Splitter", "Carbon Super Splitter"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Primary Fins", "Secondary Fins", "Primary Focus Diffuser", "Secondary Focus Diffuser", "Carbon Focus Diffuser", "Primary Winged Diffuser", "Secondary Winged Diffuser", "Carbon Winged Diffuser", "Primary Slatted Diffuser", "Secondary Slatted Diffuser", "Carbon Slatted Diffuser", "Primary Winged Diffuser Kit", "Secondary Winged Diffuser Kit", "Carbon Winged Diffuser Kit"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Chrome Exhaust", "Aluminium Exhaust", "Quad Exhaust", "Chrome Quad Exhaust", "Expansive Exhaust", "Triple Bore Exhaust", "Chrome Tirple Boar Exhaust", "Aluminium Triple Bore Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Carbon Hood", "Stripped Hood", "Carbon Stripped Hood", "Twin Vented Hood", "Carbon Twin Vented Hood", "Dished Hood", "Carbon Dished Hood", "Triple Intake Hood", "Twin Dished Hood", "Carbon Twin Dished Hood", "Primary Race Fins", "Secondary Race Fins", "Carbon Race Fins"]
+        },
+        {
+          "name": "Skirts",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Skirts", "Primary Skirt Lip", "Secondary Skirt Lip", "Carbon Skirt Lip", "Primary Skirt Fin", "Secondary Skirt Fin", "Carbon Skirt Fin", "Primary Super Skirt", "Secondary Super Skirt", "Carbon Super Skirt"]
+        },
+        {
+          "name": "Spoiler",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Secondary Wing", "Carbon Wing", "Primary Discreet Wing", "Secondary Discreet Wing", "Carbon Discreet Wing", "Primary Ducktail", "Secondary Ducktail", "Carbon Ducktail", "Primary Body Ducktail", "Secondary Body Ducktail", "Carbon Body Ducktail", "Primary Bunny Wing", "Secondary Bunny Wing", "Carbon Bunny Wing", "Primary Aero Wing", "Secondary Aero Wing", "Carbon Aero Wing", "Primary Championship Wing", "Secondary Championship Wing", "Carbon Championship Wing"]
+        },
+        {
+          "name": "Rear Panel",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Rear Panel", "Carbon Panel", "Exposed Vented Panel", "Carbon Exposed Vented Panel", "Circle Vented Panel", "Carbon Circle Vented Panel", "Slipstream Panel", "Carbon Slipstream Panel"]
+        },
+        {
+          "name": "Tail Fin",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Tail Fin", "Secondary Tail Fin", "Carbon Tail Fin", "Aftermarket Tail Fin", "Secondary Aftermarket Tail Fin", "Carbon Aftermarket Tail Fin"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Carbon Roof", "Ridgeline Hood", "Carbon Ridgeline Hood", "Carbon Striped Ridgeline Roof", "Inset Roof", "Carbon Inset Roof", "Carbon Striped Inset Roof"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Tricolor", "Grotti Stripe", "Streamline", "Edgelord", "White Pinstripe", "Gold Pinstripe", "Candybox Racer", "Dual Tone", "Tri-Stripe", "Khaki", "Monochrome"]
+        }
+      ]
+    },
+    {
+      "id": "winky",
+      "brand": "Vapid",
+      "name": "Winky",
+      "wheels": "OffRoad",
+      "mods": [
+        {
+          "name": "Front Bumper",
+          "type": "VMT_BUMPER_F",
+          "variants": ["Stock Front Bumper", "Towing Rope Bumper", "Pole Bumper", "Survival Kit Bumper", "Trail Bumper", "Crux Bumper", "Ridge Bumper", "Shield Bumper"]
+        },
+        {
+          "name": "Rear Bumper",
+          "type": "VMT_BUMPER_R",
+          "variants": ["Stock Rear Bumper", "Trail Rear Bumper", "Shield Rear Bumper"]
+        },
+        {
+          "name": "Fenders",
+          "type": "VMT_WING_L",
+          "variants": ["Stock Front Fenders", "Blackout Fenders", "Ammo Fenders", "Supply Fenders"]
+        },
+        {
+          "name": "Exhaust",
+          "type": "VMT_EXHAUST",
+          "variants": ["Stock Exhaust", "Street Exhaust", "Chrome Exhaust", "Titanium Exhaust", "Trail Exhaust"]
+        },
+        {
+          "name": "Hood",
+          "type": "VMT_BONNET",
+          "variants": ["Stock Hood", "Stinger Hood", "Dual Vented Hood", "Stinger Vented Hood", "Power Bulge Hood", "Offroad Kit Hood", "Wheel Mount Hood"]
+        },
+        {
+          "name": "Headlight Covers",
+          "type": "VMT_SKIRT",
+          "variants": ["Stock Headlight Covers", "Round Light Covers", "Inset Light Covers", "Visor Light Covers", "Blackout Light Covers", "Shield Light Covers", "Trail Light Covers"]
+        },
+        {
+          "name": "Bodywork",
+          "type": "VMT_SPOILER",
+          "variants": ["None", "Remove Stock Kit", "Recon Kit", "Supply Kit"]
+        },
+        {
+          "name": "Grille",
+          "type": "VMT_GRILL",
+          "variants": ["Stock Grille", "Winky Grille", "Billet Grille", "Rhino Grille", "Trail Grille"]
+        },
+        {
+          "name": "Bullbar",
+          "type": "VMT_CHASSIS",
+          "variants": ["Stock Bullbars", "Rhino Bar", "Primary Rhino Bar", "Single Loop Bar", "Primary Single Loop Bar", "Triple Loop Bar", "Primary Triple Loop Bar", "Short Frame Bar", "Primary Short Frame Bar", "Wide Frame Bar", "Primary Wide Frame Bar"]
+        },
+        {
+          "name": "Roof",
+          "type": "VMT_ROOF",
+          "variants": ["Stock Roof", "Roof Search Light"]
+        },
+        {
+          "name": "Livery",
+          "type": "VMT_LIVERY_MOD",
+          "variants": ["None", "Hot Rod Flames", "Purple Flames", "Backyard Camo", "Arid Camo", "BF Cup Car", "Stronzo Racing", "Evil Weevil", "Barnfind", "Forgotten Racer", "Beatnik Beater", "Tie Dyed", "Flower Power", "Peace, Man", "Trippy Vibes", "Love Machine"]
         }
       ]
     }
