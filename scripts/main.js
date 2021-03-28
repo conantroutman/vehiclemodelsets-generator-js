@@ -1,4 +1,5 @@
 let jsonData;
+let timeout;
 const carSelect = document.getElementById("car-select");
 
 function setup() {
@@ -113,11 +114,25 @@ function generateCars(data) {
   });
 
   // Update the code output when we select a car
-  carSelect.addEventListener("change", () => {
-    const selectedIndex = document.getElementById("car-select").selectedIndex - 1;
-    generateColors();
-    generateMods(data.vehicles[selectedIndex]);
-  });
+  carSelect.addEventListener("input", () => {
+    // Debouncing stuff
+    if (timeout) {
+      window.cancelAnimationFrame(timeout);
+    }
+
+    timeout = window.requestAnimationFrame(() => {
+
+      // Actual code is here, after debouncing
+      let selectedIndex = 0;
+
+      jsonData.vehicles.forEach((element, index) => {
+        if (element.id === carSelect.value) selectedIndex = index;
+      });
+  
+      generateColors();
+      generateMods(jsonData.vehicles[selectedIndex]);
+    });
+  }, false);
 }
 
 //--------------------------------------------------------------------------------------------------------------------------
@@ -197,7 +212,7 @@ function generateWheels(type, callback) {
     .then((data) => {
       data.wheels.forEach((element) => {
         if (element.name == type) {
-          console.log(element.name);
+          //console.log(element.name);
           element.variants.forEach((wheel, index) => {
             modOption = document.createElement("option");
             modOption.value = index;
@@ -260,9 +275,9 @@ function selectRandom(select) {
 
 function randomizeMods() {
   let container = document.getElementById("mods");
-  console.log(container);
+  //console.log(container);
   let selects = container.getElementsByTagName("select");
-  console.log(selects.length);
+  //console.log(selects.length);
   for (i = 0; i < selects.length; i++) {
     selectRandom(selects[i]);
   }
@@ -271,9 +286,9 @@ function randomizeMods() {
 
 function randomizeColors() {
   let container = document.getElementById("colors");
-  console.log(container);
+  //console.log(container);
   let selects = container.getElementsByTagName("select");
-  console.log(selects.length);
+  //console.log(selects.length);
   for (i = 0; i < selects.length; i++) {
     selectRandom(selects[i]);
   }
@@ -339,13 +354,15 @@ function reset() {
 //--------------------------------------------------------------------------------------------------------------------------
 
 const filterInput = document.querySelector('#car-filter');
-filterInput.addEventListener('keyup', filterCars);
+filterInput.addEventListener('input', filterCars);
 
 function filterCars() {
+  console.log("Firing event")
+
   if (filterInput.value.length > 0) {
 
     const filter = filterInput.value;
-    console.log(filter)
+    //console.log(filter)
     let filteredVehicles = {vehicles: []}
 
     // Look through the complete list of vehicles and pick out the ones with matching name/brand and add to the filtered list
