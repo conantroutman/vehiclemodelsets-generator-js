@@ -59,6 +59,7 @@ function generateColors() {
           color = document.createElement("option");
           color.value = element.id;
           color.style.backgroundColor = `rgb(${element.rgb})`;
+          color.style.color = GetContrastingTextColor(element.rgb);
           color.innerHTML = element.name;
           colorSelect.appendChild(color);
         });
@@ -382,4 +383,20 @@ function filterCars() {
     carSelect.innerHTML = '';
     generateCars(jsonData);
   }
+}
+
+//--------------------------------------------------------------------------------------------------------------------------
+// GetContrastingTextColor - Selects white or black text depending on background color https://stackoverflow.com/questions/11867545/change-text-color-based-on-brightness-of-the-covered-background-area
+//--------------------------------------------------------------------------------------------------------------------------
+
+function GetContrastingTextColor(rgbString) {
+  const rgb = rgbString.split(', ');
+
+  const brightness = Math.round(((parseInt(rgb[0]) * 299) + (parseInt(rgb[1]) * 587) + (parseInt(rgb[2]) * 114)) / 1000);
+  console.log(brightness)
+  const textColor = (brightness > 125) ? 'black' : 'white';
+
+  console.log(textColor);
+
+  return textColor;
 }
