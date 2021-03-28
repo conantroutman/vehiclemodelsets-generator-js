@@ -99,3 +99,7 @@ body {
 #mods {
 	display: none;
 }
+
+.car-selection-dropdown #car-filter {
+	max-width: 33%;
+}
