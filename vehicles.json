@@ -2188,6 +2188,13 @@
       "mods": []
     },
     {
+      "id": "mesa3",
+      "brand": "Canis",
+      "name": "Mesa (Merryweather)",
+      "wheels": "OffRoad",
+      "mods": []
+    },
+    {
       "id": "novak",
       "brand": "Lampadati",
       "name": "Novak",
@@ -4564,7 +4571,7 @@
       "id": "outlaw",
       "brand": "Nagasaki",
       "name": "Outlaw",
-      "wheels": "Off-Road",
+      "wheels": "OffRoad",
       "mods": [
         {
           "name": "Livery",
@@ -10243,6 +10250,27 @@
           "variants": ["None", "Hot Rod Flames", "Purple Flames", "Backyard Camo", "Arid Camo", "BF Cup Car", "Stronzo Racing", "Evil Weevil", "Barnfind", "Forgotten Racer", "Beatnik Beater", "Tie Dyed", "Flower Power", "Peace, Man", "Trippy Vibes", "Love Machine"]
         }
       ]
+    },
+    {
+      "id": "jb700",
+      "brand": "Dewbauchee",
+      "name": "JB 700",
+      "wheels": "Lowrider",
+      "mods": []
+    },
+    {
+      "id": "jb7002",
+      "brand": "Dewbauchee",
+      "name": "JB 700W",
+      "wheels": "Lowrider",
+      "mods": []
+    },
+    {
+      "id": "monroe",
+      "brand": "Pegassi",
+      "name": "Monroe",
+      "wheels": "Lowrider",
+      "mods": []
     }
   ]
 }
