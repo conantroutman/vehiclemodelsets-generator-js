@@ -1,9 +1,10 @@
 let jsonData;
 let timeout;
 const carSelect = document.getElementById("car-select");
+const filterInput = document.querySelector('#car-filter');
 
 function setup() {
-  let i = 0;
+  filterInput.value = '';
   loadFiles();
   generateColors();
 }
@@ -353,8 +354,6 @@ function reset() {
 //--------------------------------------------------------------------------------------------------------------------------
 // Filter the car selection dropdown
 //--------------------------------------------------------------------------------------------------------------------------
-
-const filterInput = document.querySelector('#car-filter');
 filterInput.addEventListener('input', filterCars);
 
 function filterCars() {
@@ -393,10 +392,7 @@ function GetContrastingTextColor(rgbString) {
   const rgb = rgbString.split(', ');
 
   const brightness = Math.round(((parseInt(rgb[0]) * 299) + (parseInt(rgb[1]) * 587) + (parseInt(rgb[2]) * 114)) / 1000);
-  console.log(brightness)
   const textColor = (brightness > 125) ? 'black' : 'white';
-
-  console.log(textColor);
 
   return textColor;
 }
